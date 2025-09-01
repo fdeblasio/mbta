@@ -45,6 +45,25 @@ with open(api + ".txt", "w+") as stops:
                 if field != "type":
                     writeToFile(stops, "  " + field + ": " + str(stop[field]))
 
+### Routes
+api = "routes"
+routeData = getData(api)
+
+routeIdToDirections = {}
+
+with open(api + ".txt", "w+") as routes:
+    routes.seek(0)
+    for route in routeData:
+        routeId = route["id"]
+        routeIdToDirections[routeId] = route["attributes"]["direction_names"]
+        writeToFile(routes, routeId)
+        for field in route:
+            if field not in ["id", "links", "type"]:
+                writeToFile(routes, "  " + field + ":")
+                for subfield in route[field]:
+                    value = route[field][subfield]
+                    writeToFile(routes, f"    {subfield}: {value}")
+
 ### Lines
 #api = "lines"
 #lineData = getData(api)
