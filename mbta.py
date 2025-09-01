@@ -18,6 +18,7 @@ def getData(api, getJson=False):
 def writeToFile(file, text):
     file.write(text + "\n")
 
+#replace with route lookup
 def getDirection(direction_id):
     if direction_id == 0:
         return "Southbound"
@@ -57,40 +58,40 @@ with open(api + ".txt", "w+") as stops:
 #                writeToFile(lines, "  " + field + ": " + str(line[field]))
 
 ### Trips
-api = "trips"
-tripData = getData(api)
-
-with open(api + ".txt", "w+") as trips:
-    trips.seek(0)
-    for trip in tripData:
-        routeId = trip["relationships"]["route"]["data"]["id"]
-
-        isBus = routeId[0].isdigit() and routeId not in localBuses
-        isCR = routeId.startswith("CR")
-        #isShuttleGeneric = routeId.startswith("Shuttle-Generic")
-
-        #if not isBus and not isCR and not isShuttleGeneric:
-        if not isBus and not isCR:
-            writeToFile(trips, routeId + " " + trip["id"] + ":")
-            #writeToFile(trips, trip["attributes"]["long_name"])
-            for field in trip:
-                if field == "attributes":
-                    writeToFile(trips, "  " + field + ":")
-                    for attribute in trip[field]:
-                        attributeValue = trip[field][attribute]
-                        if attribute == "direction_id":
-                            writeToFile(trips, f"    {attribute}: {getDirection(attributeValue)} ({attributeValue})")
-                        elif attribute not in ["revenue", "wheelchair_accessible"] and attributeValue != "":
-                            writeToFile(trips, f"    {attribute}: {attributeValue}")
-                elif field == "relationships":
-                    writeToFile(trips, "  " + field + ":")
-                    for subfield in trip[field]:
-                        if subfield not in ["route", "shape"]:
-                            if trip[field][subfield]["data"] is not None:
-                                subfieldValue = trip[field][subfield]["data"]["id"]
-                            else:
-                                subfieldValue = "N/A"
-                            writeToFile(trips, f"    {subfield}: {subfieldValue}")
+#api = "trips"
+#tripData = getData(api)
+#
+#with open(api + ".txt", "w+") as trips:
+#    trips.seek(0)
+#    for trip in tripData:
+#        routeId = trip["relationships"]["route"]["data"]["id"]
+#
+#        isBus = routeId[0].isdigit() and routeId not in localBuses
+#        isCR = routeId.startswith("CR")
+#        #isShuttleGeneric = routeId.startswith("Shuttle-Generic")
+#
+#        #if not isBus and not isCR and not isShuttleGeneric:
+#        if not isBus and not isCR:
+#            writeToFile(trips, routeId + " " + trip["id"] + ":")
+#            #writeToFile(trips, trip["attributes"]["long_name"])
+#            for field in trip:
+#                if field == "attributes":
+#                    writeToFile(trips, "  " + field + ":")
+#                    for attribute in trip[field]:
+#                        attributeValue = trip[field][attribute]
+#                        if attribute == "direction_id":
+#                            writeToFile(trips, f"    {attribute}: {getDirection(attributeValue)} ({attributeValue})")
+#                        elif attribute not in ["revenue", "wheelchair_accessible"] and attributeValue != "":
+#                            writeToFile(trips, f"    {attribute}: {attributeValue}")
+#                elif field == "relationships":
+#                    writeToFile(trips, "  " + field + ":")
+#                    for subfield in trip[field]:
+#                        if subfield not in ["route", "shape"]:
+#                            if trip[field][subfield]["data"] is not None:
+#                                subfieldValue = trip[field][subfield]["data"]["id"]
+#                            else:
+#                                subfieldValue = "N/A"
+#                            writeToFile(trips, f"    {subfield}: {subfieldValue}")
 
 ### Vehicles
 api = "vehicles"
@@ -111,9 +112,10 @@ redGreenLine = {
     "39": "Type 9"
 }
 
-#Merge attributes and relationships and move one level out
-#Use current_status with stop
+#Merge attributes and relationships and move one level out?
+#Use current_status with stop?
 
+#route lookup for direction - attributes/direction_names
 with open(api + ".txt", "w+") as vehicles:
     vehicles.seek(0)
     for vehicle in vehicleData:
@@ -123,7 +125,7 @@ with open(api + ".txt", "w+") as vehicles:
         isCR = routeId.startswith("CR")
         isShuttleGeneric = routeId.startswith("Shuttle-Generic")
 
-        if not isBus and not isCR and not isShuttleGeneric:
+        if not isBus and not isCR and not isShuttleGeneric and vehicle["attributes"]["revenue"] == "REVENUE":
             if routeId == "Red" or routeId.startswith("Green"):
                 writeToFile(vehicles, routeId + " " + redGreenLine[vehicle["attributes"]["label"][:2]] + " " + vehicle["id"])
             else:
@@ -133,26 +135,34 @@ with open(api + ".txt", "w+") as vehicles:
                     writeToFile(vehicles, "  " + field + ":")
                     for attribute in vehicle[field]:
                         attributeValue = vehicle[field][attribute]
+                        prefix = f"    {attribute}:"
+
                         if attribute == "carriages":
-                            writeToFile(vehicles, "    " + attribute + ":")
+                            writeToFile(vehicles, prefix)
                             for carriage in attributeValue:
-                                writeToFile(vehicles, "      " + str(carriage))
+                                writeToFile(vehicles, f"      {carriage}")
                         elif attribute == "direction_id":
-                            writeToFile(vehicles, f"    {attribute}: {getDirection(attributeValue)} ({attributeValue})")
-                        elif attribute != "revenue":
-                            writeToFile(vehicles, "    " + attribute + ": " + str(attributeValue))
+                            writeToFile(vehicles, f"{prefix} {getDirection(attributeValue)} ({attributeValue})")
+                        elif attribute == "speed":
+                            if attributeValue is None:
+                                attributeValue = 0
+                            writeToFile(vehicles, f"{prefix} {'%.2f'%(attributeValue*2.23694)} MPH ({attributeValue} mps)")
+                        elif attribute != "revenue" and attributeValue is not None:
+                            writeToFile(vehicles, f"{prefix} {attributeValue}")
                 elif field == "relationships":
                 #if field == "relationships":
                     writeToFile(vehicles, "  " + field + ":")
                     for relationship in vehicle[field]:
+                        prefix = f"    {relationship}: "
+
                         if vehicle[field][relationship]["data"] is not None:
                             relationshipValue = vehicle[field][relationship]["data"]["id"]
                         else:
                             relationshipValue = "N/A"
 
                         if relationship == "stop":
-                            writeToFile(vehicles, f"    {relationship}: {stopIdToName[relationshipValue]} ({relationshipValue})")
+                            writeToFile(vehicles, f"{prefix}{stopIdToName[relationshipValue]} ({relationshipValue})")
                         elif relationship == "trip":
-                            writeToFile(vehicles, f"    {relationship}: {relationshipValue}")
+                            writeToFile(vehicles, f"{prefix}{relationshipValue}")
                 #elif field not in ["type", "links", "id"]:
                 #    writeToFile(vehicles, "  " + field + ": " + str(vehicle[field]))

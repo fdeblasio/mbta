@@ -10,8 +10,7 @@ Green-E Type 7 G-10075
     label: 3700-3882
     latitude: 42.33126
     longitude: -71.1118
-    occupancy_status: None
-    speed: 2.4
+    speed: 5.37 MPH (2.4 mps)
     updated_at: 2025-09-01T11:34:35-04:00
   relationships:
     stop: Back of the Hill (70257)
@@ -28,8 +27,7 @@ Green-E Type 8 G-10112
     label: 3815-3673
     latitude: 42.35356
     longitude: -71.06432
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:00-04:00
   relationships:
     stop: Boylston (70159)
@@ -50,8 +48,7 @@ Red Bombardier R-54852B71
     label: 1805
     latitude: 42.20749
     longitude: -71.00173
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:15:58-04:00
   relationships:
     stop: Braintree (Braintree-02)
@@ -68,8 +65,7 @@ Green-E Type 7 G-10022
     label: 3704-3869
     latitude: 42.36389
     longitude: -71.05899
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:19-04:00
   relationships:
     stop: North Station (70205)
@@ -80,13 +76,11 @@ Green-C US Standard Light Rail Vehicle G-10151
     carriages:
       {'label': '3541', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
     direction_id: Southbound (0)
     label: 3541
     latitude: 42.35986
     longitude: -71.05891
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:33:40-04:00
   relationships:
     stop: N/A (N/A)
@@ -103,8 +97,7 @@ Green-E Type 8 G-10038
     label: 3806-3688
     latitude: 42.37429
     longitude: -71.0811
-    occupancy_status: None
-    speed: 5.2
+    speed: 11.63 MPH (5.2 mps)
     updated_at: 2025-09-01T11:34:36-04:00
   relationships:
     stop: East Somerville (70513)
@@ -121,8 +114,7 @@ Green-B Type 8 G-10053
     label: 3804-3646
     latitude: 42.33949
     longitude: -71.15723
-    occupancy_status: None
-    speed: 4.3
+    speed: 9.62 MPH (4.3 mps)
     updated_at: 2025-09-01T11:34:23-04:00
   relationships:
     stop: South Street (70111)
@@ -143,8 +135,7 @@ Blue B-54852E9F
     label: 0758
     latitude: 42.36923
     longitude: -71.03944
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:41-04:00
   relationships:
     stop: Maverick (70045)
@@ -165,8 +156,7 @@ Red Bombardier R-54852F37
     label: 1800
     latitude: 42.27064
     longitude: -71.02464
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:36-04:00
   relationships:
     stop: North Quincy (70098)
@@ -183,8 +173,7 @@ Green-C Type 8 G-10057
     label: 3888-3713
     latitude: 42.33855
     longitude: -71.13847
-    occupancy_status: None
-    speed: 7.1
+    speed: 15.88 MPH (7.1 mps)
     updated_at: 2025-09-01T11:34:39-04:00
   relationships:
     stop: Tappan Street (70231)
@@ -202,8 +191,7 @@ Green-D Type 7 G-10118
     label: 3682-3844-3620
     latitude: 42.33043
     longitude: -71.15711
-    occupancy_status: None
-    speed: 16.9
+    speed: 37.80 MPH (16.9 mps)
     updated_at: 2025-09-01T11:34:41-04:00
   relationships:
     stop: Reservoir (70174)
@@ -220,8 +208,7 @@ Green-D Type 8 G-10135
     label: 3867-3647
     latitude: 42.36563
     longitude: -71.06057
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:34-04:00
   relationships:
     stop: North Station (70205)
@@ -238,8 +225,7 @@ Green-E Type 7 G-10001
     label: 3656-3880
     latitude: 42.38922
     longitude: -71.09981
-    occupancy_status: None
-    speed: 17.0
+    speed: 38.03 MPH (17.0 mps)
     updated_at: 2025-09-01T11:34:43-04:00
   relationships:
     stop: Gilman Square (70506)
@@ -256,8 +242,7 @@ Green-C Type 8 G-10014
     label: 3820-3662
     latitude: 42.35305
     longitude: -71.06457
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:33:31-04:00
   relationships:
     stop: Arlington (70157)
@@ -273,8 +258,7 @@ Mattapan G-10139
     label: 3268
     latitude: 42.27418
     longitude: -71.05992
-    occupancy_status: None
-    speed: 7.8
+    speed: 17.45 MPH (7.8 mps)
     updated_at: 2025-09-01T11:34:41-04:00
   relationships:
     stop: Butler (70265)
@@ -290,8 +274,7 @@ Green-B Type 7 G-10056
     label: 3689
     latitude: 42.34018
     longitude: -71.16709
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:20-04:00
   relationships:
     stop: Boston College (70106)
@@ -308,8 +291,7 @@ Green-B Type 7 G-10065
     label: 3600-3857
     latitude: 42.34845
     longitude: -71.13712
-    occupancy_status: None
-    speed: 6.9
+    speed: 15.43 MPH (6.9 mps)
     updated_at: 2025-09-01T11:34:11-04:00
   relationships:
     stop: Allston Street (70127)
@@ -326,8 +308,7 @@ Green-D Type 7 G-10092
     label: 3709-3837
     latitude: 42.35164
     longitude: -71.07172
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:33:28-04:00
   relationships:
     stop: Copley (70155)
@@ -343,8 +324,7 @@ Green-B Type 8 G-10044
     label: 3860
     latitude: 42.35157
     longitude: -71.07167
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:12-04:00
   relationships:
     stop: Arlington (70156)
@@ -365,8 +345,7 @@ Orange O-54852EAD
     label: 1536
     latitude: 42.43772
     longitude: -71.0708
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:27:27-04:00
   relationships:
     stop: Oak Grove (Oak Grove-01)
@@ -383,8 +362,7 @@ Green-D Type 7 G-10028
     label: 3632-3821
     latitude: 42.32259
     longitude: -71.20535
-    occupancy_status: None
-    speed: 5.8
+    speed: 12.97 MPH (5.8 mps)
     updated_at: 2025-09-01T11:34:19-04:00
   relationships:
     stop: Newton Highlands (70169)
@@ -405,8 +383,7 @@ Red CRRC R-54852EA8
     label: 1922
     latitude: 42.31054
     longitude: -71.05362
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:24-04:00
   relationships:
     stop: Savin Hill (70088)
@@ -423,8 +400,7 @@ Green-B Type 9 G-10095
     label: 3907-3922
     latitude: 42.34018
     longitude: -71.16709
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:02-04:00
   relationships:
     stop: Boston College (70106)
@@ -440,8 +416,7 @@ Green-B Type 8 G-10009
     label: 3801
     latitude: 42.34413
     longitude: -71.14253
-    occupancy_status: None
-    speed: 6.0
+    speed: 13.42 MPH (6.0 mps)
     updated_at: 2025-09-01T11:34:02-04:00
   relationships:
     stop: Washington Street (70120)
@@ -458,8 +433,7 @@ Green-C Type 7 G-10072
     label: 3605-3839
     latitude: 42.35927
     longitude: -71.05945
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:33:40-04:00
   relationships:
     stop: Government Center (70201)
@@ -476,8 +450,7 @@ Green-C Type 8 G-10108
     label: 3834-3683
     latitude: 42.33934
     longitude: -71.13534
-    occupancy_status: None
-    speed: 3.8
+    speed: 8.50 MPH (3.8 mps)
     updated_at: 2025-09-01T11:34:38-04:00
   relationships:
     stop: Washington Square (70230)
@@ -494,8 +467,7 @@ Green-E Type 8 G-10084
     label: 3848-3701
     latitude: 42.36633
     longitude: -71.0669
-    occupancy_status: None
-    speed: 5.2
+    speed: 11.63 MPH (5.2 mps)
     updated_at: 2025-09-01T11:33:45-04:00
   relationships:
     stop: North Station (70206)
@@ -512,8 +484,7 @@ Green-E Type 7 G-10091
     label: 3608-3829
     latitude: 42.40839
     longitude: -71.1173
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:33:43-04:00
   relationships:
     stop: Medford/Tufts (70511)
@@ -530,8 +501,7 @@ Green-D Type 7 G-10146
     label: 3625-3855
     latitude: 42.3518
     longitude: -71.07081
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:33:12-04:00
   relationships:
     stop: Boylston (70158)
@@ -543,13 +513,11 @@ Green-C Type 7 G-10076
       {'label': '3718', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3863', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
     direction_id: Northbound (1)
     label: 3718-3863
     latitude: 42.33625
     longitude: -71.14902
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:31:29-04:00
   relationships:
     stop: N/A (N/A)
@@ -565,8 +533,7 @@ Green-D Type 8 G-10150
     label: 3811
     latitude: 42.33043
     longitude: -71.15711
-    occupancy_status: None
-    speed: 17.3
+    speed: 38.70 MPH (17.3 mps)
     updated_at: 2025-09-01T11:34:42-04:00
   relationships:
     stop: Reservoir (70174)
@@ -583,8 +550,7 @@ Green-D Type 8 G-10126
     label: 3828-3642
     latitude: 42.34523
     longitude: -71.10461
-    occupancy_status: None
-    speed: 3.7
+    speed: 8.28 MPH (3.7 mps)
     updated_at: 2025-09-01T11:33:49-04:00
   relationships:
     stop: Fenway (70187)
@@ -605,8 +571,7 @@ Red CRRC R-54852EA7
     label: 1902
     latitude: 42.35725
     longitude: -71.06404
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:42-04:00
   relationships:
     stop: Charles/MGH (70074)
@@ -627,8 +592,7 @@ Orange O-54852A9E
     label: 1520
     latitude: 42.34878
     longitude: -71.06468
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:17-04:00
   relationships:
     stop: Tufts Medical Center (70017)
@@ -649,8 +613,7 @@ Red UTDC R-54852A77
     label: 1722
     latitude: 42.36074
     longitude: -71.06942
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:42-04:00
   relationships:
     stop: Park Street (70075)
@@ -671,8 +634,7 @@ Red Bombardier R-5485152A
     label: 1861
     latitude: 42.36246
     longitude: -71.08581
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:33:31-04:00
   relationships:
     stop: Kendall/MIT (70072)
@@ -689,8 +651,7 @@ Green-D Type 7 G-10140
     label: 3653-3830
     latitude: 42.34795
     longitude: -71.08686
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:38-04:00
   relationships:
     stop: Hynes Convention Center (70152)
@@ -707,8 +668,7 @@ Green-D Type 8 G-10143
     label: 3833-3674
     latitude: 42.34336
     longitude: -71.10753
-    occupancy_status: None
-    speed: 15.1
+    speed: 33.78 MPH (15.1 mps)
     updated_at: 2025-09-01T11:34:39-04:00
   relationships:
     stop: Fenway (70186)
@@ -729,8 +689,7 @@ Orange O-54852EA4
     label: 1440
     latitude: 42.35881
     longitude: -71.05782
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:31-04:00
   relationships:
     stop: State (70022)
@@ -747,8 +706,7 @@ Green-E Type 8 G-10124
     label: 3885-3675
     latitude: 42.32991
     longitude: -71.11118
-    occupancy_status: None
-    speed: 1.4
+    speed: 3.13 MPH (1.4 mps)
     updated_at: 2025-09-01T11:33:18-04:00
   relationships:
     stop: Riverway (70256)
@@ -769,8 +727,7 @@ Red Bombardier R-548526D6
     label: 1849
     latitude: 42.32269
     longitude: -71.05279
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:31-04:00
   relationships:
     stop: JFK/UMass (70095)
@@ -787,8 +744,7 @@ Green-C Type 7 G-10116
     label: 3624-3841
     latitude: 42.3367
     longitude: -71.14696
-    occupancy_status: None
-    speed: 7.5
+    speed: 16.78 MPH (7.5 mps)
     updated_at: 2025-09-01T11:34:40-04:00
   relationships:
     stop: Cleveland Circle (70237)
@@ -809,8 +765,7 @@ Blue B-54852EA3
     label: 0756
     latitude: 42.36924
     longitude: -71.03943
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:23-04:00
   relationships:
     stop: Maverick (70046)
@@ -831,8 +786,7 @@ Red UTDC R-54852B22
     label: 1729
     latitude: 42.22504
     longitude: -71.00384
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:29-04:00
   relationships:
     stop: Braintree (70105)
@@ -853,8 +807,7 @@ Orange O-54852EA5
     label: 1478
     latitude: 42.39209
     longitude: -71.07734
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:07-04:00
   relationships:
     stop: Assembly (70278)
@@ -875,8 +828,7 @@ Orange O-54852EAE
     label: 1540
     latitude: 42.43342
     longitude: -71.07161
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:33:57-04:00
   relationships:
     stop: Oak Grove (70036)
@@ -893,8 +845,7 @@ Green-C Type 7 G-10040
     label: 3626-3842
     latitude: 42.34814
     longitude: -71.09222
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:39-04:00
   relationships:
     stop: Hynes Convention Center (70152)
@@ -915,8 +866,7 @@ Blue B-54852EA2
     label: 0760
     latitude: 42.4135
     longitude: -70.99162
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:33:49-04:00
   relationships:
     stop: Wonderland (70060)
@@ -937,8 +887,7 @@ Red UTDC R-54851DA4
     label: 1725
     latitude: 42.35378
     longitude: -71.05745
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:33:58-04:00
   relationships:
     stop: South Station (70079)
@@ -959,8 +908,7 @@ Blue B-54852EA1
     label: 0723
     latitude: 42.41577
     longitude: -70.99044
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:32:45-04:00
   relationships:
     stop: Wonderland (70059)
@@ -981,8 +929,7 @@ Blue B-54852F0A
     label: 0707
     latitude: 42.38411
     longitude: -71.0113
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:30-04:00
   relationships:
     stop: Orient Heights (70052)
@@ -1003,8 +950,7 @@ Blue B-54852EC8
     label: 0737
     latitude: 42.36115
     longitude: -71.06208
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:39-04:00
   relationships:
     stop: Bowdoin (70038)
@@ -1025,8 +971,7 @@ Red Bombardier R-5485269E
     label: 1819
     latitude: 42.38826
     longitude: -71.11895
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:41-04:00
   relationships:
     stop: Porter (70065)
@@ -1047,8 +992,7 @@ Orange O-54852EB8
     label: 1462
     latitude: 42.37384
     longitude: -71.0703
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:00-04:00
   relationships:
     stop: Community College (70029)
@@ -1069,8 +1013,7 @@ Orange O-54852EB9
     label: 1464
     latitude: 42.3307
     longitude: -71.09596
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:12-04:00
   relationships:
     stop: Roxbury Crossing (70009)
@@ -1091,8 +1034,7 @@ Blue B-54852EA0
     label: 0786
     latitude: 42.38497
     longitude: -71.01054
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:40-04:00
   relationships:
     stop: Wood Island (70049)
@@ -1113,8 +1055,7 @@ Orange O-54851CA5
     label: 1538
     latitude: 42.30122
     longitude: -71.11384
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:27:00-04:00
   relationships:
     stop: Forest Hills (Forest Hills-02)
@@ -1135,8 +1076,7 @@ Red Bombardier R-54852830
     label: 1870
     latitude: 42.32589
     longitude: -71.05635
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:24-04:00
   relationships:
     stop: Andrew (70084)
@@ -1153,8 +1093,7 @@ Green-B Type 7 G-10035
     label: 3636-3862
     latitude: 42.35159
     longitude: -71.11995
-    occupancy_status: None
-    speed: 5.8
+    speed: 12.97 MPH (5.8 mps)
     updated_at: 2025-09-01T11:34:11-04:00
   relationships:
     stop: Babcock Street (170136)
@@ -1175,8 +1114,7 @@ Red Bombardier R-54852ACE
     label: 1811
     latitude: 42.39621
     longitude: -71.14054
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:32:46-04:00
   relationships:
     stop: Alewife (Alewife-01)
@@ -1192,8 +1130,7 @@ Mattapan G-10048
     label: 3260
     latitude: 42.27
     longitude: -71.07331
-    occupancy_status: None
-    speed: 4.5
+    speed: 10.07 MPH (4.5 mps)
     updated_at: 2025-09-01T11:34:30-04:00
   relationships:
     stop: Central Avenue (70270)
@@ -1205,13 +1142,11 @@ Green-D Type 7 G-10082
       {'label': '3639', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3892', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
     direction_id: Northbound (1)
     label: 3639-3892
     latitude: 42.33723
     longitude: -71.25208
-    occupancy_status: None
-    speed: 4.6
+    speed: 10.29 MPH (4.6 mps)
     updated_at: 2025-09-01T11:25:28-04:00
   relationships:
     stop: N/A (N/A)
@@ -1228,8 +1163,7 @@ Green-D Type 9 G-10020
     label: 3919-3917
     latitude: 42.33723
     longitude: -71.25208
-    occupancy_status: None
-    speed: 4.7
+    speed: 10.51 MPH (4.7 mps)
     updated_at: 2025-09-01T11:34:14-04:00
   relationships:
     stop: Riverside (70161)
@@ -1246,8 +1180,7 @@ Green-E Type 7 G-10070
     label: 3707-3852
     latitude: 42.33478
     longitude: -71.10324
-    occupancy_status: None
-    speed: 5.1
+    speed: 11.41 MPH (5.1 mps)
     updated_at: 2025-09-01T11:33:57-04:00
   relationships:
     stop: Brigham Circle (70250)
@@ -1264,8 +1197,7 @@ Green-C Type 7 G-10049
     label: 3680-3872
     latitude: 42.3362
     longitude: -71.14896
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:33:55-04:00
   relationships:
     stop: Cleveland Circle (70238)
@@ -1286,8 +1218,7 @@ Red Bombardier R-54852EA6
     label: 1820
     latitude: 42.38923
     longitude: -71.11931
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:15-04:00
   relationships:
     stop: Davis (70064)
@@ -1304,8 +1235,7 @@ Green-B Type 7 G-10086
     label: 3681-3891
     latitude: 42.34893
     longitude: -71.09446
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:29-04:00
   relationships:
     stop: Hynes Convention Center (70152)
@@ -1326,8 +1256,7 @@ Red UTDC R-54852EA9
     label: 1701
     latitude: 42.28869
     longitude: -71.06498
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:35-04:00
   relationships:
     stop: Ashmont (70093)
@@ -1343,8 +1272,7 @@ Green-B Type 8 G-10062
     label: 3849
     latitude: 42.35011
     longitude: -71.10722
-    occupancy_status: None
-    speed: 5.1
+    speed: 11.41 MPH (5.1 mps)
     updated_at: 2025-09-01T11:34:34-04:00
   relationships:
     stop: Boston University Central (70145)
@@ -1365,8 +1293,7 @@ Red UTDC R-54851A11
     label: 1714
     latitude: 42.39618
     longitude: -71.14054
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:28:55-04:00
   relationships:
     stop: Alewife (Alewife-02)
@@ -1382,8 +1309,7 @@ Green-B Type 7 G-10149
     label: 3641
     latitude: 42.341
     longitude: -71.16742
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:25:18-04:00
   relationships:
     stop: Boston College (70107)
@@ -1400,8 +1326,7 @@ Green-B Type 8 G-10063
     label: 3866-3617
     latitude: 42.34068
     longitude: -71.15095
-    occupancy_status: None
-    speed: 4.9
+    speed: 10.96 MPH (4.9 mps)
     updated_at: 2025-09-01T11:33:58-04:00
   relationships:
     stop: Chiswick Road (70115)
@@ -1418,8 +1343,7 @@ Green-E Type 8 G-10127
     label: 3845-3651
     latitude: 42.34009
     longitude: -71.0897
-    occupancy_status: None
-    speed: 4.5
+    speed: 10.07 MPH (4.5 mps)
     updated_at: 2025-09-01T11:34:14-04:00
   relationships:
     stop: Northeastern University (70243)
@@ -1440,8 +1364,7 @@ Red Bombardier R-548518D3
     label: 1839
     latitude: 42.35145
     longitude: -71.05553
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:22-04:00
   relationships:
     stop: Broadway (70081)
@@ -1458,8 +1381,7 @@ Green-D Type 8 G-10131
     label: 3819-3645
     latitude: 42.36238
     longitude: -71.05804
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:18-04:00
   relationships:
     stop: Haymarket (70204)
@@ -1480,8 +1402,7 @@ Orange O-54852A96
     label: 1430
     latitude: 42.3389
     longitude: -71.08656
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:28-04:00
   relationships:
     stop: Ruggles (70010)
@@ -1502,8 +1423,7 @@ Orange O-54852A8E
     label: 1488
     latitude: 42.3085
     longitude: -71.10893
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:33-04:00
   relationships:
     stop: Forest Hills (70001)
@@ -1520,8 +1440,7 @@ Green-B Type 8 G-10007
     label: 3859-3702
     latitude: 42.35556
     longitude: -71.06326
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:16-04:00
   relationships:
     stop: Boylston (70159)
@@ -1538,8 +1457,7 @@ Green-E Type 7 G-10122
     label: 3611-3817
     latitude: 42.34534
     longitude: -71.0817
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:32-04:00
   relationships:
     stop: Prudential (70240)
@@ -1556,8 +1474,7 @@ Green-C Type 8 G-10026
     label: 3875-3715
     latitude: 42.3459
     longitude: -71.10742
-    occupancy_status: None
-    speed: 4.1
+    speed: 9.17 MPH (4.1 mps)
     updated_at: 2025-09-01T11:34:16-04:00
   relationships:
     stop: Saint Mary's Street (70212)
@@ -1574,8 +1491,7 @@ Green-D Type 8 G-10066
     label: 3886-3659
     latitude: 42.33583
     longitude: -71.14054
-    occupancy_status: None
-    speed: 3.9
+    speed: 8.72 MPH (3.9 mps)
     updated_at: 2025-09-01T11:34:24-04:00
   relationships:
     stop: Beaconsfield (70177)
@@ -1592,8 +1508,7 @@ Green-D Type 8 G-10133
     label: 3865-3627
     latitude: 42.36607
     longitude: -71.061
-    occupancy_status: None
-    speed: None
+    speed: 0.00 MPH (0 mps)
     updated_at: 2025-09-01T11:34:09-04:00
   relationships:
     stop: Science Park/West End (70207)
@@ -1610,8 +1525,7 @@ Green-D Type 7 G-10129
     label: 3699-3878
     latitude: 42.37517
     longitude: -71.08336
-    occupancy_status: None
-    speed: 9.9
+    speed: 22.15 MPH (9.9 mps)
     updated_at: 2025-09-01T11:34:34-04:00
   relationships:
     stop: Lechmere (70502)
