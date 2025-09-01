@@ -1,12 +1,9 @@
 Green-E Type 7 G-10075
   attributes:
     bearing: 135
-    carriages:
-      {'label': '3700', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3882', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 670
-    direction_id: Southbound (0)
+    direction_id: West to Heath Street (0)
     label: 3700-3882
     latitude: 42.33126
     longitude: -71.1118
@@ -18,12 +15,9 @@ Green-E Type 7 G-10075
 Green-E Type 8 G-10112
   attributes:
     bearing: 200
-    carriages:
-      {'label': '3815', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3673', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 90
-    direction_id: Southbound (0)
+    direction_id: West to Heath Street (0)
     label: 3815-3673
     latitude: 42.35356
     longitude: -71.06432
@@ -35,16 +29,9 @@ Green-E Type 8 G-10112
 Red Bombardier R-54852B71
   attributes:
     bearing: 10
-    carriages:
-      {'label': '1857', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1856', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1862', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1863', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1804', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1805', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: Northbound (1)
+    direction_id: North to Alewife (1)
     label: 1805
     latitude: 42.20749
     longitude: -71.00173
@@ -56,12 +43,9 @@ Red Bombardier R-54852B71
 Green-E Type 7 G-10022
   attributes:
     bearing: 315
-    carriages:
-      {'label': '3704', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3869', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 630
-    direction_id: Northbound (1)
+    direction_id: East to Medford/Tufts (1)
     label: 3704-3869
     latitude: 42.36389
     longitude: -71.05899
@@ -73,10 +57,8 @@ Green-E Type 7 G-10022
 Green-C US Standard Light Rail Vehicle G-10151
   attributes:
     bearing: 215
-    carriages:
-      {'label': '3541', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
-    direction_id: Southbound (0)
+    direction_id: West to Cleveland Circle (0)
     label: 3541
     latitude: 42.35986
     longitude: -71.05891
@@ -88,12 +70,9 @@ Green-C US Standard Light Rail Vehicle G-10151
 Green-E Type 8 G-10038
   attributes:
     bearing: 325
-    carriages:
-      {'label': '3806', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3688', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 670
-    direction_id: Northbound (1)
+    direction_id: East to Medford/Tufts (1)
     label: 3806-3688
     latitude: 42.37429
     longitude: -71.0811
@@ -105,12 +84,9 @@ Green-E Type 8 G-10038
 Green-B Type 8 G-10053
   attributes:
     bearing: 315
-    carriages:
-      {'label': '3804', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3646', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 300
-    direction_id: Southbound (0)
+    direction_id: West to Boston College (0)
     label: 3804-3646
     latitude: 42.33949
     longitude: -71.15723
@@ -122,16 +98,9 @@ Green-B Type 8 G-10053
 Blue B-54852E9F
   attributes:
     bearing: 215
-    carriages:
-      {'label': '0758', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0759', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0730', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0731', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0751', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0750', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 70
-    direction_id: Southbound (0)
+    direction_id: West to Bowdoin (0)
     label: 0758
     latitude: 42.36923
     longitude: -71.03944
@@ -143,16 +112,9 @@ Blue B-54852E9F
 Red Bombardier R-54852F37
   attributes:
     bearing: 315
-    carriages:
-      {'label': '1800', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1801', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1851', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1850', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1829', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1828', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 40
-    direction_id: Northbound (1)
+    direction_id: North to Alewife (1)
     label: 1800
     latitude: 42.27064
     longitude: -71.02464
@@ -164,12 +126,9 @@ Red Bombardier R-54852F37
 Green-C Type 8 G-10057
   attributes:
     bearing: 225
-    carriages:
-      {'label': '3888', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3713', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 410
-    direction_id: Southbound (0)
+    direction_id: West to Cleveland Circle (0)
     label: 3888-3713
     latitude: 42.33855
     longitude: -71.13847
@@ -181,13 +140,9 @@ Green-C Type 8 G-10057
 Green-D Type 7 G-10118
   attributes:
     bearing: 45
-    carriages:
-      {'label': '3682', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3844', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3620', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 380
-    direction_id: Northbound (1)
+    direction_id: East to Union Square (1)
     label: 3682-3844-3620
     latitude: 42.33043
     longitude: -71.15711
@@ -199,12 +154,9 @@ Green-D Type 7 G-10118
 Green-D Type 8 G-10135
   attributes:
     bearing: 315
-    carriages:
-      {'label': '3867', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3647', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 630
-    direction_id: Northbound (1)
+    direction_id: East to Union Square (1)
     label: 3867-3647
     latitude: 42.36563
     longitude: -71.06057
@@ -216,12 +168,9 @@ Green-D Type 8 G-10135
 Green-E Type 7 G-10001
   attributes:
     bearing: 120
-    carriages:
-      {'label': '3656', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3880', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 7
-    direction_id: Southbound (0)
+    direction_id: West to Heath Street (0)
     label: 3656-3880
     latitude: 42.38922
     longitude: -71.09981
@@ -233,12 +182,9 @@ Green-E Type 7 G-10001
 Green-C Type 8 G-10014
   attributes:
     bearing: 200
-    carriages:
-      {'label': '3820', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3662', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 100
-    direction_id: Southbound (0)
+    direction_id: West to Cleveland Circle (0)
     label: 3820-3662
     latitude: 42.35305
     longitude: -71.06457
@@ -250,11 +196,9 @@ Green-C Type 8 G-10014
 Mattapan G-10139
   attributes:
     bearing: 225
-    carriages:
-      {'label': '3268', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 3
-    direction_id: Southbound (0)
+    direction_id: Outbound to Mattapan (0)
     label: 3268
     latitude: 42.27418
     longitude: -71.05992
@@ -266,11 +210,9 @@ Mattapan G-10139
 Green-B Type 7 G-10056
   attributes:
     bearing: 135
-    carriages:
-      {'label': '3689', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3689
     latitude: 42.34018
     longitude: -71.16709
@@ -282,12 +224,9 @@ Green-B Type 7 G-10056
 Green-B Type 7 G-10065
   attributes:
     bearing: 315
-    carriages:
-      {'label': '3600', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3857', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 240
-    direction_id: Southbound (0)
+    direction_id: West to Boston College (0)
     label: 3600-3857
     latitude: 42.34845
     longitude: -71.13712
@@ -299,12 +238,9 @@ Green-B Type 7 G-10065
 Green-D Type 7 G-10092
   attributes:
     bearing: 240
-    carriages:
-      {'label': '3709', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3837', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 110
-    direction_id: Southbound (0)
+    direction_id: West to Riverside (0)
     label: 3709-3837
     latitude: 42.35164
     longitude: -71.07172
@@ -316,11 +252,9 @@ Green-D Type 7 G-10092
 Green-B Type 8 G-10044
   attributes:
     bearing: 60
-    carriages:
-      {'label': '3860', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 580
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3860
     latitude: 42.35157
     longitude: -71.07167
@@ -333,15 +267,15 @@ Orange O-54852EAD
   attributes:
     bearing: 185
     carriages:
-      {'label': '1536', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1537', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 4}
-      {'label': '1513', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 2}
-      {'label': '1512', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 7}
-      {'label': '1477', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
-      {'label': '1476', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
+      1536: many seats available (6% full)
+      1537: many seats available (4% full)
+      1513: many seats available (2% full)
+      1512: many seats available (7% full)
+      1477: many seats available (3% full)
+      1476: many seats available (8% full)
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: Southbound (0)
+    direction_id: South to Forest Hills (0)
     label: 1536
     latitude: 42.43772
     longitude: -71.0708
@@ -353,12 +287,9 @@ Orange O-54852EAD
 Green-D Type 7 G-10028
   attributes:
     bearing: 225
-    carriages:
-      {'label': '3632', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3821', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 530
-    direction_id: Southbound (0)
+    direction_id: West to Riverside (0)
     label: 3632-3821
     latitude: 42.32259
     longitude: -71.20535
@@ -371,15 +302,15 @@ Red CRRC R-54852EA8
   attributes:
     bearing: 15
     carriages:
-      {'label': '1922', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 1}
-      {'label': '1923', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
-      {'label': '1919', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
-      {'label': '1918', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 5}
-      {'label': '1927', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1926', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
+      1922: many seats available (1% full)
+      1923: many seats available (5% full)
+      1919: many seats available (5% full)
+      1918: few seats available (5% full)
+      1927: few seats available (6% full)
+      1926: many seats available (3% full)
     current_status: STOPPED_AT
     current_stop_sequence: 80
-    direction_id: Northbound (1)
+    direction_id: North to Alewife (1)
     label: 1922
     latitude: 42.31054
     longitude: -71.05362
@@ -391,12 +322,9 @@ Red CRRC R-54852EA8
 Green-B Type 9 G-10095
   attributes:
     bearing: 135
-    carriages:
-      {'label': '3907', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3922', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3907-3922
     latitude: 42.34018
     longitude: -71.16709
@@ -408,11 +336,9 @@ Green-B Type 9 G-10095
 Green-B Type 8 G-10009
   attributes:
     bearing: 45
-    carriages:
-      {'label': '3801', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 50
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3801
     latitude: 42.34413
     longitude: -71.14253
@@ -424,12 +350,9 @@ Green-B Type 8 G-10009
 Green-C Type 7 G-10072
   attributes:
     bearing: 35
-    carriages:
-      {'label': '3605', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3839', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 610
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3605-3839
     latitude: 42.35927
     longitude: -71.05945
@@ -441,12 +364,9 @@ Green-C Type 7 G-10072
 Green-C Type 8 G-10108
   attributes:
     bearing: 45
-    carriages:
-      {'label': '3834', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3683', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 220
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3834-3683
     latitude: 42.33934
     longitude: -71.13534
@@ -458,12 +378,9 @@ Green-C Type 8 G-10108
 Green-E Type 8 G-10084
   attributes:
     bearing: 120
-    carriages:
-      {'label': '3848', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3701', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 20
-    direction_id: Southbound (0)
+    direction_id: West to Heath Street (0)
     label: 3848-3701
     latitude: 42.36633
     longitude: -71.0669
@@ -475,12 +392,9 @@ Green-E Type 8 G-10084
 Green-E Type 7 G-10091
   attributes:
     bearing: 151
-    carriages:
-      {'label': '3608', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3829', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 710
-    direction_id: Southbound (0)
+    direction_id: West to Heath Street (0)
     label: 3608-3829
     latitude: 42.40839
     longitude: -71.1173
@@ -492,12 +406,9 @@ Green-E Type 7 G-10091
 Green-D Type 7 G-10146
   attributes:
     bearing: 60
-    carriages:
-      {'label': '3625', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3855', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 590
-    direction_id: Northbound (1)
+    direction_id: East to Union Square (1)
     label: 3625-3855
     latitude: 42.3518
     longitude: -71.07081
@@ -509,11 +420,8 @@ Green-D Type 7 G-10146
 Green-C Type 7 G-10076
   attributes:
     bearing: 45
-    carriages:
-      {'label': '3718', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3863', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3718-3863
     latitude: 42.33625
     longitude: -71.14902
@@ -525,11 +433,9 @@ Green-C Type 7 G-10076
 Green-D Type 8 G-10150
   attributes:
     bearing: 45
-    carriages:
-      {'label': '3811', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 380
-    direction_id: Northbound (1)
+    direction_id: East to Union Square (1)
     label: 3811
     latitude: 42.33043
     longitude: -71.15711
@@ -541,12 +447,9 @@ Green-D Type 8 G-10150
 Green-D Type 8 G-10126
   attributes:
     bearing: 225
-    carriages:
-      {'label': '3828', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3642', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 450
-    direction_id: Southbound (0)
+    direction_id: West to Riverside (0)
     label: 3828-3642
     latitude: 42.34523
     longitude: -71.10461
@@ -559,15 +462,15 @@ Red CRRC R-54852EA7
   attributes:
     bearing: 310
     carriages:
-      {'label': '1902', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 0}
-      {'label': '1903', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-      {'label': '1917', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
-      {'label': '1916', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 7}
-      {'label': '1937', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1936', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
+      1902: many seats available (0% full)
+      1903: few seats available (11% full)
+      1917: few seats available (12% full)
+      1916: few seats available (7% full)
+      1937: few seats available (6% full)
+      1936: few seats available (10% full)
     current_status: INCOMING_AT
     current_stop_sequence: 160
-    direction_id: Northbound (1)
+    direction_id: North to Alewife (1)
     label: 1902
     latitude: 42.35725
     longitude: -71.06404
@@ -580,15 +483,15 @@ Orange O-54852A9E
   attributes:
     bearing: 50
     carriages:
-      {'label': '1520', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1521', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-      {'label': '1511', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1510', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1493', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 1}
-      {'label': '1492', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
+      1520: few seats available (9% full)
+      1521: few seats available (11% full)
+      1511: few seats available (9% full)
+      1510: many seats available (6% full)
+      1493: many seats available (1% full)
+      1492: many seats available (3% full)
     current_status: STOPPED_AT
     current_stop_sequence: 80
-    direction_id: Northbound (1)
+    direction_id: North to Oak Grove (1)
     label: 1520
     latitude: 42.34878
     longitude: -71.06468
@@ -600,16 +503,9 @@ Orange O-54852A9E
 Red UTDC R-54852A77
   attributes:
     bearing: 130
-    carriages:
-      {'label': '1722', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1723', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1747', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1746', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1731', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1730', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 70
-    direction_id: Southbound (0)
+    direction_id: South to Ashmont/Braintree (0)
     label: 1722
     latitude: 42.36074
     longitude: -71.06942
@@ -621,16 +517,9 @@ Red UTDC R-54852A77
 Red Bombardier R-5485152A
   attributes:
     bearing: 275
-    carriages:
-      {'label': '1861', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1860', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1883', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1882', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1812', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1813', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 170
-    direction_id: Northbound (1)
+    direction_id: North to Alewife (1)
     label: 1861
     latitude: 42.36246
     longitude: -71.08581
@@ -642,12 +531,9 @@ Red Bombardier R-5485152A
 Green-D Type 7 G-10140
   attributes:
     bearing: 105
-    carriages:
-      {'label': '3653', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3830', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 560
-    direction_id: Northbound (1)
+    direction_id: East to Union Square (1)
     label: 3653-3830
     latitude: 42.34795
     longitude: -71.08686
@@ -659,12 +545,9 @@ Green-D Type 7 G-10140
 Green-D Type 8 G-10143
   attributes:
     bearing: 45
-    carriages:
-      {'label': '3833', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3674', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 430
-    direction_id: Northbound (1)
+    direction_id: East to Union Square (1)
     label: 3833-3674
     latitude: 42.34336
     longitude: -71.10753
@@ -677,15 +560,15 @@ Orange O-54852EA4
   attributes:
     bearing: 175
     carriages:
-      {'label': '1440', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
-      {'label': '1441', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-      {'label': '1423', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-      {'label': '1422', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 17}
-      {'label': '1525', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 7}
-      {'label': '1524', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 14}
+      1440: few seats available (10% full)
+      1441: many seats available (8% full)
+      1423: few seats available (11% full)
+      1422: few seats available (17% full)
+      1525: many seats available (7% full)
+      1524: few seats available (14% full)
     current_status: STOPPED_AT
     current_stop_sequence: 80
-    direction_id: Southbound (0)
+    direction_id: South to Forest Hills (0)
     label: 1440
     latitude: 42.35881
     longitude: -71.05782
@@ -697,12 +580,9 @@ Orange O-54852EA4
 Green-E Type 8 G-10124
   attributes:
     bearing: 315
-    carriages:
-      {'label': '3885', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3675', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 460
-    direction_id: Northbound (1)
+    direction_id: East to Medford/Tufts (1)
     label: 3885-3675
     latitude: 42.32991
     longitude: -71.11118
@@ -714,16 +594,9 @@ Green-E Type 8 G-10124
 Red Bombardier R-548526D6
   attributes:
     bearing: 145
-    carriages:
-      {'label': '1849', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1848', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1803', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1802', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1874', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1875', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 120
-    direction_id: Southbound (0)
+    direction_id: South to Ashmont/Braintree (0)
     label: 1849
     latitude: 42.32269
     longitude: -71.05279
@@ -735,12 +608,9 @@ Red Bombardier R-548526D6
 Green-C Type 7 G-10116
   attributes:
     bearing: 225
-    carriages:
-      {'label': '3624', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3841', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 440
-    direction_id: Southbound (0)
+    direction_id: West to Cleveland Circle (0)
     label: 3624-3841
     latitude: 42.3367
     longitude: -71.14696
@@ -752,16 +622,9 @@ Green-C Type 7 G-10116
 Blue B-54852EA3
   attributes:
     bearing: 35
-    carriages:
-      {'label': '0756', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0757', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0732', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0733', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0778', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0779', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 40
-    direction_id: Northbound (1)
+    direction_id: East to Wonderland (1)
     label: 0756
     latitude: 42.36924
     longitude: -71.03943
@@ -773,16 +636,9 @@ Blue B-54852EA3
 Red UTDC R-54852B22
   attributes:
     bearing: 170
-    carriages:
-      {'label': '1729', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1728', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1523', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1522', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1508', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1509', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 220
-    direction_id: Southbound (0)
+    direction_id: South to Ashmont/Braintree (0)
     label: 1729
     latitude: 42.22504
     longitude: -71.00384
@@ -795,15 +651,15 @@ Orange O-54852EA5
   attributes:
     bearing: 175
     carriages:
-      {'label': '1478', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1479', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
-      {'label': '1529', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 13}
-      {'label': '1528', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-      {'label': '1509', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1508', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
+      1478: few seats available (9% full)
+      1479: few seats available (10% full)
+      1529: few seats available (13% full)
+      1528: many seats available (8% full)
+      1509: few seats available (9% full)
+      1508: few seats available (12% full)
     current_status: STOPPED_AT
     current_stop_sequence: 30
-    direction_id: Southbound (0)
+    direction_id: South to Forest Hills (0)
     label: 1478
     latitude: 42.39209
     longitude: -71.07734
@@ -816,15 +672,15 @@ Orange O-54852EAE
   attributes:
     bearing: 20
     carriages:
-      {'label': '1540', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
-      {'label': '1541', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
-      {'label': '1417', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 1}
-      {'label': '1416', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-      {'label': '1421', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 0}
-      {'label': '1420', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
+      1540: few seats available (10% full)
+      1541: few seats available (10% full)
+      1417: many seats available (1% full)
+      1416: few seats available (11% full)
+      1421: many seats available (0% full)
+      1420: few seats available (11% full)
     current_status: INCOMING_AT
     current_stop_sequence: 190
-    direction_id: Northbound (1)
+    direction_id: North to Oak Grove (1)
     label: 1540
     latitude: 42.43342
     longitude: -71.07161
@@ -836,12 +692,9 @@ Orange O-54852EAE
 Green-C Type 7 G-10040
   attributes:
     bearing: 130
-    carriages:
-      {'label': '3626', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3842', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 560
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3626-3842
     latitude: 42.34814
     longitude: -71.09222
@@ -853,16 +706,9 @@ Green-C Type 7 G-10040
 Blue B-54852EA2
   attributes:
     bearing: 20
-    carriages:
-      {'label': '0760', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0761', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0762', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0763', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0789', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0788', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 110
-    direction_id: Northbound (1)
+    direction_id: East to Wonderland (1)
     label: 0760
     latitude: 42.4135
     longitude: -70.99162
@@ -874,16 +720,9 @@ Blue B-54852EA2
 Red UTDC R-54851DA4
   attributes:
     bearing: 135
-    carriages:
-      {'label': '1725', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1724', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1733', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1732', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1617', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1616', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 90
-    direction_id: Southbound (0)
+    direction_id: South to Ashmont/Braintree (0)
     label: 1725
     latitude: 42.35378
     longitude: -71.05745
@@ -895,16 +734,9 @@ Red UTDC R-54851DA4
 Blue B-54852EA1
   attributes:
     bearing: 20
-    carriages:
-      {'label': '0739', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0738', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0747', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0746', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0722', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0723', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 1
-    direction_id: Southbound (0)
+    direction_id: West to Bowdoin (0)
     label: 0723
     latitude: 42.41577
     longitude: -70.99044
@@ -916,16 +748,9 @@ Blue B-54852EA1
 Blue B-54852F0A
   attributes:
     bearing: 60
-    carriages:
-      {'label': '0707', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0706', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0727', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0726', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0770', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0771', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 70
-    direction_id: Northbound (1)
+    direction_id: East to Wonderland (1)
     label: 0707
     latitude: 42.38411
     longitude: -71.0113
@@ -937,16 +762,9 @@ Blue B-54852F0A
 Blue B-54852EC8
   attributes:
     bearing: 105
-    carriages:
-      {'label': '0737', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0736', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0753', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0752', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0711', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0710', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: Northbound (1)
+    direction_id: East to Wonderland (1)
     label: 0737
     latitude: 42.36115
     longitude: -71.06208
@@ -958,16 +776,9 @@ Blue B-54852EC8
 Red Bombardier R-5485269E
   attributes:
     bearing: 180
-    carriages:
-      {'label': '1819', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1818', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1824', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1825', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1858', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1859', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 20
-    direction_id: Southbound (0)
+    direction_id: South to Ashmont/Braintree (0)
     label: 1819
     latitude: 42.38826
     longitude: -71.11895
@@ -980,15 +791,15 @@ Orange O-54852EB8
   attributes:
     bearing: 300
     carriages:
-      {'label': '1462', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1463', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-      {'label': '1443', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-      {'label': '1442', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-      {'label': '1407', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1406', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
+      1462: many seats available (6% full)
+      1463: few seats available (11% full)
+      1443: many seats available (8% full)
+      1442: many seats available (8% full)
+      1407: few seats available (9% full)
+      1406: few seats available (10% full)
     current_status: STOPPED_AT
     current_stop_sequence: 140
-    direction_id: Northbound (1)
+    direction_id: North to Oak Grove (1)
     label: 1462
     latitude: 42.37384
     longitude: -71.0703
@@ -1001,15 +812,15 @@ Orange O-54852EB9
   attributes:
     bearing: 35
     carriages:
-      {'label': '1464', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
-      {'label': '1465', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
-      {'label': '1447', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 7}
-      {'label': '1446', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-      {'label': '1449', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
-      {'label': '1448', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
+      1464: many seats available (5% full)
+      1465: few seats available (10% full)
+      1447: many seats available (7% full)
+      1446: few seats available (11% full)
+      1449: many seats available (3% full)
+      1448: many seats available (8% full)
     current_status: STOPPED_AT
     current_stop_sequence: 40
-    direction_id: Northbound (1)
+    direction_id: North to Oak Grove (1)
     label: 1464
     latitude: 42.3307
     longitude: -71.09596
@@ -1021,16 +832,9 @@ Orange O-54852EB9
 Blue B-54852EA0
   attributes:
     bearing: 230
-    carriages:
-      {'label': '0786', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0787', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0791', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0790', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0715', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0714', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 50
-    direction_id: Southbound (0)
+    direction_id: West to Bowdoin (0)
     label: 0786
     latitude: 42.38497
     longitude: -71.01054
@@ -1043,15 +847,15 @@ Orange O-54851CA5
   attributes:
     bearing: 30
     carriages:
-      {'label': '1530', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
-      {'label': '1531', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 2}
-      {'label': '1428', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 4}
-      {'label': '1429', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 4}
-      {'label': '1539', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 4}
-      {'label': '1538', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
+      1530: few seats available (10% full)
+      1531: many seats available (2% full)
+      1428: many seats available (4% full)
+      1429: many seats available (4% full)
+      1539: many seats available (4% full)
+      1538: many seats available (5% full)
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: Northbound (1)
+    direction_id: North to Oak Grove (1)
     label: 1538
     latitude: 42.30122
     longitude: -71.11384
@@ -1063,16 +867,9 @@ Orange O-54851CA5
 Red Bombardier R-54852830
   attributes:
     bearing: 305
-    carriages:
-      {'label': '1870', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1871', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1878', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1879', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1832', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1833', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 110
-    direction_id: Northbound (1)
+    direction_id: North to Alewife (1)
     label: 1870
     latitude: 42.32589
     longitude: -71.05635
@@ -1084,12 +881,9 @@ Red Bombardier R-54852830
 Green-B Type 7 G-10035
   attributes:
     bearing: 135
-    carriages:
-      {'label': '3636', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3862', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 120
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3636-3862
     latitude: 42.35159
     longitude: -71.11995
@@ -1101,16 +895,9 @@ Green-B Type 7 G-10035
 Red Bombardier R-54852ACE
   attributes:
     bearing: 85
-    carriages:
-      {'label': '1811', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1810', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1852', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1853', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1840', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1841', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: Southbound (0)
+    direction_id: South to Ashmont/Braintree (0)
     label: 1811
     latitude: 42.39621
     longitude: -71.14054
@@ -1122,11 +909,9 @@ Red Bombardier R-54852ACE
 Mattapan G-10048
   attributes:
     bearing: 90
-    carriages:
-      {'label': '3260', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 4
-    direction_id: Northbound (1)
+    direction_id: Inbound to Ashmont (1)
     label: 3260
     latitude: 42.27
     longitude: -71.07331
@@ -1138,11 +923,8 @@ Mattapan G-10048
 Green-D Type 7 G-10082
   attributes:
     bearing: 135
-    carriages:
-      {'label': '3639', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3892', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
-    direction_id: Northbound (1)
+    direction_id: East to Union Square (1)
     label: 3639-3892
     latitude: 42.33723
     longitude: -71.25208
@@ -1154,12 +936,9 @@ Green-D Type 7 G-10082
 Green-D Type 9 G-10020
   attributes:
     bearing: 315
-    carriages:
-      {'label': '3919', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3917', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 570
-    direction_id: Southbound (0)
+    direction_id: West to Riverside (0)
     label: 3919-3917
     latitude: 42.33723
     longitude: -71.25208
@@ -1171,12 +950,9 @@ Green-D Type 9 G-10020
 Green-E Type 7 G-10070
   attributes:
     bearing: 45
-    carriages:
-      {'label': '3707', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3852', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 490
-    direction_id: Northbound (1)
+    direction_id: East to Medford/Tufts (1)
     label: 3707-3852
     latitude: 42.33478
     longitude: -71.10324
@@ -1188,12 +964,9 @@ Green-E Type 7 G-10070
 Green-C Type 7 G-10049
   attributes:
     bearing: 45
-    carriages:
-      {'label': '3680', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3872', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 180
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3680-3872
     latitude: 42.3362
     longitude: -71.14896
@@ -1205,16 +978,9 @@ Green-C Type 7 G-10049
 Red Bombardier R-54852EA6
   attributes:
     bearing: 0
-    carriages:
-      {'label': '1820', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1821', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1877', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1876', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1836', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1837', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 210
-    direction_id: Northbound (1)
+    direction_id: North to Alewife (1)
     label: 1820
     latitude: 42.38923
     longitude: -71.11931
@@ -1226,12 +992,9 @@ Red Bombardier R-54852EA6
 Green-B Type 7 G-10086
   attributes:
     bearing: 90
-    carriages:
-      {'label': '3681', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3891', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 560
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3681-3891
     latitude: 42.34893
     longitude: -71.09446
@@ -1243,16 +1006,9 @@ Green-B Type 7 G-10086
 Red UTDC R-54852EA9
   attributes:
     bearing: 160
-    carriages:
-      {'label': '1701', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1700', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1721', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1720', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1756', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1757', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 170
-    direction_id: Southbound (0)
+    direction_id: South to Ashmont/Braintree (0)
     label: 1701
     latitude: 42.28869
     longitude: -71.06498
@@ -1264,11 +1020,9 @@ Red UTDC R-54852EA9
 Green-B Type 8 G-10062
   attributes:
     bearing: 315
-    carriages:
-      {'label': '3849', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 160
-    direction_id: Southbound (0)
+    direction_id: West to Boston College (0)
     label: 3849
     latitude: 42.35011
     longitude: -71.10722
@@ -1280,16 +1034,9 @@ Green-B Type 8 G-10062
 Red UTDC R-54851A11
   attributes:
     bearing: 85
-    carriages:
-      {'label': '1714', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1715', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1705', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1704', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1753', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1752', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: Southbound (0)
+    direction_id: South to Ashmont/Braintree (0)
     label: 1714
     latitude: 42.39618
     longitude: -71.14054
@@ -1301,11 +1048,9 @@ Red UTDC R-54851A11
 Green-B Type 7 G-10149
   attributes:
     bearing: 75
-    carriages:
-      {'label': '3641', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 310
-    direction_id: Southbound (0)
+    direction_id: West to Boston College (0)
     label: 3641
     latitude: 42.341
     longitude: -71.16742
@@ -1317,12 +1062,9 @@ Green-B Type 7 G-10149
 Green-B Type 8 G-10063
   attributes:
     bearing: 225
-    carriages:
-      {'label': '3866', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3617', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 280
-    direction_id: Southbound (0)
+    direction_id: West to Boston College (0)
     label: 3866-3617
     latitude: 42.34068
     longitude: -71.15095
@@ -1334,12 +1076,9 @@ Green-B Type 8 G-10063
 Green-E Type 8 G-10127
   attributes:
     bearing: 225
-    carriages:
-      {'label': '3845', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3651', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 600
-    direction_id: Southbound (0)
+    direction_id: West to Heath Street (0)
     label: 3845-3651
     latitude: 42.34009
     longitude: -71.0897
@@ -1351,16 +1090,9 @@ Green-E Type 8 G-10127
 Red Bombardier R-548518D3
   attributes:
     bearing: 130
-    carriages:
-      {'label': '1839', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1838', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1873', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1872', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1880', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1881', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 100
-    direction_id: Southbound (0)
+    direction_id: South to Ashmont/Braintree (0)
     label: 1839
     latitude: 42.35145
     longitude: -71.05553
@@ -1372,12 +1104,9 @@ Red Bombardier R-548518D3
 Green-D Type 8 G-10131
   attributes:
     bearing: 175
-    carriages:
-      {'label': '3819', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3645', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 30
-    direction_id: Southbound (0)
+    direction_id: West to Riverside (0)
     label: 3819-3645
     latitude: 42.36238
     longitude: -71.05804
@@ -1390,15 +1119,15 @@ Orange O-54852A96
   attributes:
     bearing: 220
     carriages:
-      {'label': '1430', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-      {'label': '1431', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
-      {'label': '1500', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-      {'label': '1501', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
-      {'label': '1533', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
-      {'label': '1532', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 13}
+      1430: few seats available (8% full)
+      1431: few seats available (10% full)
+      1500: few seats available (11% full)
+      1501: few seats available (12% full)
+      1533: few seats available (12% full)
+      1532: few seats available (13% full)
     current_status: INCOMING_AT
     current_stop_sequence: 140
-    direction_id: Southbound (0)
+    direction_id: South to Forest Hills (0)
     label: 1430
     latitude: 42.3389
     longitude: -71.08656
@@ -1411,15 +1140,15 @@ Orange O-54852A8E
   attributes:
     bearing: 210
     carriages:
-      {'label': '1488', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-      {'label': '1489', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 4}
-      {'label': '1543', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1542', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
-      {'label': '1517', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1516', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
+      1488: few seats available (8% full)
+      1489: many seats available (4% full)
+      1543: few seats available (9% full)
+      1542: many seats available (5% full)
+      1517: few seats available (9% full)
+      1516: few seats available (12% full)
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 190
-    direction_id: Southbound (0)
+    direction_id: South to Forest Hills (0)
     label: 1488
     latitude: 42.3085
     longitude: -71.10893
@@ -1431,12 +1160,9 @@ Orange O-54852A8E
 Green-B Type 8 G-10007
   attributes:
     bearing: 210
-    carriages:
-      {'label': '3859', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3702', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 90
-    direction_id: Southbound (0)
+    direction_id: West to Boston College (0)
     label: 3859-3702
     latitude: 42.35556
     longitude: -71.06326
@@ -1448,12 +1174,9 @@ Green-B Type 8 G-10007
 Green-E Type 7 G-10122
   attributes:
     bearing: 45
-    carriages:
-      {'label': '3611', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3817', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 540
-    direction_id: Northbound (1)
+    direction_id: East to Medford/Tufts (1)
     label: 3611-3817
     latitude: 42.34534
     longitude: -71.0817
@@ -1465,12 +1188,9 @@ Green-E Type 7 G-10122
 Green-C Type 8 G-10026
   attributes:
     bearing: 45
-    carriages:
-      {'label': '3875', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3715', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 300
-    direction_id: Northbound (1)
+    direction_id: East to Government Center (1)
     label: 3875-3715
     latitude: 42.3459
     longitude: -71.10742
@@ -1482,12 +1202,9 @@ Green-C Type 8 G-10026
 Green-D Type 8 G-10066
   attributes:
     bearing: 315
-    carriages:
-      {'label': '3886', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3659', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 490
-    direction_id: Southbound (0)
+    direction_id: West to Riverside (0)
     label: 3886-3659
     latitude: 42.33583
     longitude: -71.14054
@@ -1499,12 +1216,9 @@ Green-D Type 8 G-10066
 Green-D Type 8 G-10133
   attributes:
     bearing: 315
-    carriages:
-      {'label': '3865', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3627', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 640
-    direction_id: Northbound (1)
+    direction_id: East to Union Square (1)
     label: 3865-3627
     latitude: 42.36607
     longitude: -71.061
@@ -1516,12 +1230,9 @@ Green-D Type 8 G-10133
 Green-D Type 7 G-10129
   attributes:
     bearing: 305
-    carriages:
-      {'label': '3699', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3878', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 9
-    direction_id: Southbound (0)
+    direction_id: West to Riverside (0)
     label: 3699-3878
     latitude: 42.37517
     longitude: -71.08336

@@ -19,11 +19,8 @@ def writeToFile(file, text):
     file.write(text + "\n")
 
 #replace with route lookup
-def getDirection(direction_id):
-    if direction_id == 0:
-        return "Southbound"
-    elif direction_id == 1:
-        return "Northbound"
+def getDirection(routeId, direction_id):
+    return f"{routeIdToDirections[routeId][direction_id]} to {routeIdToDestinations[routeId][direction_id]}"
 
 localBuses = ["132"]
 
@@ -50,12 +47,15 @@ api = "routes"
 routeData = getData(api)
 
 routeIdToDirections = {}
+routeIdToDestinations = {}
 
 with open(api + ".txt", "w+") as routes:
     routes.seek(0)
     for route in routeData:
         routeId = route["id"]
         routeIdToDirections[routeId] = route["attributes"]["direction_names"]
+        routeIdToDestinations[routeId] = route["attributes"]["direction_destinations"]
+
         writeToFile(routes, routeId)
         for field in route:
             if field not in ["id", "links", "type"]:
@@ -99,7 +99,7 @@ with open(api + ".txt", "w+") as routes:
 #                    for attribute in trip[field]:
 #                        attributeValue = trip[field][attribute]
 #                        if attribute == "direction_id":
-#                            writeToFile(trips, f"    {attribute}: {getDirection(attributeValue)} ({attributeValue})")
+#                            writeToFile(trips, f"    {attribute}: {getDirection(routeId, attributeValue)} ({attributeValue})")
 #                        elif attribute not in ["revenue", "wheelchair_accessible"] and attributeValue != "":
 #                            writeToFile(trips, f"    {attribute}: {attributeValue}")
 #                elif field == "relationships":
@@ -157,11 +157,14 @@ with open(api + ".txt", "w+") as vehicles:
                         prefix = f"    {attribute}:"
 
                         if attribute == "carriages":
-                            writeToFile(vehicles, prefix)
+                            carriages = prefix
                             for carriage in attributeValue:
-                                writeToFile(vehicles, f"      {carriage}")
+                                if carriage["occupancy_percentage"] is not None:
+                                    carriages += (f"\n      {carriage['label']}: {carriage['occupancy_status'].replace('_', ' ').lower()} ({carriage['occupancy_percentage']}% full)")
+                            if carriages != prefix:
+                                writeToFile(vehicles, carriages)
                         elif attribute == "direction_id":
-                            writeToFile(vehicles, f"{prefix} {getDirection(attributeValue)} ({attributeValue})")
+                            writeToFile(vehicles, f"{prefix} {getDirection(routeId, attributeValue)} ({attributeValue})")
                         elif attribute == "speed":
                             if attributeValue is None:
                                 attributeValue = 0
