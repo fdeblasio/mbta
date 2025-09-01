@@ -15,11 +15,12 @@ def getData(api, getJson=False):
     return data["data"]
 
 ### Stops
-stopData = getData("stops")
+api = "stops"
+stopData = getData(api)
 #
-#with open("stops.txt", "w+") as stops:
+#with open(api + ".txt", "w+") as stops:
 #    stops.seek(0)
-#    for stop in data:
+#    for stop in stopData:
 #        if stop["attributes"]["vehicle_type"] != 3:
 #            stops.write(stop["attributes"]["name"] + "\n")
 #            for field in stop:
@@ -27,15 +28,32 @@ stopData = getData("stops")
 #                    stops.write("  " + field + ": " + str(stop[field]) + "\n")
 
 ### Lines
-lineData = getData("lines")
+api = "lines"
+lineData = getData(api)
 #
 #with open(api + ".txt", "w+") as lines:
 #    lines.seek(0)
-#    for line in data:
+#    for line in lineData:
 #        lines.write(line["attributes"]["long_name"] + "\n")
 #        for field in line:
 #            if field != "type":
 #                lines.write("  " + field + ": " + str(line[field]) + "\n")
 
 ### Vehicles
-vehicleData = getData("vehicles")
+api = "vehicles"
+vehicleData = getData(api)
+localBuses = ["132"]
+
+with open(api + ".txt", "w+") as vehicles:
+    vehicles.seek(0)
+    for vehicle in vehicleData:
+        routeId = vehicle["relationships"]["route"]["data"]["id"]
+        if not routeId[0].isdigit() or routeId in localBuses:
+            vehicles.write(routeId + " " + vehicle["id"] + "\n")
+            for field in vehicle:
+                if field == "attributes" or field == "relationships":
+                    vehicles.write("  " + field + ":\n")
+                    for value in vehicle[field]:
+                        vehicles.write("    " + value + ": " + str(vehicle[field][value]) + "\n")
+                elif field != "type":
+                    vehicles.write("  " + field + ": " + str(vehicle[field]) + "\n")
