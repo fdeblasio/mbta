@@ -1,63 +1,42 @@
-Green-E G-10075
-  attributes:
-    bearing: 305
-    carriages:
-      {'label': '3882', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3700', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 650
-    direction_id: 1
-    label: 3882-3700
-    latitude: 42.36898
-    longitude: -71.07214
-    occupancy_status: None
-    speed: 10.9
-    updated_at: 2025-09-01T10:10:34-04:00
-  relationships:
-    route: {'data': {'id': 'Green-E', 'type': 'route'}}
-    stop: {'data': {'id': '70501', 'type': 'stop'}}
-    trip: {'data': {'id': '71256774', 'type': 'trip'}}
-Green-E G-10112
-  attributes:
-    bearing: 45
-    carriages:
-      {'label': '3673', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3815', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 480
-    direction_id: 1
-    label: 3673-3815
-    latitude: 42.33329
-    longitude: -71.10659
-    occupancy_status: None
-    speed: 4.6
-    updated_at: 2025-09-01T10:10:28-04:00
-  relationships:
-    route: {'data': {'id': 'Green-E', 'type': 'route'}}
-    stop: {'data': {'id': '70252', 'type': 'stop'}}
-    trip: {'data': {'id': '71256783', 'type': 'trip'}}
-Green-D G-10103
+Green-E Type 7 G-10075
   attributes:
     bearing: 135
     carriages:
-      {'label': '3819', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3645', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3700', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3882', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
-    current_stop_sequence: 320
-    direction_id: 1
-    label: 3819-3645
-    latitude: 42.33322
-    longitude: -71.24409
+    current_stop_sequence: 670
+    direction_id: 0 (South)
+    label: 3700-3882
+    latitude: 42.33126
+    longitude: -71.1118
     occupancy_status: None
-    speed: 4.8
-    updated_at: 2025-09-01T10:10:29-04:00
+    speed: 2.4
+    updated_at: 2025-09-01T11:34:35-04:00
   relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70162', 'type': 'stop'}}
-    trip: {'data': {'id': '71256564', 'type': 'trip'}}
-Red R-54852B71
+    stop: 70257
+    trip: 71256816
+Green-E Type 8 G-10112
   attributes:
-    bearing: 275
+    bearing: 200
+    carriages:
+      {'label': '3815', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3673', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 90
+    direction_id: 0 (South)
+    label: 3815-3673
+    latitude: 42.35356
+    longitude: -71.06432
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:34:00-04:00
+  relationships:
+    stop: 70159
+    trip: 71256836
+Red Bombardier R-54852B71
+  attributes:
+    bearing: 10
     carriages:
       {'label': '1857', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1856', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
@@ -66,78 +45,91 @@ Red R-54852B71
       {'label': '1804', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1805', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 160
-    direction_id: 1
-    label: 1857
-    latitude: 42.36126
-    longitude: -71.07162
+    current_stop_sequence: 1
+    direction_id: 1 (North)
+    label: 1805
+    latitude: 42.20749
+    longitude: -71.00173
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:08:50-04:00
+    updated_at: 2025-09-01T11:15:58-04:00
   relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70074', 'type': 'stop'}}
-    trip: {'data': {'id': '71960519', 'type': 'trip'}}
-Green-E G-10022
+    stop: Braintree-02
+    trip: 71960529
+Green-E Type 7 G-10022
   attributes:
-    bearing: 120
+    bearing: 315
     carriages:
-      {'label': '3869', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3704', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
-    current_stop_sequence: 7
-    direction_id: 0
-    label: 3869-3704
-    latitude: 42.38795
-    longitude: -71.09701
+      {'label': '3869', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 630
+    direction_id: 1 (North)
+    label: 3704-3869
+    latitude: 42.36389
+    longitude: -71.05899
     occupancy_status: None
-    speed: 8.4
-    updated_at: 2025-09-01T10:10:03-04:00
+    speed: None
+    updated_at: 2025-09-01T11:34:19-04:00
   relationships:
-    route: {'data': {'id': 'Green-E', 'type': 'route'}}
-    stop: {'data': {'id': '70506', 'type': 'stop'}}
-    trip: {'data': {'id': '71256792', 'type': 'trip'}}
-Green-E G-10038
+    stop: 70205
+    trip: 71256793
+Green-C US Standard Light Rail Vehicle G-10151
   attributes:
-    bearing: 120
+    bearing: 215
+    carriages:
+      {'label': '3541', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: None
+    direction_id: 0 (South)
+    label: 3541
+    latitude: 42.35986
+    longitude: -71.05891
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:33:40-04:00
+  relationships:
+    stop: N/A
+    trip: ADDED-1583057980
+Green-E Type 8 G-10038
+  attributes:
+    bearing: 325
     carriages:
       {'label': '3806', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3688', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
-    current_stop_sequence: 20
-    direction_id: 0
+    current_stop_sequence: 670
+    direction_id: 1 (North)
     label: 3806-3688
-    latitude: 42.36633
-    longitude: -71.0669
+    latitude: 42.37429
+    longitude: -71.0811
     occupancy_status: None
-    speed: 5.6
-    updated_at: 2025-09-01T10:10:23-04:00
+    speed: 5.2
+    updated_at: 2025-09-01T11:34:36-04:00
   relationships:
-    route: {'data': {'id': 'Green-E', 'type': 'route'}}
-    stop: {'data': {'id': '70206', 'type': 'stop'}}
-    trip: {'data': {'id': '71256790', 'type': 'trip'}}
-Green-B G-10053
+    stop: 70513
+    trip: 71256791
+Green-B Type 8 G-10053
   attributes:
-    bearing: 45
+    bearing: 315
     carriages:
       {'label': '3804', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3646', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 90
-    direction_id: 1
+    current_status: STOPPED_AT
+    current_stop_sequence: 300
+    direction_id: 0 (South)
     label: 3804-3646
-    latitude: 42.34913
-    longitude: -71.13367
+    latitude: 42.33949
+    longitude: -71.15723
     occupancy_status: None
-    speed: 4.7
-    updated_at: 2025-09-01T10:10:31-04:00
+    speed: 4.3
+    updated_at: 2025-09-01T11:34:23-04:00
   relationships:
-    route: {'data': {'id': 'Green-B', 'type': 'route'}}
-    stop: {'data': {'id': '70130', 'type': 'stop'}}
-    trip: {'data': {'id': '71256209', 'type': 'trip'}}
+    stop: 70111
+    trip: 71256210
 Blue B-54852E9F
   attributes:
-    bearing: 55
+    bearing: 215
     carriages:
       {'label': '0758', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0759', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
@@ -145,22 +137,21 @@ Blue B-54852E9F
       {'label': '0731', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0751', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0750', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 80
-    direction_id: 1
+    current_status: STOPPED_AT
+    current_stop_sequence: 70
+    direction_id: 0 (South)
     label: 0758
-    latitude: 42.38734
-    longitude: -71.0033
+    latitude: 42.36923
+    longitude: -71.03944
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:23-04:00
+    updated_at: 2025-09-01T11:34:41-04:00
   relationships:
-    route: {'data': {'id': 'Blue', 'type': 'route'}}
-    stop: {'data': {'id': '70054', 'type': 'stop'}}
-    trip: {'data': {'id': '72122386', 'type': 'trip'}}
-Red R-54852F37
+    stop: 70045
+    trip: 72122353
+Red Bombardier R-54852F37
   attributes:
-    bearing: 275
+    bearing: 315
     carriages:
       {'label': '1800', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1801', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
@@ -169,185 +160,195 @@ Red R-54852F37
       {'label': '1829', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1828', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
-    current_stop_sequence: 220
-    direction_id: 1
+    current_stop_sequence: 40
+    direction_id: 1 (North)
     label: 1800
-    latitude: 42.39805
-    longitude: -71.13358
+    latitude: 42.27064
+    longitude: -71.02464
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:16-04:00
+    updated_at: 2025-09-01T11:34:36-04:00
   relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70061', 'type': 'stop'}}
-    trip: {'data': {'id': '71960518', 'type': 'trip'}}
-Green-C G-10057
-  attributes:
-    bearing: 270
-    carriages:
-      {'label': '3713', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3888', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: 130
-    direction_id: 0
-    label: 3713-3888
-    latitude: 42.34806
-    longitude: -71.08969
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:17-04:00
-  relationships:
-    route: {'data': {'id': 'Green-C', 'type': 'route'}}
-    stop: {'data': {'id': '70151', 'type': 'stop'}}
-    trip: {'data': {'id': '71256304', 'type': 'trip'}}
-Green-D G-10118
-  attributes:
-    bearing: 135
-    carriages:
-      {'label': '3811', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3682', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
-    current_stop_sequence: 20
-    direction_id: 0
-    label: 3811-3682
-    latitude: 42.36543
-    longitude: -71.0604
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:24-04:00
-  relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70206', 'type': 'stop'}}
-    trip: {'data': {'id': '71256540', 'type': 'trip'}}
-Green-E G-10001
+    stop: 70098
+    trip: 71960528
+Green-C Type 8 G-10057
   attributes:
     bearing: 225
     carriages:
-      {'label': '3880', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3656', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3888', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3713', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 610
-    direction_id: 0
-    label: 3880-3656
-    latitude: 42.33791
-    longitude: -71.09507
+    current_stop_sequence: 410
+    direction_id: 0 (South)
+    label: 3888-3713
+    latitude: 42.33855
+    longitude: -71.13847
     occupancy_status: None
-    speed: 5.1
-    updated_at: 2025-09-01T10:09:30-04:00
+    speed: 7.1
+    updated_at: 2025-09-01T11:34:39-04:00
   relationships:
-    route: {'data': {'id': 'Green-E', 'type': 'route'}}
-    stop: {'data': {'id': '70245', 'type': 'stop'}}
-    trip: {'data': {'id': '71256786', 'type': 'trip'}}
-Green-D G-10033
+    stop: 70231
+    trip: 71256419
+Green-D Type 7 G-10118
+  attributes:
+    bearing: 45
+    carriages:
+      {'label': '3682', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3844', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3620', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: 380
+    direction_id: 1 (North)
+    label: 3682-3844-3620
+    latitude: 42.33043
+    longitude: -71.15711
+    occupancy_status: None
+    speed: 16.9
+    updated_at: 2025-09-01T11:34:41-04:00
+  relationships:
+    stop: 70174
+    trip: ADDED-1583057975
+Green-D Type 8 G-10135
   attributes:
     bearing: 315
     carriages:
-      {'label': '3677', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3816', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3867', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3647', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 560
-    direction_id: 0
-    label: 3677-3816
-    latitude: 42.33289
-    longitude: -71.24327
+    current_stop_sequence: 630
+    direction_id: 1 (North)
+    label: 3867-3647
+    latitude: 42.36563
+    longitude: -71.06057
     occupancy_status: None
-    speed: 5.4
-    updated_at: 2025-09-01T10:10:27-04:00
+    speed: None
+    updated_at: 2025-09-01T11:34:34-04:00
   relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70163', 'type': 'stop'}}
-    trip: {'data': {'id': '71256282', 'type': 'trip'}}
-Green-B G-10056
+    stop: 70205
+    trip: 71256591
+Green-E Type 7 G-10001
+  attributes:
+    bearing: 120
+    carriages:
+      {'label': '3656', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3880', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 7
+    direction_id: 0 (South)
+    label: 3656-3880
+    latitude: 42.38922
+    longitude: -71.09981
+    occupancy_status: None
+    speed: 17.0
+    updated_at: 2025-09-01T11:34:43-04:00
+  relationships:
+    stop: 70506
+    trip: 71256856
+Green-C Type 8 G-10014
+  attributes:
+    bearing: 200
+    carriages:
+      {'label': '3820', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3662', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 100
+    direction_id: 0 (South)
+    label: 3820-3662
+    latitude: 42.35305
+    longitude: -71.06457
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:33:31-04:00
+  relationships:
+    stop: 70157
+    trip: 71256435
+Mattapan G-10139
+  attributes:
+    bearing: 225
+    carriages:
+      {'label': '3268', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 3
+    direction_id: 0 (South)
+    label: 3268
+    latitude: 42.27418
+    longitude: -71.05992
+    occupancy_status: None
+    speed: 7.8
+    updated_at: 2025-09-01T11:34:41-04:00
+  relationships:
+    stop: 70265
+    trip: 71243705
+Green-B Type 7 G-10056
   attributes:
     bearing: 135
     carriages:
       {'label': '3689', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: 1
+    direction_id: 1 (North)
     label: 3689
     latitude: 42.34018
     longitude: -71.16709
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:09:57-04:00
+    updated_at: 2025-09-01T11:34:20-04:00
   relationships:
-    route: {'data': {'id': 'Green-B', 'type': 'route'}}
-    stop: {'data': {'id': '70106', 'type': 'stop'}}
-    trip: {'data': {'id': 'ADDED-1583057547', 'type': 'trip'}}
-Green-B G-10065
+    stop: 70106
+    trip: ADDED-1583057547
+Green-B Type 7 G-10065
   attributes:
-    bearing: 135
+    bearing: 315
     carriages:
       {'label': '3600', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3857', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 1
-    direction_id: 1
+    current_stop_sequence: 240
+    direction_id: 0 (South)
     label: 3600-3857
-    latitude: 42.34018
-    longitude: -71.16709
+    latitude: 42.34845
+    longitude: -71.13712
+    occupancy_status: None
+    speed: 6.9
+    updated_at: 2025-09-01T11:34:11-04:00
+  relationships:
+    stop: 70127
+    trip: 71256090
+Green-D Type 7 G-10092
+  attributes:
+    bearing: 240
+    carriages:
+      {'label': '3709', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3837', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 110
+    direction_id: 0 (South)
+    label: 3709-3837
+    latitude: 42.35164
+    longitude: -71.07172
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:10-04:00
+    updated_at: 2025-09-01T11:33:28-04:00
   relationships:
-    route: {'data': {'id': 'Green-B', 'type': 'route'}}
-    stop: {'data': {'id': '70106', 'type': 'stop'}}
-    trip: {'data': {'id': '71256088', 'type': 'trip'}}
-Green-D G-10092
+    stop: 70155
+    trip: 71256560
+Green-B Type 8 G-10044
   attributes:
-    bearing: 45
-    carriages:
-      {'label': '3837', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3709', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 360
-    direction_id: 1
-    label: 3837-3709
-    latitude: 42.32573
-    longitude: -71.19977
-    occupancy_status: None
-    speed: 16.4
-    updated_at: 2025-09-01T10:10:36-04:00
-  relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70170', 'type': 'stop'}}
-    trip: {'data': {'id': 'ADDED-1583057883', 'type': 'trip'}}
-Green-B G-10044
-  attributes:
-    bearing: 315
+    bearing: 60
     carriages:
       {'label': '3860', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 150
-    direction_id: 0
+    current_stop_sequence: 580
+    direction_id: 1 (North)
     label: 3860
-    latitude: 42.34976
-    longitude: -71.10434
-    occupancy_status: None
-    speed: 3.7
-    updated_at: 2025-09-01T10:09:42-04:00
-  relationships:
-    route: {'data': {'id': 'Green-B', 'type': 'route'}}
-    stop: {'data': {'id': '70147', 'type': 'stop'}}
-    trip: {'data': {'id': '71256136', 'type': 'trip'}}
-Shuttle-Generic ynk252
-  attributes:
-    bearing: 289
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 252
-    latitude: 42.339072
-    longitude: -71.044124
+    latitude: 42.35157
+    longitude: -71.07167
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T09:51:58-04:00
+    updated_at: 2025-09-01T11:34:12-04:00
   relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-99597744', 'type': 'trip'}}
+    stop: 70156
+    trip: 71256137
 Orange O-54852EAD
   attributes:
     bearing: 185
@@ -356,384 +357,285 @@ Orange O-54852EAD
       {'label': '1537', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 4}
       {'label': '1513', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 2}
       {'label': '1512', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 7}
-      {'label': '1477', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 4}
-      {'label': '1476', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 7}
+      {'label': '1477', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
+      {'label': '1476', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: 0
+    direction_id: 0 (South)
     label: 1536
     latitude: 42.43772
     longitude: -71.0708
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:06:16-04:00
+    updated_at: 2025-09-01T11:27:27-04:00
   relationships:
-    route: {'data': {'id': 'Orange', 'type': 'route'}}
-    stop: {'data': {'id': 'Oak Grove-01', 'type': 'stop'}}
-    trip: {'data': {'id': '70584795', 'type': 'trip'}}
-Green-D G-10028
+    stop: Oak Grove-01
+    trip: 70584797
+Green-D Type 7 G-10028
   attributes:
-    bearing: 90
+    bearing: 225
     carriages:
-      {'label': '3821', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3632', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 560
-    direction_id: 1
-    label: 3821-3632
-    latitude: 42.34804
-    longitude: -71.08964
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:29-04:00
-  relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70152', 'type': 'stop'}}
-    trip: {'data': {'id': '71256547', 'type': 'trip'}}
-Red R-54852EA8
-  attributes:
-    bearing: 350
-    carriages:
-      {'label': '1922', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1923', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
-      {'label': '1919', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 7}
-      {'label': '1918', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1927', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-      {'label': '1926', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 2}
+      {'label': '3821', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 90
-    direction_id: 1
-    label: 1922
-    latitude: 42.32057
-    longitude: -71.05256
+    current_stop_sequence: 530
+    direction_id: 0 (South)
+    label: 3632-3821
+    latitude: 42.32259
+    longitude: -71.20535
     occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:09:59-04:00
+    speed: 5.8
+    updated_at: 2025-09-01T11:34:19-04:00
   relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70086', 'type': 'stop'}}
-    trip: {'data': {'id': 'ADDED-1583057871', 'type': 'trip'}}
-Shuttle-Generic ynk313
+    stop: 70169
+    trip: 71256548
+Red CRRC R-54852EA8
   attributes:
-    bearing: 296
+    bearing: 15
     carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 313
-    latitude: 42.338405
-    longitude: -71.044177
+      {'label': '1922', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 1}
+      {'label': '1923', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
+      {'label': '1919', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
+      {'label': '1918', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 5}
+      {'label': '1927', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 6}
+      {'label': '1926', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
+    current_status: STOPPED_AT
+    current_stop_sequence: 80
+    direction_id: 1 (North)
+    label: 1922
+    latitude: 42.31054
+    longitude: -71.05362
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T09:43:16-04:00
+    updated_at: 2025-09-01T11:34:24-04:00
   relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-60596180', 'type': 'trip'}}
-Green-B G-10095
+    stop: 70088
+    trip: 71960358
+Green-B Type 9 G-10095
   attributes:
     bearing: 135
     carriages:
       {'label': '3907', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3922', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 150
-    direction_id: 1
+    current_stop_sequence: 1
+    direction_id: 1 (North)
     label: 3907-3922
-    latitude: 42.35005
-    longitude: -71.10722
-    occupancy_status: None
-    speed: 5.0
-    updated_at: 2025-09-01T10:10:03-04:00
-  relationships:
-    route: {'data': {'id': 'Green-B', 'type': 'route'}}
-    stop: {'data': {'id': '70144', 'type': 'stop'}}
-    trip: {'data': {'id': 'ADDED-1583057855', 'type': 'trip'}}
-Mattapan G-10079
-  attributes:
-    bearing: 180
-    carriages:
-      {'label': '3263', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: 3
-    direction_id: 0
-    label: 3263
-    latitude: 42.27874
-    longitude: -71.05988
-    occupancy_status: None
-    speed: 10.8
-    updated_at: 2025-09-01T10:10:36-04:00
-  relationships:
-    route: {'data': {'id': 'Mattapan', 'type': 'route'}}
-    stop: {'data': {'id': '70265', 'type': 'stop'}}
-    trip: {'data': {'id': '71243722', 'type': 'trip'}}
-Green-D G-10098
-  attributes:
-    bearing: 90
-    carriages:
-      {'label': '3642', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3828', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 390
-    direction_id: 1
-    label: 3642-3828
-    latitude: 42.33599
-    longitude: -71.14251
-    occupancy_status: None
-    speed: 4.5
-    updated_at: 2025-09-01T10:10:30-04:00
-  relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70176', 'type': 'stop'}}
-    trip: {'data': {'id': '71256551', 'type': 'trip'}}
-Green-B G-10009
-  attributes:
-    bearing: 240
-    carriages:
-      {'label': '3801', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3641', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
-    current_stop_sequence: 100
-    direction_id: 0
-    label: 3801-3641
-    latitude: 42.35188
-    longitude: -71.07085
+    latitude: 42.34018
+    longitude: -71.16709
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:09:58-04:00
+    updated_at: 2025-09-01T11:34:02-04:00
   relationships:
-    route: {'data': {'id': 'Green-B', 'type': 'route'}}
-    stop: {'data': {'id': '70157', 'type': 'stop'}}
-    trip: {'data': {'id': '71256169', 'type': 'trip'}}
-Green-C G-10072
+    stop: 70106
+    trip: 71256197
+Green-B Type 8 G-10009
+  attributes:
+    bearing: 45
+    carriages:
+      {'label': '3801', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 50
+    direction_id: 1 (North)
+    label: 3801
+    latitude: 42.34413
+    longitude: -71.14253
+    occupancy_status: None
+    speed: 6.0
+    updated_at: 2025-09-01T11:34:02-04:00
+  relationships:
+    stop: 70120
+    trip: 71256183
+Green-C Type 7 G-10072
   attributes:
     bearing: 35
     carriages:
-      {'label': '3839', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3605', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3839', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 610
-    direction_id: 1
-    label: 3839-3605
+    direction_id: 1 (North)
+    label: 3605-3839
     latitude: 42.35927
     longitude: -71.05945
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:09:53-04:00
+    updated_at: 2025-09-01T11:33:40-04:00
   relationships:
-    route: {'data': {'id': 'Green-C', 'type': 'route'}}
-    stop: {'data': {'id': '70201', 'type': 'stop'}}
-    trip: {'data': {'id': '71256309', 'type': 'trip'}}
-Green-C G-10108
+    stop: 70201
+    trip: 71256450
+Green-C Type 8 G-10108
   attributes:
     bearing: 45
     carriages:
-      {'label': '3683', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3834', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
+      {'label': '3683', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
     current_stop_sequence: 220
-    direction_id: 1
-    label: 3683-3834
-    latitude: 42.3395
-    longitude: -71.13476
+    direction_id: 1 (North)
+    label: 3834-3683
+    latitude: 42.33934
+    longitude: -71.13534
     occupancy_status: None
-    speed: 4.9
-    updated_at: 2025-09-01T10:10:17-04:00
+    speed: 3.8
+    updated_at: 2025-09-01T11:34:38-04:00
   relationships:
-    route: {'data': {'id': 'Green-C', 'type': 'route'}}
-    stop: {'data': {'id': '70230', 'type': 'stop'}}
-    trip: {'data': {'id': '71256354', 'type': 'trip'}}
-Shuttle-Generic ynk340
+    stop: 70230
+    trip: 71256356
+Green-E Type 8 G-10084
   attributes:
-    bearing: 353
+    bearing: 120
     carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 340
-    latitude: 42.202982
-    longitude: -71.064692
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T09:45:16-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-131443947', 'type': 'trip'}}
-Green-E G-10084
-  attributes:
-    bearing: 45
-    carriages:
-      {'label': '3701', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3848', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
-    current_stop_sequence: 1
-    direction_id: 1
-    label: 3701-3848
-    latitude: 42.32825
-    longitude: -71.11032
+      {'label': '3701', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 20
+    direction_id: 0 (South)
+    label: 3848-3701
+    latitude: 42.36633
+    longitude: -71.0669
     occupancy_status: None
-    speed: 2.4
-    updated_at: 2025-09-01T10:10:13-04:00
+    speed: 5.2
+    updated_at: 2025-09-01T11:33:45-04:00
   relationships:
-    route: {'data': {'id': 'Green-E', 'type': 'route'}}
-    stop: {'data': {'id': '70260', 'type': 'stop'}}
-    trip: {'data': {'id': '71256785', 'type': 'trip'}}
-Green-E G-10091
+    stop: 70206
+    trip: 71256847
+Green-E Type 7 G-10091
   attributes:
-    bearing: 215
+    bearing: 151
     carriages:
       {'label': '3608', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3829', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 80
-    direction_id: 0
+    current_status: STOPPED_AT
+    current_stop_sequence: 710
+    direction_id: 0 (South)
     label: 3608-3829
-    latitude: 42.35929
-    longitude: -71.05951
+    latitude: 42.40839
+    longitude: -71.1173
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:09:07-04:00
+    updated_at: 2025-09-01T11:33:43-04:00
   relationships:
-    route: {'data': {'id': 'Green-E', 'type': 'route'}}
-    stop: {'data': {'id': '70199', 'type': 'stop'}}
-    trip: {'data': {'id': '71256788', 'type': 'trip'}}
-Green-C G-10076
+    stop: 70511
+    trip: 71256789
+Green-D Type 7 G-10146
+  attributes:
+    bearing: 60
+    carriages:
+      {'label': '3625', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3855', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 590
+    direction_id: 1 (North)
+    label: 3625-3855
+    latitude: 42.3518
+    longitude: -71.07081
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:33:12-04:00
+  relationships:
+    stop: 70158
+    trip: 71256599
+Green-C Type 7 G-10076
+  attributes:
+    bearing: 45
+    carriages:
+      {'label': '3718', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3863', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: None
+    direction_id: 1 (North)
+    label: 3718-3863
+    latitude: 42.33625
+    longitude: -71.14902
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:31:29-04:00
+  relationships:
+    stop: N/A
+    trip: 71256388
+Green-D Type 8 G-10150
+  attributes:
+    bearing: 45
+    carriages:
+      {'label': '3811', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: 380
+    direction_id: 1 (North)
+    label: 3811
+    latitude: 42.33043
+    longitude: -71.15711
+    occupancy_status: None
+    speed: 17.3
+    updated_at: 2025-09-01T11:34:42-04:00
+  relationships:
+    stop: 70174
+    trip: ADDED-1583057976
+Green-D Type 8 G-10126
   attributes:
     bearing: 225
     carriages:
-      {'label': '3863', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3718', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3828', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3642', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 400
-    direction_id: 0
-    label: 3863-3718
-    latitude: 42.33952
-    longitude: -71.1349
+    current_stop_sequence: 450
+    direction_id: 0 (South)
+    label: 3828-3642
+    latitude: 42.34523
+    longitude: -71.10461
     occupancy_status: None
-    speed: 4.6
-    updated_at: 2025-09-01T10:10:04-04:00
+    speed: 3.7
+    updated_at: 2025-09-01T11:33:49-04:00
   relationships:
-    route: {'data': {'id': 'Green-C', 'type': 'route'}}
-    stop: {'data': {'id': '70229', 'type': 'stop'}}
-    trip: {'data': {'id': '71256294', 'type': 'trip'}}
-Shuttle-Generic ynk302
+    stop: 70187
+    trip: 71256552
+Red CRRC R-54852EA7
   attributes:
-    bearing: 300
+    bearing: 310
     carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 302
-    latitude: 42.38325
-    longitude: -71.132715
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:27-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-38943527', 'type': 'trip'}}
-Shuttle-Generic ynk341
-  attributes:
-    bearing: 35
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 341
-    latitude: 42.338924
-    longitude: -71.04431
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:09:54-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-107420515', 'type': 'trip'}}
-Shuttle-Generic ynk333
-  attributes:
-    bearing: 328
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 333
-    latitude: 42.338306
-    longitude: -71.044177
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T09:56:37-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-24503728', 'type': 'trip'}}
-Shuttle-Generic ynk344
-  attributes:
-    bearing: 3
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 344
-    latitude: 42.34636312
-    longitude: -71.098691009
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:08:05-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-101877718', 'type': 'trip'}}
-Red R-54852EA7
-  attributes:
-    bearing: 0
-    carriages:
-      {'label': '1902', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1903', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1917', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
-      {'label': '1916', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1937', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 4}
-      {'label': '1936', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: 210
-    direction_id: 1
+      {'label': '1902', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 0}
+      {'label': '1903', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
+      {'label': '1917', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
+      {'label': '1916', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 7}
+      {'label': '1937', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 6}
+      {'label': '1936', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
+    current_status: INCOMING_AT
+    current_stop_sequence: 160
+    direction_id: 1 (North)
     label: 1902
-    latitude: 42.38923
-    longitude: -71.11931
+    latitude: 42.35725
+    longitude: -71.06404
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:31-04:00
+    updated_at: 2025-09-01T11:34:42-04:00
   relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70064', 'type': 'stop'}}
-    trip: {'data': {'id': 'ADDED-1583057844', 'type': 'trip'}}
+    stop: 70074
+    trip: 71960357
 Orange O-54852A9E
   attributes:
-    bearing: 25
+    bearing: 50
     carriages:
-      {'label': '1520', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-      {'label': '1521', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
-      {'label': '1511', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-      {'label': '1510', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
-      {'label': '1493', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
-      {'label': '1492', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 2}
-    current_status: INCOMING_AT
-    current_stop_sequence: 90
-    direction_id: 1
+      {'label': '1520', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
+      {'label': '1521', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
+      {'label': '1511', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
+      {'label': '1510', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 6}
+      {'label': '1493', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 1}
+      {'label': '1492', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
+    current_status: STOPPED_AT
+    current_stop_sequence: 80
+    direction_id: 1 (North)
     label: 1520
-    latitude: 42.35002
-    longitude: -71.06375
+    latitude: 42.34878
+    longitude: -71.06468
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:32-04:00
+    updated_at: 2025-09-01T11:34:17-04:00
   relationships:
-    route: {'data': {'id': 'Orange', 'type': 'route'}}
-    stop: {'data': {'id': '70019', 'type': 'stop'}}
-    trip: {'data': {'id': '70584875', 'type': 'trip'}}
-Red R-54852A77
+    stop: 70017
+    trip: 70584877
+Red UTDC R-54852A77
   attributes:
-    bearing: 175
+    bearing: 130
     carriages:
       {'label': '1722', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1723', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
@@ -742,336 +644,308 @@ Red R-54852A77
       {'label': '1731', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1730', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
-    current_stop_sequence: 110
-    direction_id: 0
+    current_stop_sequence: 70
+    direction_id: 0 (South)
     label: 1722
-    latitude: 42.34064
-    longitude: -71.05708
+    latitude: 42.36074
+    longitude: -71.06942
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:28-04:00
+    updated_at: 2025-09-01T11:34:42-04:00
   relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70083', 'type': 'stop'}}
-    trip: {'data': {'id': '71960433', 'type': 'trip'}}
-Red R-5485152A
-  attributes:
-    bearing: 95
-    carriages:
-      {'label': '1813', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1812', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1882', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1883', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1860', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1861', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 60
-    direction_id: 0
-    label: 1813
-    latitude: 42.3617
-    longitude: -71.0776
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:36-04:00
-  relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70073', 'type': 'stop'}}
-    trip: {'data': {'id': '71960601', 'type': 'trip'}}
-Shuttle-Generic ynk260
-  attributes:
-    bearing: 355
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 260
-    latitude: 41.64332
-    longitude: -70.926234
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:06:51-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-3771835', 'type': 'trip'}}
-Orange O-54852EA4
-  attributes:
-    bearing: 150
-    carriages:
-      {'label': '1440', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1441', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1423', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1422', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 14}
-      {'label': '1525', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
-      {'label': '1524', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-    current_status: STOPPED_AT
-    current_stop_sequence: 60
-    direction_id: 0
-    label: 1440
-    latitude: 42.36516
-    longitude: -71.06004
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:30-04:00
-  relationships:
-    route: {'data': {'id': 'Orange', 'type': 'route'}}
-    stop: {'data': {'id': '70026', 'type': 'stop'}}
-    trip: {'data': {'id': '70584739', 'type': 'trip'}}
-Red R-548526D6
-  attributes:
-    bearing: 15
-    carriages:
-      {'label': '1875', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1874', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1802', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1803', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1848', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1849', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
-    current_stop_sequence: 10
-    direction_id: 1
-    label: 1875
-    latitude: 42.23337
-    longitude: -71.00682
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:18-04:00
-  relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70104', 'type': 'stop'}}
-    trip: {'data': {'id': 'ADDED-1583057870', 'type': 'trip'}}
-Green-C G-10116
-  attributes:
-    bearing: 225
-    carriages:
-      {'label': '3841', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3624', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 340
-    direction_id: 0
-    label: 3841-3624
-    latitude: 42.34467
-    longitude: -71.11204
-    occupancy_status: None
-    speed: 6.4
-    updated_at: 2025-09-01T10:10:35-04:00
-  relationships:
-    route: {'data': {'id': 'Green-C', 'type': 'route'}}
-    stop: {'data': {'id': '70215', 'type': 'stop'}}
-    trip: {'data': {'id': '71256300', 'type': 'trip'}}
-Blue B-54852EA3
-  attributes:
-    bearing: 170
-    carriages:
-      {'label': '0779', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0778', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0733', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0732', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0757', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0756', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 20
-    direction_id: 0
-    label: 0779
-    latitude: 42.40633
-    longitude: -70.99231
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:25-04:00
-  relationships:
-    route: {'data': {'id': 'Blue', 'type': 'route'}}
-    stop: {'data': {'id': '70055', 'type': 'stop'}}
-    trip: {'data': {'id': '72122379', 'type': 'trip'}}
-Shuttle-Generic ynk321
-  attributes:
-    bearing: 146
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 321
-    latitude: 42.338626
-    longitude: -71.044308
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:03:22-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-5419970', 'type': 'trip'}}
-Green-E G-10004
-  attributes:
-    bearing: 45
-    carriages:
-      {'label': '3706', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3802', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: 520
-    direction_id: 1
-    label: 3706-3802
-    latitude: 42.3383
-    longitude: -71.09404
-    occupancy_status: None
-    speed: 7.8
-    updated_at: 2025-09-01T10:10:34-04:00
-  relationships:
-    route: {'data': {'id': 'Green-E', 'type': 'route'}}
-    stop: {'data': {'id': '70244', 'type': 'stop'}}
-    trip: {'data': {'id': '71256781', 'type': 'trip'}}
-Red R-54852B22
-  attributes:
-    bearing: 0
-    carriages:
-      {'label': '1509', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1508', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1522', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1523', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1728', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1729', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 100
-    direction_id: 1
-    label: 1509
-    latitude: 42.31791
-    longitude: -71.05201
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:09:43-04:00
-  relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70096', 'type': 'stop'}}
-    trip: {'data': {'id': 'ADDED-1583057841', 'type': 'trip'}}
-Shuttle-Generic ynk322
-  attributes:
-    bearing: 40
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 322
-    latitude: 42.338592
-    longitude: -71.043815
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:07:26-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-35772253', 'type': 'trip'}}
-Orange O-54852EA5
-  attributes:
-    bearing: 177
-    carriages:
-      {'label': '1478', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 7}
-      {'label': '1479', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
-      {'label': '1529', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1528', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 7}
-      {'label': '1509', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-      {'label': '1508', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-    current_status: STOPPED_AT
-    current_stop_sequence: 20
-    direction_id: 0
-    label: 1478
-    latitude: 42.40162
-    longitude: -71.07727
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:25-04:00
-  relationships:
-    route: {'data': {'id': 'Orange', 'type': 'route'}}
-    stop: {'data': {'id': '70032', 'type': 'stop'}}
-    trip: {'data': {'id': '70584767', 'type': 'trip'}}
-Orange O-54852EAE
-  attributes:
-    bearing: 357
-    carriages:
-      {'label': '1540', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
-      {'label': '1541', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
-      {'label': '1417', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 4}
-      {'label': '1416', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
-      {'label': '1421', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 0}
-      {'label': '1420', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
-    current_status: INCOMING_AT
-    current_stop_sequence: 180
-    direction_id: 1
-    label: 1540
-    latitude: 42.41459
-    longitude: -71.07663
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:30-04:00
-  relationships:
-    route: {'data': {'id': 'Orange', 'type': 'route'}}
-    stop: {'data': {'id': '70035', 'type': 'stop'}}
-    trip: {'data': {'id': '70584821', 'type': 'trip'}}
-Green-C G-10040
-  attributes:
-    bearing: 105
-    carriages:
-      {'label': '3842', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3626', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: 570
-    direction_id: 1
-    label: 3842-3626
-    latitude: 42.34788
-    longitude: -71.08627
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:07-04:00
-  relationships:
-    route: {'data': {'id': 'Green-C', 'type': 'route'}}
-    stop: {'data': {'id': '70154', 'type': 'stop'}}
-    trip: {'data': {'id': '71256315', 'type': 'trip'}}
-Blue B-54852EA2
+    stop: 70075
+    trip: 71960440
+Red Bombardier R-5485152A
   attributes:
     bearing: 275
     carriages:
-      {'label': '0788', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0789', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0763', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0762', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0761', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0760', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1861', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1860', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1883', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1882', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1812', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1813', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 90
-    direction_id: 0
-    label: 0788
-    latitude: 42.35889
-    longitude: -71.0574
+    current_stop_sequence: 170
+    direction_id: 1 (North)
+    label: 1861
+    latitude: 42.36246
+    longitude: -71.08581
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:15-04:00
+    updated_at: 2025-09-01T11:33:31-04:00
   relationships:
-    route: {'data': {'id': 'Blue', 'type': 'route'}}
-    stop: {'data': {'id': '70041', 'type': 'stop'}}
-    trip: {'data': {'id': '72122389', 'type': 'trip'}}
-Red R-54851DA4
-  attributes:
-    bearing: 10
-    carriages:
-      {'label': '1616', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1617', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1732', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1733', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1724', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1725', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
-    current_stop_sequence: 1
-    direction_id: 1
-    label: 1725
-    latitude: 42.20749
-    longitude: -71.00156
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:09:32-04:00
-  relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': 'Braintree-01', 'type': 'stop'}}
-    trip: {'data': {'id': '71960523', 'type': 'trip'}}
-Blue B-54852EA1
+    stop: 70072
+    trip: 71960526
+Green-D Type 7 G-10140
   attributes:
     bearing: 105
+    carriages:
+      {'label': '3653', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3830', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 560
+    direction_id: 1 (North)
+    label: 3653-3830
+    latitude: 42.34795
+    longitude: -71.08686
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:34:38-04:00
+  relationships:
+    stop: 70152
+    trip: 71256607
+Green-D Type 8 G-10143
+  attributes:
+    bearing: 45
+    carriages:
+      {'label': '3833', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3674', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 430
+    direction_id: 1 (North)
+    label: 3833-3674
+    latitude: 42.34336
+    longitude: -71.10753
+    occupancy_status: None
+    speed: 15.1
+    updated_at: 2025-09-01T11:34:39-04:00
+  relationships:
+    stop: 70186
+    trip: 71256615
+Orange O-54852EA4
+  attributes:
+    bearing: 175
+    carriages:
+      {'label': '1440', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
+      {'label': '1441', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
+      {'label': '1423', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
+      {'label': '1422', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 17}
+      {'label': '1525', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 7}
+      {'label': '1524', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 14}
+    current_status: STOPPED_AT
+    current_stop_sequence: 80
+    direction_id: 0 (South)
+    label: 1440
+    latitude: 42.35881
+    longitude: -71.05782
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:34:31-04:00
+  relationships:
+    stop: 70022
+    trip: 70584741
+Green-E Type 8 G-10124
+  attributes:
+    bearing: 315
+    carriages:
+      {'label': '3885', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3675', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 460
+    direction_id: 1 (North)
+    label: 3885-3675
+    latitude: 42.32991
+    longitude: -71.11118
+    occupancy_status: None
+    speed: 1.4
+    updated_at: 2025-09-01T11:33:18-04:00
+  relationships:
+    stop: 70256
+    trip: 71256807
+Red Bombardier R-548526D6
+  attributes:
+    bearing: 145
+    carriages:
+      {'label': '1849', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1848', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1803', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1802', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1874', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1875', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 120
+    direction_id: 0 (South)
+    label: 1849
+    latitude: 42.32269
+    longitude: -71.05279
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:34:31-04:00
+  relationships:
+    stop: 70095
+    trip: 71960606
+Green-C Type 7 G-10116
+  attributes:
+    bearing: 225
+    carriages:
+      {'label': '3624', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3841', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 440
+    direction_id: 0 (South)
+    label: 3624-3841
+    latitude: 42.3367
+    longitude: -71.14696
+    occupancy_status: None
+    speed: 7.5
+    updated_at: 2025-09-01T11:34:40-04:00
+  relationships:
+    stop: 70237
+    trip: 71256403
+Blue B-54852EA3
+  attributes:
+    bearing: 35
+    carriages:
+      {'label': '0756', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0757', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0732', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0733', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0778', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0779', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 40
+    direction_id: 1 (North)
+    label: 0756
+    latitude: 42.36924
+    longitude: -71.03943
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:34:23-04:00
+  relationships:
+    stop: 70046
+    trip: 72122360
+Red UTDC R-54852B22
+  attributes:
+    bearing: 170
+    carriages:
+      {'label': '1729', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1728', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1523', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1522', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1508', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1509', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: 220
+    direction_id: 0 (South)
+    label: 1729
+    latitude: 42.22504
+    longitude: -71.00384
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:34:29-04:00
+  relationships:
+    stop: 70105
+    trip: 71960605
+Orange O-54852EA5
+  attributes:
+    bearing: 175
+    carriages:
+      {'label': '1478', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
+      {'label': '1479', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
+      {'label': '1529', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 13}
+      {'label': '1528', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
+      {'label': '1509', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
+      {'label': '1508', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
+    current_status: STOPPED_AT
+    current_stop_sequence: 30
+    direction_id: 0 (South)
+    label: 1478
+    latitude: 42.39209
+    longitude: -71.07734
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:34:07-04:00
+  relationships:
+    stop: 70278
+    trip: 70584769
+Orange O-54852EAE
+  attributes:
+    bearing: 20
+    carriages:
+      {'label': '1540', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
+      {'label': '1541', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
+      {'label': '1417', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 1}
+      {'label': '1416', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
+      {'label': '1421', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 0}
+      {'label': '1420', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
+    current_status: INCOMING_AT
+    current_stop_sequence: 190
+    direction_id: 1 (North)
+    label: 1540
+    latitude: 42.43342
+    longitude: -71.07161
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:33:57-04:00
+  relationships:
+    stop: 70036
+    trip: 70584823
+Green-C Type 7 G-10040
+  attributes:
+    bearing: 130
+    carriages:
+      {'label': '3626', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3842', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: 560
+    direction_id: 1 (North)
+    label: 3626-3842
+    latitude: 42.34814
+    longitude: -71.09222
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:34:39-04:00
+  relationships:
+    stop: 70152
+    trip: 71256322
+Blue B-54852EA2
+  attributes:
+    bearing: 20
+    carriages:
+      {'label': '0760', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0761', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0762', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0763', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0789', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0788', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 110
+    direction_id: 1 (North)
+    label: 0760
+    latitude: 42.4135
+    longitude: -70.99162
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:33:49-04:00
+  relationships:
+    stop: 70060
+    trip: 72122365
+Red UTDC R-54851DA4
+  attributes:
+    bearing: 135
+    carriages:
+      {'label': '1725', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1724', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1733', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1732', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1617', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1616', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 90
+    direction_id: 0 (South)
+    label: 1725
+    latitude: 42.35378
+    longitude: -71.05745
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:33:58-04:00
+  relationships:
+    stop: 70079
+    trip: 71960607
+Blue B-54852EA1
+  attributes:
+    bearing: 20
     carriages:
       {'label': '0739', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0738', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
@@ -1079,45 +953,43 @@ Blue B-54852EA1
       {'label': '0746', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0722', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0723', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
+    current_status: IN_TRANSIT_TO
     current_stop_sequence: 1
-    direction_id: 1
-    label: 0739
-    latitude: 42.36115
-    longitude: -71.06208
+    direction_id: 0 (South)
+    label: 0723
+    latitude: 42.41577
+    longitude: -70.99044
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:36-04:00
+    updated_at: 2025-09-01T11:32:45-04:00
   relationships:
-    route: {'data': {'id': 'Blue', 'type': 'route'}}
-    stop: {'data': {'id': '70038', 'type': 'stop'}}
-    trip: {'data': {'id': '72122444', 'type': 'trip'}}
+    stop: 70059
+    trip: 72122409
 Blue B-54852F0A
   attributes:
-    bearing: 225
+    bearing: 60
     carriages:
-      {'label': '0771', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0770', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0726', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0727', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '0706', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0707', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0706', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0727', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0726', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0770', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '0771', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
-    current_stop_sequence: 60
-    direction_id: 0
-    label: 0771
-    latitude: 42.37732
-    longitude: -71.02681
+    current_stop_sequence: 70
+    direction_id: 1 (North)
+    label: 0707
+    latitude: 42.38411
+    longitude: -71.0113
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:27-04:00
+    updated_at: 2025-09-01T11:34:30-04:00
   relationships:
-    route: {'data': {'id': 'Blue', 'type': 'route'}}
-    stop: {'data': {'id': '70047', 'type': 'stop'}}
-    trip: {'data': {'id': '72122385', 'type': 'trip'}}
+    stop: 70052
+    trip: 72122333
 Blue B-54852EC8
   attributes:
-    bearing: 20
+    bearing: 105
     carriages:
       {'label': '0737', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0736', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
@@ -1126,21 +998,20 @@ Blue B-54852EC8
       {'label': '0711', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0710', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 110
-    direction_id: 1
+    current_stop_sequence: 1
+    direction_id: 1 (North)
     label: 0737
-    latitude: 42.4135
-    longitude: -70.99162
+    latitude: 42.36115
+    longitude: -71.06208
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:07:25-04:00
+    updated_at: 2025-09-01T11:34:39-04:00
   relationships:
-    route: {'data': {'id': 'Blue', 'type': 'route'}}
-    stop: {'data': {'id': '70060', 'type': 'stop'}}
-    trip: {'data': {'id': '72122388', 'type': 'trip'}}
-Red R-5485269E
+    stop: 70038
+    trip: 72122354
+Red Bombardier R-5485269E
   attributes:
-    bearing: 135
+    bearing: 180
     carriages:
       {'label': '1819', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1818', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
@@ -1148,85 +1019,65 @@ Red R-5485269E
       {'label': '1825', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1858', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1859', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 180
-    direction_id: 0
+    current_status: STOPPED_AT
+    current_stop_sequence: 20
+    direction_id: 0 (South)
     label: 1819
-    latitude: 42.28577
-    longitude: -71.03887
+    latitude: 42.38826
+    longitude: -71.11895
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:09:59-04:00
+    updated_at: 2025-09-01T11:34:41-04:00
   relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70097', 'type': 'stop'}}
-    trip: {'data': {'id': '71960599', 'type': 'trip'}}
-Shuttle-Generic ynk309
-  attributes:
-    bearing: 302
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 309
-    latitude: 42.448779
-    longitude: -71.229584
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T09:46:50-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-50608045', 'type': 'trip'}}
+    stop: 70065
+    trip: 71960608
 Orange O-54852EB8
   attributes:
-    bearing: 330
+    bearing: 300
     carriages:
-      {'label': '1462', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
-      {'label': '1463', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
-      {'label': '1443', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
-      {'label': '1442', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 7}
-      {'label': '1407', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1406', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-    current_status: INCOMING_AT
+      {'label': '1462', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 6}
+      {'label': '1463', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
+      {'label': '1443', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
+      {'label': '1442', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
+      {'label': '1407', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
+      {'label': '1406', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
+    current_status: STOPPED_AT
     current_stop_sequence: 140
-    direction_id: 1
+    direction_id: 1 (North)
     label: 1462
-    latitude: 42.36809
-    longitude: -71.06264
+    latitude: 42.37384
+    longitude: -71.0703
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:09:56-04:00
+    updated_at: 2025-09-01T11:34:00-04:00
   relationships:
-    route: {'data': {'id': 'Orange', 'type': 'route'}}
-    stop: {'data': {'id': '70029', 'type': 'stop'}}
-    trip: {'data': {'id': '70584848', 'type': 'trip'}}
+    stop: 70029
+    trip: 70584850
 Orange O-54852EB9
   attributes:
-    bearing: 15
+    bearing: 35
     carriages:
-      {'label': '1464', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 2}
-      {'label': '1465', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1447', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-      {'label': '1446', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
+      {'label': '1464', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
+      {'label': '1465', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
+      {'label': '1447', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 7}
+      {'label': '1446', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
       {'label': '1449', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
-      {'label': '1448', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
+      {'label': '1448', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
     current_status: STOPPED_AT
-    current_stop_sequence: 30
-    direction_id: 1
+    current_stop_sequence: 40
+    direction_id: 1 (North)
     label: 1464
-    latitude: 42.32319
-    longitude: -71.09982
+    latitude: 42.3307
+    longitude: -71.09596
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:24-04:00
+    updated_at: 2025-09-01T11:34:12-04:00
   relationships:
-    route: {'data': {'id': 'Orange', 'type': 'route'}}
-    stop: {'data': {'id': '70007', 'type': 'stop'}}
-    trip: {'data': {'id': '70584902', 'type': 'trip'}}
+    stop: 70009
+    trip: 70584904
 Blue B-54852EA0
   attributes:
-    bearing: 40
+    bearing: 230
     carriages:
       {'label': '0786', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0787', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
@@ -1234,19 +1085,18 @@ Blue B-54852EA0
       {'label': '0790', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0715', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '0714', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 40
-    direction_id: 1
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: 50
+    direction_id: 0 (South)
     label: 0786
-    latitude: 42.36624
-    longitude: -71.04178
+    latitude: 42.38497
+    longitude: -71.01054
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:26-04:00
+    updated_at: 2025-09-01T11:34:40-04:00
   relationships:
-    route: {'data': {'id': 'Blue', 'type': 'route'}}
-    stop: {'data': {'id': '70046', 'type': 'stop'}}
-    trip: {'data': {'id': '72122487', 'type': 'trip'}}
+    stop: 70049
+    trip: 72122476
 Orange O-54851CA5
   attributes:
     bearing: 30
@@ -1259,253 +1109,170 @@ Orange O-54851CA5
       {'label': '1538', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: 1
+    direction_id: 1 (North)
     label: 1538
-    latitude: 42.30119
-    longitude: -71.11376
+    latitude: 42.30122
+    longitude: -71.11384
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:04:26-04:00
+    updated_at: 2025-09-01T11:27:00-04:00
   relationships:
-    route: {'data': {'id': 'Orange', 'type': 'route'}}
-    stop: {'data': {'id': 'Forest Hills-01', 'type': 'stop'}}
-    trip: {'data': {'id': '70584928', 'type': 'trip'}}
-Red R-54852830
+    stop: Forest Hills-02
+    trip: 70584930
+Red Bombardier R-54852830
   attributes:
-    bearing: 125
+    bearing: 305
     carriages:
-      {'label': '1833', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1832', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1879', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1878', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1871', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1870', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
-    current_stop_sequence: 10
-    direction_id: 0
-    label: 1833
-    latitude: 42.39673
-    longitude: -71.12245
+      {'label': '1871', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1878', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1879', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1832', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1833', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: INCOMING_AT
+    current_stop_sequence: 110
+    direction_id: 1 (North)
+    label: 1870
+    latitude: 42.32589
+    longitude: -71.05635
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:09:59-04:00
+    updated_at: 2025-09-01T11:34:24-04:00
   relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70063', 'type': 'stop'}}
-    trip: {'data': {'id': '71960602', 'type': 'trip'}}
-CapeFlyer 2014
+    stop: 70084
+    trip: 71960527
+Green-B Type 7 G-10035
   attributes:
-    bearing: 83
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: 70
-    direction_id: 0
-    label: 2014
-    latitude: 41.70145034790039
-    longitude: -70.32646179199219
-    occupancy_status: None
-    speed: 13.4
-    updated_at: 2025-09-01T10:10:26-04:00
-  relationships:
-    route: {'data': {'id': 'CapeFlyer', 'type': 'route'}}
-    stop: {'data': {'id': 'CM-0790-S', 'type': 'stop'}}
-    trip: {'data': {'id': 'CFWKND-738200-9909', 'type': 'trip'}}
-Green-B G-10035
-  attributes:
-    bearing: 20
+    bearing: 135
     carriages:
       {'label': '3636', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3862', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 600
-    direction_id: 1
-    label: 3636-3862
-    latitude: 42.35301
-    longitude: -71.06454
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:13-04:00
-  relationships:
-    route: {'data': {'id': 'Green-B', 'type': 'route'}}
-    stop: {'data': {'id': '70200', 'type': 'stop'}}
-    trip: {'data': {'id': '71256181', 'type': 'trip'}}
-Red R-54852ACE
-  attributes:
-    bearing: 170
-    carriages:
-      {'label': '1841', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1840', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1853', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1852', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1810', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1811', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 120
-    direction_id: 0
-    label: 1841
-    latitude: 42.32052
-    longitude: -71.05226
+    direction_id: 1 (North)
+    label: 3636-3862
+    latitude: 42.35159
+    longitude: -71.11995
+    occupancy_status: None
+    speed: 5.8
+    updated_at: 2025-09-01T11:34:11-04:00
+  relationships:
+    stop: 170136
+    trip: 71256166
+Red Bombardier R-54852ACE
+  attributes:
+    bearing: 85
+    carriages:
+      {'label': '1811', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1810', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1852', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1853', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1840', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1841', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 1
+    direction_id: 0 (South)
+    label: 1811
+    latitude: 42.39621
+    longitude: -71.14054
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:35-04:00
+    updated_at: 2025-09-01T11:32:46-04:00
   relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70095', 'type': 'stop'}}
-    trip: {'data': {'id': '71960600', 'type': 'trip'}}
+    stop: Alewife-01
+    trip: 71960609
 Mattapan G-10048
   attributes:
     bearing: 90
     carriages:
       {'label': '3260', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 1
-    direction_id: 1
+    current_stop_sequence: 4
+    direction_id: 1 (North)
     label: 3260
-    latitude: 42.26756
-    longitude: -71.09225
+    latitude: 42.27
+    longitude: -71.07331
     occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:16-04:00
+    speed: 4.5
+    updated_at: 2025-09-01T11:34:30-04:00
   relationships:
-    route: {'data': {'id': 'Mattapan', 'type': 'route'}}
-    stop: {'data': {'id': '70276', 'type': 'stop'}}
-    trip: {'data': {'id': '71243661', 'type': 'trip'}}
-Green-D G-10082
-  attributes:
-    bearing: 120
-    carriages:
-      {'label': '3892', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3639', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
-    current_stop_sequence: 660
-    direction_id: 1
-    label: 3892-3639
-    latitude: 42.37705
-    longitude: -71.09396
-    occupancy_status: None
-    speed: 3.8
-    updated_at: 2025-09-01T10:10:33-04:00
-  relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70503', 'type': 'stop'}}
-    trip: {'data': {'id': '71256543', 'type': 'trip'}}
-Green-D G-10059
-  attributes:
-    bearing: 240
-    carriages:
-      {'label': '3855', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3625', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
-    current_stop_sequence: 110
-    direction_id: 0
-    label: 3855-3625
-    latitude: 42.35018
-    longitude: -71.0771
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:19-04:00
-  relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70155', 'type': 'stop'}}
-    trip: {'data': {'id': '71256536', 'type': 'trip'}}
-Green-D G-10020
-  attributes:
-    bearing: 230
-    carriages:
-      {'label': '3917', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3919', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: 640
-    direction_id: 1
-    label: 3917-3919
-    latitude: 42.36609
-    longitude: -71.06298
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:16-04:00
-  relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70207', 'type': 'stop'}}
-    trip: {'data': {'id': '71256545', 'type': 'trip'}}
-Green-E G-10070
-  attributes:
-    bearing: 331
-    carriages:
-      {'label': '3852', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3707', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 700
-    direction_id: 1
-    label: 3852-3707
-    latitude: 42.39836
-    longitude: -71.10977
-    occupancy_status: None
-    speed: 11.8
-    updated_at: 2025-09-01T10:10:35-04:00
-  relationships:
-    route: {'data': {'id': 'Green-E', 'type': 'route'}}
-    stop: {'data': {'id': '70509', 'type': 'stop'}}
-    trip: {'data': {'id': '71256776', 'type': 'trip'}}
-Green-C G-10049
+    stop: 70270
+    trip: 71243669
+Green-D Type 7 G-10082
   attributes:
     bearing: 135
     carriages:
-      {'label': '3872', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3680', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3639', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3892', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: None
-    direction_id: 1
-    label: 3872-3680
-    latitude: 42.33525
-    longitude: -71.14855
+    direction_id: 1 (North)
+    label: 3639-3892
+    latitude: 42.33723
+    longitude: -71.25208
     occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:05:33-04:00
+    speed: 4.6
+    updated_at: 2025-09-01T11:25:28-04:00
   relationships:
-    route: {'data': {'id': 'Green-C', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': '71256287', 'type': 'trip'}}
-Green-D G-10031
+    stop: N/A
+    trip: 71256636
+Green-D Type 9 G-10020
   attributes:
     bearing: 315
     carriages:
-      {'label': '3627', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3865', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 490
-    direction_id: 0
-    label: 3627-3865
-    latitude: 42.33207
-    longitude: -71.13309
-    occupancy_status: None
-    speed: 16.8
-    updated_at: 2025-09-01T10:10:36-04:00
-  relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70177', 'type': 'stop'}}
-    trip: {'data': {'id': '71256533', 'type': 'trip'}}
-Green-D G-10123
-  attributes:
-    bearing: 120
-    carriages:
-      {'label': '3844', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3620', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3919', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3917', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 1
-    direction_id: 0
-    label: 3844-3620
-    latitude: 42.37695
-    longitude: -71.09396
+    current_stop_sequence: 570
+    direction_id: 0 (South)
+    label: 3919-3917
+    latitude: 42.33723
+    longitude: -71.25208
+    occupancy_status: None
+    speed: 4.7
+    updated_at: 2025-09-01T11:34:14-04:00
+  relationships:
+    stop: 70161
+    trip: 71256546
+Green-E Type 7 G-10070
+  attributes:
+    bearing: 45
+    carriages:
+      {'label': '3707', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3852', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 490
+    direction_id: 1 (North)
+    label: 3707-3852
+    latitude: 42.33478
+    longitude: -71.10324
+    occupancy_status: None
+    speed: 5.1
+    updated_at: 2025-09-01T11:33:57-04:00
+  relationships:
+    stop: 70250
+    trip: 71256797
+Green-C Type 7 G-10049
+  attributes:
+    bearing: 45
+    carriages:
+      {'label': '3680', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3872', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 180
+    direction_id: 1 (North)
+    label: 3680-3872
+    latitude: 42.3362
+    longitude: -71.14896
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:28-04:00
+    updated_at: 2025-09-01T11:33:55-04:00
   relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': 'Union Square-02', 'type': 'stop'}}
-    trip: {'data': {'id': '71256542', 'type': 'trip'}}
-Red R-54852EA6
+    stop: 70238
+    trip: 71256372
+Red Bombardier R-54852EA6
   attributes:
-    bearing: 85
+    bearing: 0
     carriages:
       {'label': '1820', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1821', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
@@ -1513,195 +1280,153 @@ Red R-54852EA6
       {'label': '1876', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1836', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1837', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
-    current_stop_sequence: 1
-    direction_id: 0
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: 210
+    direction_id: 1 (North)
     label: 1820
-    latitude: 42.39621
-    longitude: -71.14054
+    latitude: 42.38923
+    longitude: -71.11931
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:06:53-04:00
+    updated_at: 2025-09-01T11:34:15-04:00
   relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': 'Alewife-01', 'type': 'stop'}}
-    trip: {'data': {'id': '71960435', 'type': 'trip'}}
-Green-B G-10086
-  attributes:
-    bearing: 270
-    carriages:
-      {'label': '3681', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3891', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 140
-    direction_id: 0
-    label: 3681-3891
-    latitude: 42.34891
-    longitude: -71.09619
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:33-04:00
-  relationships:
-    route: {'data': {'id': 'Green-B', 'type': 'route'}}
-    stop: {'data': {'id': '70149', 'type': 'stop'}}
-    trip: {'data': {'id': '71256152', 'type': 'trip'}}
-Red R-54852EA9
-  attributes:
-    bearing: 20
-    carriages:
-      {'label': '1757', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1756', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1720', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1721', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1700', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1701', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 70
-    direction_id: 1
-    label: 1757
-    latitude: 42.29744
-    longitude: -71.06605
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:32-04:00
-  relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70090', 'type': 'stop'}}
-    trip: {'data': {'id': 'ADDED-1583057874', 'type': 'trip'}}
-Green-D G-10121
-  attributes:
-    bearing: 270
-    carriages:
-      {'label': '3684', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: 500
-    direction_id: 0
-    label: 3684
-    latitude: 42.336
-    longitude: -71.14149
-    occupancy_status: None
-    speed: 3.4
-    updated_at: 2025-09-01T10:10:28-04:00
-  relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70175', 'type': 'stop'}}
-    trip: {'data': {'id': 'ADDED-1583057837', 'type': 'trip'}}
-Shuttle-Generic ynk334
-  attributes:
-    bearing: 3
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 334
-    latitude: 42.345948
-    longitude: -71.084375
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:07:01-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-916330', 'type': 'trip'}}
-Red R-54851A11
-  attributes:
-    bearing: 185
-    carriages:
-      {'label': '1752', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1753', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1704', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1705', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1715', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '1714', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 30
-    direction_id: 0
-    label: 1752
-    latitude: 42.38388
-    longitude: -71.11979
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:10:22-04:00
-  relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70067', 'type': 'stop'}}
-    trip: {'data': {'id': '71960434', 'type': 'trip'}}
-Shuttle-Generic ynk347
-  attributes:
-    bearing: 225
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 347
-    latitude: 42.338104
-    longitude: -71.044283
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:05:55-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-116550562', 'type': 'trip'}}
-Green-B G-10063
+    stop: 70064
+    trip: 71960356
+Green-B Type 7 G-10086
   attributes:
     bearing: 90
     carriages:
-      {'label': '3866', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3617', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 20
-    direction_id: 1
-    label: 3866-3617
-    latitude: 42.33805
-    longitude: -71.15335
-    occupancy_status: None
-    speed: 2.1
-    updated_at: 2025-09-01T10:10:06-04:00
-  relationships:
-    route: {'data': {'id': 'Green-B', 'type': 'route'}}
-    stop: {'data': {'id': '70112', 'type': 'stop'}}
-    trip: {'data': {'id': '71256223', 'type': 'trip'}}
-Green-D G-10099
-  attributes:
-    bearing: 60
-    carriages:
-      {'label': '3651', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-      {'label': '3845', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 550
-    direction_id: 1
-    label: 3651-3845
-    latitude: 42.34819
-    longitude: -71.09927
+      {'label': '3681', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3891', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: 560
+    direction_id: 1 (North)
+    label: 3681-3891
+    latitude: 42.34893
+    longitude: -71.09446
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:32-04:00
+    updated_at: 2025-09-01T11:34:29-04:00
   relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70150', 'type': 'stop'}}
-    trip: {'data': {'id': '71256549', 'type': 'trip'}}
-Green-D G-10096
+    stop: 70152
+    trip: 71256153
+Red UTDC R-54852EA9
   attributes:
-    bearing: 270
+    bearing: 160
     carriages:
-      {'label': '3838', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1701', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1700', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1721', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1720', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1756', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1757', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
-    current_stop_sequence: 500
-    direction_id: 0
-    label: 3838
-    latitude: 42.33536
-    longitude: -71.14665
+    current_stop_sequence: 170
+    direction_id: 0 (South)
+    label: 1701
+    latitude: 42.28869
+    longitude: -71.06498
     occupancy_status: None
-    speed: 3.8
-    updated_at: 2025-09-01T10:10:34-04:00
+    speed: None
+    updated_at: 2025-09-01T11:34:35-04:00
   relationships:
-    route: {'data': {'id': 'Green-D', 'type': 'route'}}
-    stop: {'data': {'id': '70175', 'type': 'stop'}}
-    trip: {'data': {'id': 'ADDED-1583057836', 'type': 'trip'}}
-Red R-548518D3
+    stop: 70093
+    trip: 71960438
+Green-B Type 8 G-10062
   attributes:
-    bearing: 260
+    bearing: 315
+    carriages:
+      {'label': '3849', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 160
+    direction_id: 0 (South)
+    label: 3849
+    latitude: 42.35011
+    longitude: -71.10722
+    occupancy_status: None
+    speed: 5.1
+    updated_at: 2025-09-01T11:34:34-04:00
+  relationships:
+    stop: 70145
+    trip: 71256106
+Red UTDC R-54851A11
+  attributes:
+    bearing: 85
+    carriages:
+      {'label': '1714', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1715', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1705', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1704', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1753', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '1752', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 1
+    direction_id: 0 (South)
+    label: 1714
+    latitude: 42.39618
+    longitude: -71.14054
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:28:55-04:00
+  relationships:
+    stop: Alewife-02
+    trip: 71960441
+Green-B Type 7 G-10149
+  attributes:
+    bearing: 75
+    carriages:
+      {'label': '3641', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 310
+    direction_id: 0 (South)
+    label: 3641
+    latitude: 42.341
+    longitude: -71.16742
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:25:18-04:00
+  relationships:
+    stop: 70107
+    trip: ADDED-1583057971
+Green-B Type 8 G-10063
+  attributes:
+    bearing: 225
+    carriages:
+      {'label': '3866', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3617', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 280
+    direction_id: 0 (South)
+    label: 3866-3617
+    latitude: 42.34068
+    longitude: -71.15095
+    occupancy_status: None
+    speed: 4.9
+    updated_at: 2025-09-01T11:33:58-04:00
+  relationships:
+    stop: 70115
+    trip: 71256074
+Green-E Type 8 G-10127
+  attributes:
+    bearing: 225
+    carriages:
+      {'label': '3845', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3651', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 600
+    direction_id: 0 (South)
+    label: 3845-3651
+    latitude: 42.34009
+    longitude: -71.0897
+    occupancy_status: None
+    speed: 4.5
+    updated_at: 2025-09-01T11:34:14-04:00
+  relationships:
+    stop: 70243
+    trip: 71256826
+Red Bombardier R-548518D3
+  attributes:
+    bearing: 130
     carriages:
       {'label': '1839', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1838', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
@@ -1709,189 +1434,185 @@ Red R-548518D3
       {'label': '1872', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1880', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '1881', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: STOPPED_AT
-    current_stop_sequence: 150
-    direction_id: 0
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: 100
+    direction_id: 0 (South)
     label: 1839
-    latitude: 42.30002
-    longitude: -71.06183
+    latitude: 42.35145
+    longitude: -71.05553
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:23-04:00
+    updated_at: 2025-09-01T11:34:22-04:00
   relationships:
-    route: {'data': {'id': 'Red', 'type': 'route'}}
-    stop: {'data': {'id': '70089', 'type': 'stop'}}
-    trip: {'data': {'id': '71960432', 'type': 'trip'}}
-Shuttle-Generic ynk234
+    stop: 70081
+    trip: 71960439
+Green-D Type 8 G-10131
   attributes:
-    bearing: 4
+    bearing: 175
     carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 234
-    latitude: 42.203045
-    longitude: -71.065641
+      {'label': '3819', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3645', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 30
+    direction_id: 0 (South)
+    label: 3819-3645
+    latitude: 42.36238
+    longitude: -71.05804
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:09:07-04:00
+    updated_at: 2025-09-01T11:34:18-04:00
   relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-44123456', 'type': 'trip'}}
-Shuttle-Generic ynk247
-  attributes:
-    bearing: 354
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 247
-    latitude: 42.203034
-    longitude: -71.064767
-    occupancy_status: None
-    speed: None
-    updated_at: 2025-09-01T10:09:41-04:00
-  relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-99914110', 'type': 'trip'}}
+    stop: 70204
+    trip: 71256568
 Orange O-54852A96
   attributes:
-    bearing: 230
+    bearing: 220
     carriages:
-      {'label': '1430', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
-      {'label': '1431', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-      {'label': '1500', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
-      {'label': '1501', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 13}
-      {'label': '1533', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 15}
-      {'label': '1532', 'occupancy_status': 'STANDING_ROOM_ONLY', 'occupancy_percentage': 18}
+      {'label': '1430', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 8}
+      {'label': '1431', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
+      {'label': '1500', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
+      {'label': '1501', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
+      {'label': '1533', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
+      {'label': '1532', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 13}
     current_status: INCOMING_AT
-    current_stop_sequence: 120
-    direction_id: 0
+    current_stop_sequence: 140
+    direction_id: 0 (South)
     label: 1430
-    latitude: 42.34806
-    longitude: -71.06641
+    latitude: 42.3389
+    longitude: -71.08656
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:21-04:00
+    updated_at: 2025-09-01T11:34:28-04:00
   relationships:
-    route: {'data': {'id': 'Orange', 'type': 'route'}}
-    stop: {'data': {'id': '70014', 'type': 'stop'}}
-    trip: {'data': {'id': '70584979', 'type': 'trip'}}
+    stop: 70010
+    trip: 70584981
 Orange O-54852A8E
   attributes:
     bearing: 210
     carriages:
-      {'label': '1488', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-      {'label': '1489', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
-      {'label': '1543', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 7}
-      {'label': '1542', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 4}
-      {'label': '1517', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 6}
-      {'label': '1516', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 8}
-    current_status: INCOMING_AT
+      {'label': '1488', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 8}
+      {'label': '1489', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 4}
+      {'label': '1543', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
+      {'label': '1542', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
+      {'label': '1517', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 9}
+      {'label': '1516', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
+    current_status: IN_TRANSIT_TO
     current_stop_sequence: 190
-    direction_id: 0
+    direction_id: 0 (South)
     label: 1488
-    latitude: 42.30595
-    longitude: -71.11056
+    latitude: 42.3085
+    longitude: -71.10893
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:16-04:00
+    updated_at: 2025-09-01T11:34:33-04:00
   relationships:
-    route: {'data': {'id': 'Orange', 'type': 'route'}}
-    stop: {'data': {'id': '70001', 'type': 'stop'}}
-    trip: {'data': {'id': '70584953', 'type': 'trip'}}
-Green-B G-10007
+    stop: 70001
+    trip: 70584955
+Green-B Type 8 G-10007
   attributes:
-    bearing: 225
+    bearing: 210
     carriages:
       {'label': '3859', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3702', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
-    current_stop_sequence: 260
-    direction_id: 0
+    current_stop_sequence: 90
+    direction_id: 0 (South)
     label: 3859-3702
-    latitude: 42.34588
-    longitude: -71.14143
-    occupancy_status: None
-    speed: 8.8
-    updated_at: 2025-09-01T10:10:34-04:00
-  relationships:
-    route: {'data': {'id': 'Green-B', 'type': 'route'}}
-    stop: {'data': {'id': '70121', 'type': 'stop'}}
-    trip: {'data': {'id': '71256104', 'type': 'trip'}}
-Shuttle-Generic ynk232
-  attributes:
-    bearing: 345
-    carriages:
-    current_status: IN_TRANSIT_TO
-    current_stop_sequence: None
-    direction_id: None
-    label: 232
-    latitude: 42.203101
-    longitude: -71.064839
+    latitude: 42.35556
+    longitude: -71.06326
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:09:43-04:00
+    updated_at: 2025-09-01T11:34:16-04:00
   relationships:
-    route: {'data': {'id': 'Shuttle-Generic', 'type': 'route'}}
-    stop: {'data': None}
-    trip: {'data': {'id': 'BL-81250482', 'type': 'trip'}}
-Green-E G-10122
+    stop: 70159
+    trip: 71256122
+Green-E Type 7 G-10122
   attributes:
-    bearing: 151
+    bearing: 45
     carriages:
       {'label': '3611', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3817', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
-    current_stop_sequence: 710
-    direction_id: 0
+    current_stop_sequence: 540
+    direction_id: 1 (North)
     label: 3611-3817
-    latitude: 42.40839
-    longitude: -71.1173
+    latitude: 42.34534
+    longitude: -71.0817
     occupancy_status: None
     speed: None
-    updated_at: 2025-09-01T10:10:10-04:00
+    updated_at: 2025-09-01T11:34:32-04:00
   relationships:
-    route: {'data': {'id': 'Green-E', 'type': 'route'}}
-    stop: {'data': {'id': '70511', 'type': 'stop'}}
-    trip: {'data': {'id': '71256771', 'type': 'trip'}}
-Green-C G-10026
+    stop: 70240
+    trip: 71256795
+Green-C Type 8 G-10026
   attributes:
     bearing: 45
     carriages:
-      {'label': '3715', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3875', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 290
-    direction_id: 1
-    label: 3715-3875
-    latitude: 42.3442
-    longitude: -71.11351
+      {'label': '3715', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 300
+    direction_id: 1 (North)
+    label: 3875-3715
+    latitude: 42.3459
+    longitude: -71.10742
     occupancy_status: None
-    speed: 9.3
-    updated_at: 2025-09-01T10:10:35-04:00
+    speed: 4.1
+    updated_at: 2025-09-01T11:34:16-04:00
   relationships:
-    route: {'data': {'id': 'Green-C', 'type': 'route'}}
-    stop: {'data': {'id': '70214', 'type': 'stop'}}
-    trip: {'data': {'id': '71256338', 'type': 'trip'}}
-Green-E G-10066
+    stop: 70212
+    trip: 71256340
+Green-D Type 8 G-10066
   attributes:
-    bearing: 45
+    bearing: 315
     carriages:
-      {'label': '3659', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
       {'label': '3886', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
-    current_status: INCOMING_AT
-    current_stop_sequence: 530
-    direction_id: 1
-    label: 3659-3886
-    latitude: 42.34055
-    longitude: -71.08837
+      {'label': '3659', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: STOPPED_AT
+    current_stop_sequence: 490
+    direction_id: 0 (South)
+    label: 3886-3659
+    latitude: 42.33583
+    longitude: -71.14054
     occupancy_status: None
-    speed: 7.8
-    updated_at: 2025-09-01T10:10:33-04:00
+    speed: 3.9
+    updated_at: 2025-09-01T11:34:24-04:00
   relationships:
-    route: {'data': {'id': 'Green-E', 'type': 'route'}}
-    stop: {'data': {'id': '70242', 'type': 'stop'}}
-    trip: {'data': {'id': '71256779', 'type': 'trip'}}
+    stop: 70177
+    trip: 71256550
+Green-D Type 8 G-10133
+  attributes:
+    bearing: 315
+    carriages:
+      {'label': '3865', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3627', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: 640
+    direction_id: 1 (North)
+    label: 3865-3627
+    latitude: 42.36607
+    longitude: -71.061
+    occupancy_status: None
+    speed: None
+    updated_at: 2025-09-01T11:34:09-04:00
+  relationships:
+    stop: 70207
+    trip: 71256583
+Green-D Type 7 G-10129
+  attributes:
+    bearing: 305
+    carriages:
+      {'label': '3699', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+      {'label': '3878', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
+    current_status: IN_TRANSIT_TO
+    current_stop_sequence: 9
+    direction_id: 0 (South)
+    label: 3699-3878
+    latitude: 42.37517
+    longitude: -71.08336
+    occupancy_status: None
+    speed: 9.9
+    updated_at: 2025-09-01T11:34:34-04:00
+  relationships:
+    stop: 70502
+    trip: 71256576
