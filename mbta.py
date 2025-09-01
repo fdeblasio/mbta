@@ -1,23 +1,21 @@
 import json
 import requests
 
-def getJson(api):
-    with open(api + ".json", "w+") as stops:
-        stops.seek(0)
-        stops.write(requests.get("https://api-v3.mbta.com/" + api).text)
+def getData(api, getJson=False):
+    if getJson:
+        with open(api + ".json", "w+") as stops:
+            stops.seek(0)
+            stops.write(requests.get("https://api-v3.mbta.com/" + api).text)
+
+    data = ""
+
+    with open(api + ".json", "r+") as f:
+        data = json.load(f)
+
+    return data["data"]
 
 ### Stops
-
-##with open("stops.json", "w+") as stops:
-##    stops.seek(0)
-##    stops.write(requests.get("https://api-v3.mbta.com/stops").text)
-#
-#data = ""
-#
-#with open("stops.json", "r+") as f:
-#    data = json.load(f)
-#
-#data = data["data"]
+stopData = getData("stops")
 #
 #with open("stops.txt", "w+") as stops:
 #    stops.seek(0)
@@ -27,19 +25,9 @@ def getJson(api):
 #            for field in stop:
 #                if field != "type":
 #                    stops.write("  " + field + ": " + str(stop[field]) + "\n")
-### Lines
 
-#api = "lines"
-##with open(api + ".json", "w+") as stops:
-##    stops.seek(0)
-##    stops.write(requests.get("https://api-v3.mbta.com/" + api).text)
-#
-#data = ""
-#
-#with open(api + ".json", "r+") as f:
-#    data = json.load(f)
-#
-#data = data["data"]
+### Lines
+lineData = getData("lines")
 #
 #with open(api + ".txt", "w+") as lines:
 #    lines.seek(0)
@@ -50,4 +38,4 @@ def getJson(api):
 #                lines.write("  " + field + ": " + str(line[field]) + "\n")
 
 ### Vehicles
-#getJson("vehicles")
+vehicleData = getData("vehicles")
