@@ -17,19 +17,24 @@ def writeToFile(file, text):
 
 ### Stops
 api = "stops"
-#stopData = getData(api)
-#
-#with open(api + ".txt", "w+") as stops:
-#    stops.seek(0)
-#    for stop in stopData:
-#        if stop["attributes"]["vehicle_type"] != 3:
-#            writeToFile(stops, stop["attributes"]["name"])
-#            for field in stop:
-#                if field != "type":
-#                    writeToFile(stops, "  " + field + ": " + str(stop[field]))
+stopData = getData(api)
+
+stopIdToName = {"N/A" : "N/A"}
+
+with open(api + ".txt", "w+") as stops:
+    stops.seek(0)
+    for stop in stopData:
+        stopName = stop["attributes"]["name"]
+        stopIdToName[stop["id"]] = stopName
+
+        if stop["attributes"]["vehicle_type"] != 3:
+            writeToFile(stops, stopName)
+            for field in stop:
+                if field != "type":
+                    writeToFile(stops, "  " + field + ": " + str(stop[field]))
 
 ### Lines
-api = "lines"
+#api = "lines"
 #lineData = getData(api)
 #
 #with open(api + ".txt", "w+") as lines:
@@ -60,6 +65,9 @@ redGreenLine = {
     "39": "Type 9"
 }
 
+#Merge attributes and relationships and move one level out
+#Use current_status with stop
+
 with open(api + ".txt", "w+") as vehicles:
     vehicles.seek(0)
     for vehicle in vehicleData:
@@ -89,13 +97,17 @@ with open(api + ".txt", "w+") as vehicles:
                         elif attribute != "revenue":
                             writeToFile(vehicles, "    " + attribute + ": " + str(attributeValue))
                 elif field == "relationships":
+                #if field == "relationships":
                     writeToFile(vehicles, "  " + field + ":")
                     for relationship in vehicle[field]:
                         if vehicle[field][relationship]["data"] is not None:
                             relationshipValue = vehicle[field][relationship]["data"]["id"]
                         else:
                             relationshipValue = "N/A"
-                        if relationship != "route":
-                            writeToFile(vehicles, "    " + relationship + ": " + str(relationshipValue))
+
+                        if relationship == "stop":
+                            writeToFile(vehicles, f"    {relationship}: {stopIdToName[relationshipValue]} ({relationshipValue})")
+                        elif relationship == "trip":
+                            writeToFile(vehicles, f"    {relationship}: {relationshipValue}")
                 #elif field not in ["type", "links", "id"]:
                 #    writeToFile(vehicles, "  " + field + ": " + str(vehicle[field]))
