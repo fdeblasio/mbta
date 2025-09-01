@@ -6,7 +6,7 @@ Green-E Type 7 G-10075
       {'label': '3882', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 670
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3700-3882
     latitude: 42.33126
     longitude: -71.1118
@@ -24,7 +24,7 @@ Green-E Type 8 G-10112
       {'label': '3673', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 90
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3815-3673
     latitude: 42.35356
     longitude: -71.06432
@@ -46,7 +46,7 @@ Red Bombardier R-54852B71
       {'label': '1805', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1805
     latitude: 42.20749
     longitude: -71.00173
@@ -64,7 +64,7 @@ Green-E Type 7 G-10022
       {'label': '3869', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 630
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3704-3869
     latitude: 42.36389
     longitude: -71.05899
@@ -81,7 +81,7 @@ Green-C US Standard Light Rail Vehicle G-10151
       {'label': '3541', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: None
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3541
     latitude: 42.35986
     longitude: -71.05891
@@ -99,7 +99,7 @@ Green-E Type 8 G-10038
       {'label': '3688', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 670
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3806-3688
     latitude: 42.37429
     longitude: -71.0811
@@ -117,7 +117,7 @@ Green-B Type 8 G-10053
       {'label': '3646', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 300
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3804-3646
     latitude: 42.33949
     longitude: -71.15723
@@ -139,7 +139,7 @@ Blue B-54852E9F
       {'label': '0750', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 70
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 0758
     latitude: 42.36923
     longitude: -71.03944
@@ -161,7 +161,7 @@ Red Bombardier R-54852F37
       {'label': '1828', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 40
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1800
     latitude: 42.27064
     longitude: -71.02464
@@ -179,7 +179,7 @@ Green-C Type 8 G-10057
       {'label': '3713', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 410
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3888-3713
     latitude: 42.33855
     longitude: -71.13847
@@ -198,7 +198,7 @@ Green-D Type 7 G-10118
       {'label': '3620', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 380
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3682-3844-3620
     latitude: 42.33043
     longitude: -71.15711
@@ -216,7 +216,7 @@ Green-D Type 8 G-10135
       {'label': '3647', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 630
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3867-3647
     latitude: 42.36563
     longitude: -71.06057
@@ -234,7 +234,7 @@ Green-E Type 7 G-10001
       {'label': '3880', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 7
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3656-3880
     latitude: 42.38922
     longitude: -71.09981
@@ -252,7 +252,7 @@ Green-C Type 8 G-10014
       {'label': '3662', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 100
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3820-3662
     latitude: 42.35305
     longitude: -71.06457
@@ -269,7 +269,7 @@ Mattapan G-10139
       {'label': '3268', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 3
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3268
     latitude: 42.27418
     longitude: -71.05992
@@ -286,7 +286,7 @@ Green-B Type 7 G-10056
       {'label': '3689', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3689
     latitude: 42.34018
     longitude: -71.16709
@@ -304,7 +304,7 @@ Green-B Type 7 G-10065
       {'label': '3857', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 240
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3600-3857
     latitude: 42.34845
     longitude: -71.13712
@@ -322,7 +322,7 @@ Green-D Type 7 G-10092
       {'label': '3837', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 110
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3709-3837
     latitude: 42.35164
     longitude: -71.07172
@@ -339,7 +339,7 @@ Green-B Type 8 G-10044
       {'label': '3860', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 580
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3860
     latitude: 42.35157
     longitude: -71.07167
@@ -361,7 +361,7 @@ Orange O-54852EAD
       {'label': '1476', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1536
     latitude: 42.43772
     longitude: -71.0708
@@ -379,7 +379,7 @@ Green-D Type 7 G-10028
       {'label': '3821', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 530
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3632-3821
     latitude: 42.32259
     longitude: -71.20535
@@ -401,7 +401,7 @@ Red CRRC R-54852EA8
       {'label': '1926', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
     current_status: STOPPED_AT
     current_stop_sequence: 80
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1922
     latitude: 42.31054
     longitude: -71.05362
@@ -419,7 +419,7 @@ Green-B Type 9 G-10095
       {'label': '3922', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3907-3922
     latitude: 42.34018
     longitude: -71.16709
@@ -436,7 +436,7 @@ Green-B Type 8 G-10009
       {'label': '3801', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 50
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3801
     latitude: 42.34413
     longitude: -71.14253
@@ -454,7 +454,7 @@ Green-C Type 7 G-10072
       {'label': '3839', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 610
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3605-3839
     latitude: 42.35927
     longitude: -71.05945
@@ -472,7 +472,7 @@ Green-C Type 8 G-10108
       {'label': '3683', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 220
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3834-3683
     latitude: 42.33934
     longitude: -71.13534
@@ -490,7 +490,7 @@ Green-E Type 8 G-10084
       {'label': '3701', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 20
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3848-3701
     latitude: 42.36633
     longitude: -71.0669
@@ -508,7 +508,7 @@ Green-E Type 7 G-10091
       {'label': '3829', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 710
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3608-3829
     latitude: 42.40839
     longitude: -71.1173
@@ -526,7 +526,7 @@ Green-D Type 7 G-10146
       {'label': '3855', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 590
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3625-3855
     latitude: 42.3518
     longitude: -71.07081
@@ -544,7 +544,7 @@ Green-C Type 7 G-10076
       {'label': '3863', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: None
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3718-3863
     latitude: 42.33625
     longitude: -71.14902
@@ -561,7 +561,7 @@ Green-D Type 8 G-10150
       {'label': '3811', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 380
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3811
     latitude: 42.33043
     longitude: -71.15711
@@ -579,7 +579,7 @@ Green-D Type 8 G-10126
       {'label': '3642', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 450
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3828-3642
     latitude: 42.34523
     longitude: -71.10461
@@ -601,7 +601,7 @@ Red CRRC R-54852EA7
       {'label': '1936', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
     current_status: INCOMING_AT
     current_stop_sequence: 160
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1902
     latitude: 42.35725
     longitude: -71.06404
@@ -623,7 +623,7 @@ Orange O-54852A9E
       {'label': '1492', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 3}
     current_status: STOPPED_AT
     current_stop_sequence: 80
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1520
     latitude: 42.34878
     longitude: -71.06468
@@ -645,7 +645,7 @@ Red UTDC R-54852A77
       {'label': '1730', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 70
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1722
     latitude: 42.36074
     longitude: -71.06942
@@ -667,7 +667,7 @@ Red Bombardier R-5485152A
       {'label': '1813', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 170
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1861
     latitude: 42.36246
     longitude: -71.08581
@@ -685,7 +685,7 @@ Green-D Type 7 G-10140
       {'label': '3830', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 560
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3653-3830
     latitude: 42.34795
     longitude: -71.08686
@@ -703,7 +703,7 @@ Green-D Type 8 G-10143
       {'label': '3674', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 430
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3833-3674
     latitude: 42.34336
     longitude: -71.10753
@@ -725,7 +725,7 @@ Orange O-54852EA4
       {'label': '1524', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 14}
     current_status: STOPPED_AT
     current_stop_sequence: 80
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1440
     latitude: 42.35881
     longitude: -71.05782
@@ -743,7 +743,7 @@ Green-E Type 8 G-10124
       {'label': '3675', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 460
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3885-3675
     latitude: 42.32991
     longitude: -71.11118
@@ -765,7 +765,7 @@ Red Bombardier R-548526D6
       {'label': '1875', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 120
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1849
     latitude: 42.32269
     longitude: -71.05279
@@ -783,7 +783,7 @@ Green-C Type 7 G-10116
       {'label': '3841', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 440
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3624-3841
     latitude: 42.3367
     longitude: -71.14696
@@ -805,7 +805,7 @@ Blue B-54852EA3
       {'label': '0779', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 40
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 0756
     latitude: 42.36924
     longitude: -71.03943
@@ -827,7 +827,7 @@ Red UTDC R-54852B22
       {'label': '1509', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 220
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1729
     latitude: 42.22504
     longitude: -71.00384
@@ -849,7 +849,7 @@ Orange O-54852EA5
       {'label': '1508', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
     current_status: STOPPED_AT
     current_stop_sequence: 30
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1478
     latitude: 42.39209
     longitude: -71.07734
@@ -871,7 +871,7 @@ Orange O-54852EAE
       {'label': '1420', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 11}
     current_status: INCOMING_AT
     current_stop_sequence: 190
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1540
     latitude: 42.43342
     longitude: -71.07161
@@ -889,7 +889,7 @@ Green-C Type 7 G-10040
       {'label': '3842', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 560
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3626-3842
     latitude: 42.34814
     longitude: -71.09222
@@ -911,7 +911,7 @@ Blue B-54852EA2
       {'label': '0788', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 110
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 0760
     latitude: 42.4135
     longitude: -70.99162
@@ -933,7 +933,7 @@ Red UTDC R-54851DA4
       {'label': '1616', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 90
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1725
     latitude: 42.35378
     longitude: -71.05745
@@ -955,7 +955,7 @@ Blue B-54852EA1
       {'label': '0723', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 1
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 0723
     latitude: 42.41577
     longitude: -70.99044
@@ -977,7 +977,7 @@ Blue B-54852F0A
       {'label': '0771', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 70
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 0707
     latitude: 42.38411
     longitude: -71.0113
@@ -999,7 +999,7 @@ Blue B-54852EC8
       {'label': '0710', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 0737
     latitude: 42.36115
     longitude: -71.06208
@@ -1021,7 +1021,7 @@ Red Bombardier R-5485269E
       {'label': '1859', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 20
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1819
     latitude: 42.38826
     longitude: -71.11895
@@ -1043,7 +1043,7 @@ Orange O-54852EB8
       {'label': '1406', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 10}
     current_status: STOPPED_AT
     current_stop_sequence: 140
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1462
     latitude: 42.37384
     longitude: -71.0703
@@ -1065,7 +1065,7 @@ Orange O-54852EB9
       {'label': '1448', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 8}
     current_status: STOPPED_AT
     current_stop_sequence: 40
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1464
     latitude: 42.3307
     longitude: -71.09596
@@ -1087,7 +1087,7 @@ Blue B-54852EA0
       {'label': '0714', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 50
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 0786
     latitude: 42.38497
     longitude: -71.01054
@@ -1109,7 +1109,7 @@ Orange O-54851CA5
       {'label': '1538', 'occupancy_status': 'MANY_SEATS_AVAILABLE', 'occupancy_percentage': 5}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1538
     latitude: 42.30122
     longitude: -71.11384
@@ -1131,7 +1131,7 @@ Red Bombardier R-54852830
       {'label': '1833', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 110
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1870
     latitude: 42.32589
     longitude: -71.05635
@@ -1149,7 +1149,7 @@ Green-B Type 7 G-10035
       {'label': '3862', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 120
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3636-3862
     latitude: 42.35159
     longitude: -71.11995
@@ -1171,7 +1171,7 @@ Red Bombardier R-54852ACE
       {'label': '1841', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1811
     latitude: 42.39621
     longitude: -71.14054
@@ -1188,7 +1188,7 @@ Mattapan G-10048
       {'label': '3260', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 4
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3260
     latitude: 42.27
     longitude: -71.07331
@@ -1206,7 +1206,7 @@ Green-D Type 7 G-10082
       {'label': '3892', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: None
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3639-3892
     latitude: 42.33723
     longitude: -71.25208
@@ -1224,7 +1224,7 @@ Green-D Type 9 G-10020
       {'label': '3917', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 570
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3919-3917
     latitude: 42.33723
     longitude: -71.25208
@@ -1242,7 +1242,7 @@ Green-E Type 7 G-10070
       {'label': '3852', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 490
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3707-3852
     latitude: 42.33478
     longitude: -71.10324
@@ -1260,7 +1260,7 @@ Green-C Type 7 G-10049
       {'label': '3872', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 180
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3680-3872
     latitude: 42.3362
     longitude: -71.14896
@@ -1282,7 +1282,7 @@ Red Bombardier R-54852EA6
       {'label': '1837', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 210
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 1820
     latitude: 42.38923
     longitude: -71.11931
@@ -1300,7 +1300,7 @@ Green-B Type 7 G-10086
       {'label': '3891', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 560
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3681-3891
     latitude: 42.34893
     longitude: -71.09446
@@ -1322,7 +1322,7 @@ Red UTDC R-54852EA9
       {'label': '1757', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 170
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1701
     latitude: 42.28869
     longitude: -71.06498
@@ -1339,7 +1339,7 @@ Green-B Type 8 G-10062
       {'label': '3849', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 160
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3849
     latitude: 42.35011
     longitude: -71.10722
@@ -1361,7 +1361,7 @@ Red UTDC R-54851A11
       {'label': '1752', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 1
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1714
     latitude: 42.39618
     longitude: -71.14054
@@ -1378,7 +1378,7 @@ Green-B Type 7 G-10149
       {'label': '3641', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 310
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3641
     latitude: 42.341
     longitude: -71.16742
@@ -1396,7 +1396,7 @@ Green-B Type 8 G-10063
       {'label': '3617', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 280
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3866-3617
     latitude: 42.34068
     longitude: -71.15095
@@ -1414,7 +1414,7 @@ Green-E Type 8 G-10127
       {'label': '3651', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 600
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3845-3651
     latitude: 42.34009
     longitude: -71.0897
@@ -1436,7 +1436,7 @@ Red Bombardier R-548518D3
       {'label': '1881', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 100
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1839
     latitude: 42.35145
     longitude: -71.05553
@@ -1454,7 +1454,7 @@ Green-D Type 8 G-10131
       {'label': '3645', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 30
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3819-3645
     latitude: 42.36238
     longitude: -71.05804
@@ -1476,7 +1476,7 @@ Orange O-54852A96
       {'label': '1532', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 13}
     current_status: INCOMING_AT
     current_stop_sequence: 140
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1430
     latitude: 42.3389
     longitude: -71.08656
@@ -1498,7 +1498,7 @@ Orange O-54852A8E
       {'label': '1516', 'occupancy_status': 'FEW_SEATS_AVAILABLE', 'occupancy_percentage': 12}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 190
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 1488
     latitude: 42.3085
     longitude: -71.10893
@@ -1516,7 +1516,7 @@ Green-B Type 8 G-10007
       {'label': '3702', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: INCOMING_AT
     current_stop_sequence: 90
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3859-3702
     latitude: 42.35556
     longitude: -71.06326
@@ -1534,7 +1534,7 @@ Green-E Type 7 G-10122
       {'label': '3817', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 540
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3611-3817
     latitude: 42.34534
     longitude: -71.0817
@@ -1552,7 +1552,7 @@ Green-C Type 8 G-10026
       {'label': '3715', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 300
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3875-3715
     latitude: 42.3459
     longitude: -71.10742
@@ -1570,7 +1570,7 @@ Green-D Type 8 G-10066
       {'label': '3659', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: STOPPED_AT
     current_stop_sequence: 490
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3886-3659
     latitude: 42.33583
     longitude: -71.14054
@@ -1588,7 +1588,7 @@ Green-D Type 8 G-10133
       {'label': '3627', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 640
-    direction_id: 1 (North)
+    direction_id: Northbound (1)
     label: 3865-3627
     latitude: 42.36607
     longitude: -71.061
@@ -1606,7 +1606,7 @@ Green-D Type 7 G-10129
       {'label': '3878', 'occupancy_status': 'NO_DATA_AVAILABLE', 'occupancy_percentage': None}
     current_status: IN_TRANSIT_TO
     current_stop_sequence: 9
-    direction_id: 0 (South)
+    direction_id: Southbound (0)
     label: 3699-3878
     latitude: 42.37517
     longitude: -71.08336

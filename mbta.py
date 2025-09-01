@@ -5,7 +5,10 @@ def getData(api, getJson=False):
     if getJson:
         with open(api + ".json", "w+") as stops:
             stops.seek(0)
-            stops.write(requests.get("https://api-v3.mbta.com/" + api).text)
+            request = "https://api-v3.mbta.com/" + api
+            if api == "trips":
+                request += "?filter%5Brevenue%5D=NON_REVENUE%2CREVENUE"
+            stops.write(requests.get(request).text)
 
     data = ""
     with open(api + ".json", "r+") as f:
@@ -14,6 +17,14 @@ def getData(api, getJson=False):
 
 def writeToFile(file, text):
     file.write(text + "\n")
+
+def getDirection(direction_id):
+    if direction_id == 0:
+        return "Southbound"
+    elif direction_id == 1:
+        return "Northbound"
+
+localBuses = ["132"]
 
 ### Stops
 api = "stops"
@@ -45,10 +56,45 @@ with open(api + ".txt", "w+") as stops:
 #            if field != "type":
 #                writeToFile(lines, "  " + field + ": " + str(line[field]))
 
+### Trips
+api = "trips"
+tripData = getData(api)
+
+with open(api + ".txt", "w+") as trips:
+    trips.seek(0)
+    for trip in tripData:
+        routeId = trip["relationships"]["route"]["data"]["id"]
+
+        isBus = routeId[0].isdigit() and routeId not in localBuses
+        isCR = routeId.startswith("CR")
+        #isShuttleGeneric = routeId.startswith("Shuttle-Generic")
+
+        #if not isBus and not isCR and not isShuttleGeneric:
+        if not isBus and not isCR:
+            writeToFile(trips, routeId + " " + trip["id"] + ":")
+            #writeToFile(trips, trip["attributes"]["long_name"])
+            for field in trip:
+                if field == "attributes":
+                    writeToFile(trips, "  " + field + ":")
+                    for attribute in trip[field]:
+                        attributeValue = trip[field][attribute]
+                        if attribute == "direction_id":
+                            writeToFile(trips, f"    {attribute}: {getDirection(attributeValue)} ({attributeValue})")
+                        elif attribute not in ["revenue", "wheelchair_accessible"] and attributeValue != "":
+                            writeToFile(trips, f"    {attribute}: {attributeValue}")
+                elif field == "relationships":
+                    writeToFile(trips, "  " + field + ":")
+                    for subfield in trip[field]:
+                        if subfield not in ["route", "shape"]:
+                            if trip[field][subfield]["data"] is not None:
+                                subfieldValue = trip[field][subfield]["data"]["id"]
+                            else:
+                                subfieldValue = "N/A"
+                            writeToFile(trips, f"    {subfield}: {subfieldValue}")
+
 ### Vehicles
 api = "vehicles"
 vehicleData = getData(api)
-localBuses = ["132"]
 
 redGreenLine = {
     "15": "Pullman-Standard",
@@ -92,8 +138,7 @@ with open(api + ".txt", "w+") as vehicles:
                             for carriage in attributeValue:
                                 writeToFile(vehicles, "      " + str(carriage))
                         elif attribute == "direction_id":
-                            direction = "South" if attributeValue == 0 else "North"
-                            writeToFile(vehicles, "    " + attribute + ": " + str(attributeValue) + " (" + direction + ")")
+                            writeToFile(vehicles, f"    {attribute}: {getDirection(attributeValue)} ({attributeValue})")
                         elif attribute != "revenue":
                             writeToFile(vehicles, "    " + attribute + ": " + str(attributeValue))
                 elif field == "relationships":
