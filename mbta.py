@@ -15,7 +15,8 @@ data = data["data"]
 with open("stops.txt", "w+") as stops:
     stops.seek(0)
     for stop in data:
-        stops.write(stop["attributes"]["name"] + "\n")
-        for field in stop:
-            if field != "type":
-                stops.write("  " + field + ": " + str(stop[field]) + "\n")
+        if stop["attributes"]["vehicle_type"] != 3:
+            stops.write(stop["attributes"]["name"] + "\n")
+            for field in stop:
+                if field != "type":
+                    stops.write("  " + field + ": " + str(stop[field]) + "\n")
