@@ -1,212 +1,368 @@
-Green-E G-10075 (Type 7)
-  Heading West to Heath Street at 5.37 MPH (2.4 mps)
-  Incoming at Back of the Hill (70257)
-  Located at 42.33126, -71.1118 with bearing 135
-  Last updated at 11:34:35 on 2025-09-01
-
-Green-E G-10112 (Type 8)
-  Heading West to Heath Street at 0.00 MPH (0 mps)
-  Stopped at Boylston (70159)
-  Located at 42.35356, -71.06432 with bearing 200
-  Last updated at 11:34:00 on 2025-09-01
-
-Red R-54852B71 (Bombardier)
-  Heading North to Alewife at 0.00 MPH (0 mps)
-  Stopped at Braintree (Braintree-02)
-  Located at 42.20749, -71.00173 with bearing 10
-  Last updated at 11:15:58 on 2025-09-01
-
-Green-E G-10022 (Type 7)
-  Heading East to Medford/Tufts at 0.00 MPH (0 mps)
-  Incoming at North Station (70205)
-  Located at 42.36389, -71.05899 with bearing 315
-  Last updated at 11:34:19 on 2025-09-01
-
-Green-E G-10038 (Type 8)
-  Heading East to Medford/Tufts at 11.63 MPH (5.2 mps)
-  In transit to East Somerville (70513)
-  Located at 42.37429, -71.0811 with bearing 325
-  Last updated at 11:34:36 on 2025-09-01
-
-Green-B G-10053 (Type 8)
-  Heading West to Boston College at 9.62 MPH (4.3 mps)
-  Stopped at South Street (70111)
-  Located at 42.33949, -71.15723 with bearing 315
-  Last updated at 11:34:23 on 2025-09-01
-
 Blue B-54852E9F
-  Heading West to Bowdoin at 0.00 MPH (0 mps)
+  Heading west to Bowdoin at 0.00 MPH (0 mps)
   Stopped at Maverick (70045)
   Located at 42.36923, -71.03944 with bearing 215
   Last updated at 11:34:41 on 2025-09-01
 
-Red R-54852F37 (Bombardier)
-  Heading North to Alewife at 0.00 MPH (0 mps)
-  Incoming at North Quincy (70098)
-  Located at 42.27064, -71.02464 with bearing 315
-  Last updated at 11:34:36 on 2025-09-01
+Blue B-54852EA0
+  Heading west to Bowdoin at 0.00 MPH (0 mps)
+  In transit to Wood Island (70049)
+  Located at 42.38497, -71.01054 with bearing 230
+  Last updated at 11:34:40 on 2025-09-01
 
-Green-C G-10057 (Type 8)
-  Heading West to Cleveland Circle at 15.88 MPH (7.1 mps)
-  Stopped at Tappan Street (70231)
-  Located at 42.33855, -71.13847 with bearing 225
+Blue B-54852EA1
+  Heading west to Bowdoin at 0.00 MPH (0 mps)
+  In transit to Wonderland (70059)
+  Located at 42.41577, -70.99044 with bearing 20
+  Last updated at 11:32:45 on 2025-09-01
+
+Blue B-54852EA2
+  Heading east to Wonderland at 0.00 MPH (0 mps)
+  Stopped at Wonderland (70060)
+  Located at 42.4135, -70.99162 with bearing 20
+  Last updated at 11:33:49 on 2025-09-01
+
+Blue B-54852EA3
+  Heading east to Wonderland at 0.00 MPH (0 mps)
+  Stopped at Maverick (70046)
+  Located at 42.36924, -71.03943 with bearing 35
+  Last updated at 11:34:23 on 2025-09-01
+
+Blue B-54852EC8
+  Heading east to Wonderland at 0.00 MPH (0 mps)
+  Stopped at Bowdoin (70038)
+  Located at 42.36115, -71.06208 with bearing 105
   Last updated at 11:34:39 on 2025-09-01
 
-Green-D G-10118 (Type 7)
-  Heading East to Union Square at 37.80 MPH (16.9 mps)
-  In transit to Reservoir (70174)
-  Located at 42.33043, -71.15711 with bearing 45
-  Last updated at 11:34:41 on 2025-09-01
+Blue B-54852F0A
+  Heading east to Wonderland at 0.00 MPH (0 mps)
+  Incoming at Orient Heights (70052)
+  Located at 42.38411, -71.0113 with bearing 60
+  Last updated at 11:34:30 on 2025-09-01
 
-Green-D G-10135 (Type 8)
-  Heading East to Union Square at 0.00 MPH (0 mps)
-  Stopped at North Station (70205)
-  Located at 42.36563, -71.06057 with bearing 315
-  Last updated at 11:34:34 on 2025-09-01
-
-Green-E G-10001 (Type 7)
-  Heading West to Heath Street at 38.03 MPH (17.0 mps)
-  Incoming at Gilman Square (70506)
-  Located at 42.38922, -71.09981 with bearing 120
-  Last updated at 11:34:43 on 2025-09-01
-
-Green-C G-10014 (Type 8)
-  Heading West to Cleveland Circle at 0.00 MPH (0 mps)
-  Incoming at Arlington (70157)
-  Located at 42.35305, -71.06457 with bearing 200
-  Last updated at 11:33:31 on 2025-09-01
-
-Mattapan G-10139
-  Heading Outbound to Mattapan at 17.45 MPH (7.8 mps)
-  Incoming at Butler (70265)
-  Located at 42.27418, -71.05992 with bearing 225
-  Last updated at 11:34:41 on 2025-09-01
-
-Green-B G-10056 (Type 7)
-  Heading East to Government Center at 0.00 MPH (0 mps)
-  Stopped at Boston College (70106)
-  Located at 42.34018, -71.16709 with bearing 135
-  Last updated at 11:34:20 on 2025-09-01
-
-Green-B G-10065 (Type 7)
-  Heading West to Boston College at 15.43 MPH (6.9 mps)
-  Stopped at Allston Street (70127)
-  Located at 42.34845, -71.13712 with bearing 315
-  Last updated at 11:34:11 on 2025-09-01
-
-Green-D G-10092 (Type 7)
-  Heading West to Riverside at 0.00 MPH (0 mps)
-  Incoming at Copley (70155)
-  Located at 42.35164, -71.07172 with bearing 240
-  Last updated at 11:33:28 on 2025-09-01
-
-Green-B G-10044 (Type 8)
-  Heading East to Government Center at 0.00 MPH (0 mps)
-  Stopped at Arlington (70156)
-  Located at 42.35157, -71.07167 with bearing 60
-  Last updated at 11:34:12 on 2025-09-01
-
-Orange O-54852EAD
-  Heading South to Forest Hills at 0.00 MPH (0 mps)
-  Stopped at Oak Grove (Oak Grove-01)
-  Located at 42.43772, -71.0708 with bearing 185
-  Carriages:
-    1536: Many seats available (6% full)
-    1537: Many seats available (4% full)
-    1513: Many seats available (2% full)
-    1512: Many seats available (7% full)
-    1477: Many seats available (3% full)
-    1476: Many seats available (8% full)
-  Last updated at 11:27:27 on 2025-09-01
-
-Green-D G-10028 (Type 7)
-  Heading West to Riverside at 12.97 MPH (5.8 mps)
-  Stopped at Newton Highlands (70169)
-  Located at 42.32259, -71.20535 with bearing 225
-  Last updated at 11:34:19 on 2025-09-01
-
-Red R-54852EA8 (CRRC)
-  Heading North to Alewife at 0.00 MPH (0 mps)
-  Stopped at Savin Hill (70088)
-  Located at 42.31054, -71.05362 with bearing 15
-  Carriages:
-    1922: Many seats available (1% full)
-    1923: Many seats available (5% full)
-    1919: Many seats available (5% full)
-    1918: Few seats available (5% full)
-    1927: Few seats available (6% full)
-    1926: Many seats available (3% full)
-  Last updated at 11:34:24 on 2025-09-01
-
-Green-B G-10095 (Type 9)
-  Heading East to Government Center at 0.00 MPH (0 mps)
-  Stopped at Boston College (70106)
-  Located at 42.34018, -71.16709 with bearing 135
-  Last updated at 11:34:02 on 2025-09-01
+Green-B G-10007 (Type 8)
+  Heading west to Boston College at 0.00 MPH (0 mps)
+  Incoming at Boylston (70159)
+  Located at 42.35556, -71.06326 with bearing 210
+  Last updated at 11:34:16 on 2025-09-01
 
 Green-B G-10009 (Type 8)
-  Heading East to Government Center at 13.42 MPH (6.0 mps)
+  Heading east to Government Center at 13.42 MPH (6.0 mps)
   Stopped at Washington Street (70120)
   Located at 42.34413, -71.14253 with bearing 45
   Last updated at 11:34:02 on 2025-09-01
 
+Green-B G-10035 (Type 7)
+  Heading east to Government Center at 12.97 MPH (5.8 mps)
+  Stopped at Babcock Street (170136)
+  Located at 42.35159, -71.11995 with bearing 135
+  Last updated at 11:34:11 on 2025-09-01
+
+Green-B G-10044 (Type 8)
+  Heading east to Government Center at 0.00 MPH (0 mps)
+  Stopped at Arlington (70156)
+  Located at 42.35157, -71.07167 with bearing 60
+  Last updated at 11:34:12 on 2025-09-01
+
+Green-B G-10053 (Type 8)
+  Heading west to Boston College at 9.62 MPH (4.3 mps)
+  Stopped at South Street (70111)
+  Located at 42.33949, -71.15723 with bearing 315
+  Last updated at 11:34:23 on 2025-09-01
+
+Green-B G-10056 (Type 7)
+  Heading east to Government Center at 0.00 MPH (0 mps)
+  Stopped at Boston College (70106)
+  Located at 42.34018, -71.16709 with bearing 135
+  Last updated at 11:34:20 on 2025-09-01
+
+Green-B G-10062 (Type 8)
+  Heading west to Boston College at 11.41 MPH (5.1 mps)
+  Stopped at Boston University Central (70145)
+  Located at 42.35011, -71.10722 with bearing 315
+  Last updated at 11:34:34 on 2025-09-01
+
+Green-B G-10063 (Type 8)
+  Heading west to Boston College at 10.96 MPH (4.9 mps)
+  Stopped at Chiswick Road (70115)
+  Located at 42.34068, -71.15095 with bearing 225
+  Last updated at 11:33:58 on 2025-09-01
+
+Green-B G-10065 (Type 7)
+  Heading west to Boston College at 15.43 MPH (6.9 mps)
+  Stopped at Allston Street (70127)
+  Located at 42.34845, -71.13712 with bearing 315
+  Last updated at 11:34:11 on 2025-09-01
+
+Green-B G-10086 (Type 7)
+  Heading east to Government Center at 0.00 MPH (0 mps)
+  In transit to Hynes Convention Center (70152)
+  Located at 42.34893, -71.09446 with bearing 90
+  Last updated at 11:34:29 on 2025-09-01
+
+Green-B G-10095 (Type 9)
+  Heading east to Government Center at 0.00 MPH (0 mps)
+  Stopped at Boston College (70106)
+  Located at 42.34018, -71.16709 with bearing 135
+  Last updated at 11:34:02 on 2025-09-01
+
+Green-B G-10149 (Type 7)
+  Heading west to Boston College at 0.00 MPH (0 mps)
+  Stopped at Boston College (70107)
+  Located at 42.341, -71.16742 with bearing 75
+  Last updated at 11:25:18 on 2025-09-01
+
+Green-C G-10014 (Type 8)
+  Heading west to Cleveland Circle at 0.00 MPH (0 mps)
+  Incoming at Arlington (70157)
+  Located at 42.35305, -71.06457 with bearing 200
+  Last updated at 11:33:31 on 2025-09-01
+
+Green-C G-10026 (Type 8)
+  Heading east to Government Center at 9.17 MPH (4.1 mps)
+  Stopped at Saint Mary's Street (70212)
+  Located at 42.3459, -71.10742 with bearing 45
+  Last updated at 11:34:16 on 2025-09-01
+
+Green-C G-10040 (Type 7)
+  Heading east to Government Center at 0.00 MPH (0 mps)
+  In transit to Hynes Convention Center (70152)
+  Located at 42.34814, -71.09222 with bearing 130
+  Last updated at 11:34:39 on 2025-09-01
+
+Green-C G-10049 (Type 7)
+  Heading east to Government Center at 0.00 MPH (0 mps)
+  Stopped at Cleveland Circle (70238)
+  Located at 42.3362, -71.14896 with bearing 45
+  Last updated at 11:33:55 on 2025-09-01
+
+Green-C G-10057 (Type 8)
+  Heading west to Cleveland Circle at 15.88 MPH (7.1 mps)
+  Stopped at Tappan Street (70231)
+  Located at 42.33855, -71.13847 with bearing 225
+  Last updated at 11:34:39 on 2025-09-01
+
 Green-C G-10072 (Type 7)
-  Heading East to Government Center at 0.00 MPH (0 mps)
+  Heading east to Government Center at 0.00 MPH (0 mps)
   Stopped at Government Center (70201)
   Located at 42.35927, -71.05945 with bearing 35
   Last updated at 11:33:40 on 2025-09-01
 
 Green-C G-10108 (Type 8)
-  Heading East to Government Center at 8.50 MPH (3.8 mps)
+  Heading east to Government Center at 8.50 MPH (3.8 mps)
   Incoming at Washington Square (70230)
   Located at 42.33934, -71.13534 with bearing 45
   Last updated at 11:34:38 on 2025-09-01
 
-Green-E G-10084 (Type 8)
-  Heading West to Heath Street at 11.63 MPH (5.2 mps)
-  Incoming at North Station (70206)
-  Located at 42.36633, -71.0669 with bearing 120
-  Last updated at 11:33:45 on 2025-09-01
+Green-C G-10116 (Type 7)
+  Heading west to Cleveland Circle at 16.78 MPH (7.5 mps)
+  Incoming at Cleveland Circle (70237)
+  Located at 42.3367, -71.14696 with bearing 225
+  Last updated at 11:34:40 on 2025-09-01
 
-Green-E G-10091 (Type 7)
-  Heading West to Heath Street at 0.00 MPH (0 mps)
-  Stopped at Medford/Tufts (70511)
-  Located at 42.40839, -71.1173 with bearing 151
-  Last updated at 11:33:43 on 2025-09-01
+Green-D G-10020 (Type 9)
+  Heading west to Riverside at 10.51 MPH (4.7 mps)
+  Stopped at Riverside (70161)
+  Located at 42.33723, -71.25208 with bearing 315
+  Last updated at 11:34:14 on 2025-09-01
+
+Green-D G-10028 (Type 7)
+  Heading west to Riverside at 12.97 MPH (5.8 mps)
+  Stopped at Newton Highlands (70169)
+  Located at 42.32259, -71.20535 with bearing 225
+  Last updated at 11:34:19 on 2025-09-01
+
+Green-D G-10066 (Type 8)
+  Heading west to Riverside at 8.72 MPH (3.9 mps)
+  Stopped at Beaconsfield (70177)
+  Located at 42.33583, -71.14054 with bearing 315
+  Last updated at 11:34:24 on 2025-09-01
+
+Green-D G-10092 (Type 7)
+  Heading west to Riverside at 0.00 MPH (0 mps)
+  Incoming at Copley (70155)
+  Located at 42.35164, -71.07172 with bearing 240
+  Last updated at 11:33:28 on 2025-09-01
+
+Green-D G-10118 (Type 7)
+  Heading east to Union Square at 37.80 MPH (16.9 mps)
+  In transit to Reservoir (70174)
+  Located at 42.33043, -71.15711 with bearing 45
+  Last updated at 11:34:41 on 2025-09-01
+
+Green-D G-10126 (Type 8)
+  Heading west to Riverside at 8.28 MPH (3.7 mps)
+  Stopped at Fenway (70187)
+  Located at 42.34523, -71.10461 with bearing 225
+  Last updated at 11:33:49 on 2025-09-01
+
+Green-D G-10129 (Type 7)
+  Heading west to Riverside at 22.15 MPH (9.9 mps)
+  In transit to Lechmere (70502)
+  Located at 42.37517, -71.08336 with bearing 305
+  Last updated at 11:34:34 on 2025-09-01
+
+Green-D G-10131 (Type 8)
+  Heading west to Riverside at 0.00 MPH (0 mps)
+  Stopped at Haymarket (70204)
+  Located at 42.36238, -71.05804 with bearing 175
+  Last updated at 11:34:18 on 2025-09-01
+
+Green-D G-10133 (Type 8)
+  Heading east to Union Square at 0.00 MPH (0 mps)
+  In transit to Science Park/West End (70207)
+  Located at 42.36607, -71.061 with bearing 315
+  Last updated at 11:34:09 on 2025-09-01
+
+Green-D G-10135 (Type 8)
+  Heading east to Union Square at 0.00 MPH (0 mps)
+  Stopped at North Station (70205)
+  Located at 42.36563, -71.06057 with bearing 315
+  Last updated at 11:34:34 on 2025-09-01
+
+Green-D G-10140 (Type 7)
+  Heading east to Union Square at 0.00 MPH (0 mps)
+  Stopped at Hynes Convention Center (70152)
+  Located at 42.34795, -71.08686 with bearing 105
+  Last updated at 11:34:38 on 2025-09-01
+
+Green-D G-10143 (Type 8)
+  Heading east to Union Square at 33.78 MPH (15.1 mps)
+  Incoming at Fenway (70186)
+  Located at 42.34336, -71.10753 with bearing 45
+  Last updated at 11:34:39 on 2025-09-01
 
 Green-D G-10146 (Type 7)
-  Heading East to Union Square at 0.00 MPH (0 mps)
+  Heading east to Union Square at 0.00 MPH (0 mps)
   Incoming at Boylston (70158)
   Located at 42.3518, -71.07081 with bearing 60
   Last updated at 11:33:12 on 2025-09-01
 
 Green-D G-10150 (Type 8)
-  Heading East to Union Square at 38.70 MPH (17.3 mps)
+  Heading east to Union Square at 38.70 MPH (17.3 mps)
   In transit to Reservoir (70174)
   Located at 42.33043, -71.15711 with bearing 45
   Last updated at 11:34:42 on 2025-09-01
 
-Green-D G-10126 (Type 8)
-  Heading West to Riverside at 8.28 MPH (3.7 mps)
-  Stopped at Fenway (70187)
-  Located at 42.34523, -71.10461 with bearing 225
-  Last updated at 11:33:49 on 2025-09-01
+Green-E G-10001 (Type 7)
+  Heading west to Heath Street at 38.03 MPH (17.0 mps)
+  Incoming at Gilman Square (70506)
+  Located at 42.38922, -71.09981 with bearing 120
+  Last updated at 11:34:43 on 2025-09-01
 
-Red R-54852EA7 (CRRC)
-  Heading North to Alewife at 0.00 MPH (0 mps)
-  Incoming at Charles/MGH (70074)
-  Located at 42.35725, -71.06404 with bearing 310
+Green-E G-10022 (Type 7)
+  Heading east to Medford/Tufts at 0.00 MPH (0 mps)
+  Incoming at North Station (70205)
+  Located at 42.36389, -71.05899 with bearing 315
+  Last updated at 11:34:19 on 2025-09-01
+
+Green-E G-10038 (Type 8)
+  Heading east to Medford/Tufts at 11.63 MPH (5.2 mps)
+  In transit to East Somerville (70513)
+  Located at 42.37429, -71.0811 with bearing 325
+  Last updated at 11:34:36 on 2025-09-01
+
+Green-E G-10070 (Type 7)
+  Heading east to Medford/Tufts at 11.41 MPH (5.1 mps)
+  Stopped at Brigham Circle (70250)
+  Located at 42.33478, -71.10324 with bearing 45
+  Last updated at 11:33:57 on 2025-09-01
+
+Green-E G-10075 (Type 7)
+  Heading west to Heath Street at 5.37 MPH (2.4 mps)
+  Incoming at Back of the Hill (70257)
+  Located at 42.33126, -71.1118 with bearing 135
+  Last updated at 11:34:35 on 2025-09-01
+
+Green-E G-10084 (Type 8)
+  Heading west to Heath Street at 11.63 MPH (5.2 mps)
+  Incoming at North Station (70206)
+  Located at 42.36633, -71.0669 with bearing 120
+  Last updated at 11:33:45 on 2025-09-01
+
+Green-E G-10091 (Type 7)
+  Heading west to Heath Street at 0.00 MPH (0 mps)
+  Stopped at Medford/Tufts (70511)
+  Located at 42.40839, -71.1173 with bearing 151
+  Last updated at 11:33:43 on 2025-09-01
+
+Green-E G-10112 (Type 8)
+  Heading west to Heath Street at 0.00 MPH (0 mps)
+  Stopped at Boylston (70159)
+  Located at 42.35356, -71.06432 with bearing 200
+  Last updated at 11:34:00 on 2025-09-01
+
+Green-E G-10122 (Type 7)
+  Heading east to Medford/Tufts at 0.00 MPH (0 mps)
+  Stopped at Prudential (70240)
+  Located at 42.34534, -71.0817 with bearing 45
+  Last updated at 11:34:32 on 2025-09-01
+
+Green-E G-10124 (Type 8)
+  Heading east to Medford/Tufts at 3.13 MPH (1.4 mps)
+  Incoming at Riverway (70256)
+  Located at 42.32991, -71.11118 with bearing 315
+  Last updated at 11:33:18 on 2025-09-01
+
+Green-E G-10127 (Type 8)
+  Heading west to Heath Street at 10.07 MPH (4.5 mps)
+  Stopped at Northeastern University (70243)
+  Located at 42.34009, -71.0897 with bearing 225
+  Last updated at 11:34:14 on 2025-09-01
+
+Mattapan G-10048
+  Heading inbound to Ashmont at 10.07 MPH (4.5 mps)
+  Stopped at Central Avenue (70270)
+  Located at 42.27, -71.07331 with bearing 90
+  Last updated at 11:34:30 on 2025-09-01
+
+Mattapan G-10139
+  Heading outbound to Mattapan at 17.45 MPH (7.8 mps)
+  Incoming at Butler (70265)
+  Located at 42.27418, -71.05992 with bearing 225
+  Last updated at 11:34:41 on 2025-09-01
+
+Orange O-54851CA5
+  Heading north to Oak Grove at 0.00 MPH (0 mps)
+  Stopped at Forest Hills (Forest Hills-02)
+  Located at 42.30122, -71.11384 with bearing 30
   Carriages:
-    1902: Many seats available (0% full)
-    1903: Few seats available (11% full)
-    1917: Few seats available (12% full)
-    1916: Few seats available (7% full)
-    1937: Few seats available (6% full)
-    1936: Few seats available (10% full)
-  Last updated at 11:34:42 on 2025-09-01
+    1530: Few seats available (10% full)
+    1531: Many seats available (2% full)
+    1428: Many seats available (4% full)
+    1429: Many seats available (4% full)
+    1539: Many seats available (4% full)
+    1538: Many seats available (5% full)
+  Last updated at 11:27:00 on 2025-09-01
+
+Orange O-54852A8E
+  Heading south to Forest Hills at 0.00 MPH (0 mps)
+  In transit to Forest Hills (70001)
+  Located at 42.3085, -71.10893 with bearing 210
+  Carriages:
+    1488: Few seats available (8% full)
+    1489: Many seats available (4% full)
+    1543: Few seats available (9% full)
+    1542: Many seats available (5% full)
+    1517: Few seats available (9% full)
+    1516: Few seats available (12% full)
+  Last updated at 11:34:33 on 2025-09-01
+
+Orange O-54852A96
+  Heading south to Forest Hills at 0.00 MPH (0 mps)
+  Incoming at Ruggles (70010)
+  Located at 42.3389, -71.08656 with bearing 220
+  Carriages:
+    1430: Few seats available (8% full)
+    1431: Few seats available (10% full)
+    1500: Few seats available (11% full)
+    1501: Few seats available (12% full)
+    1533: Few seats available (12% full)
+    1532: Few seats available (13% full)
+  Last updated at 11:34:28 on 2025-09-01
 
 Orange O-54852A9E
-  Heading North to Oak Grove at 0.00 MPH (0 mps)
+  Heading north to Oak Grove at 0.00 MPH (0 mps)
   Stopped at Tufts Medical Center (70017)
   Located at 42.34878, -71.06468 with bearing 50
   Carriages:
@@ -218,32 +374,8 @@ Orange O-54852A9E
     1492: Many seats available (3% full)
   Last updated at 11:34:17 on 2025-09-01
 
-Red R-54852A77 (UTDC)
-  Heading South to Ashmont/Braintree at 0.00 MPH (0 mps)
-  Incoming at Park Street (70075)
-  Located at 42.36074, -71.06942 with bearing 130
-  Last updated at 11:34:42 on 2025-09-01
-
-Red R-5485152A (Bombardier)
-  Heading North to Alewife at 0.00 MPH (0 mps)
-  Stopped at Kendall/MIT (70072)
-  Located at 42.36246, -71.08581 with bearing 275
-  Last updated at 11:33:31 on 2025-09-01
-
-Green-D G-10140 (Type 7)
-  Heading East to Union Square at 0.00 MPH (0 mps)
-  Stopped at Hynes Convention Center (70152)
-  Located at 42.34795, -71.08686 with bearing 105
-  Last updated at 11:34:38 on 2025-09-01
-
-Green-D G-10143 (Type 8)
-  Heading East to Union Square at 33.78 MPH (15.1 mps)
-  Incoming at Fenway (70186)
-  Located at 42.34336, -71.10753 with bearing 45
-  Last updated at 11:34:39 on 2025-09-01
-
 Orange O-54852EA4
-  Heading South to Forest Hills at 0.00 MPH (0 mps)
+  Heading south to Forest Hills at 0.00 MPH (0 mps)
   Stopped at State (70022)
   Located at 42.35881, -71.05782 with bearing 175
   Carriages:
@@ -255,38 +387,8 @@ Orange O-54852EA4
     1524: Few seats available (14% full)
   Last updated at 11:34:31 on 2025-09-01
 
-Green-E G-10124 (Type 8)
-  Heading East to Medford/Tufts at 3.13 MPH (1.4 mps)
-  Incoming at Riverway (70256)
-  Located at 42.32991, -71.11118 with bearing 315
-  Last updated at 11:33:18 on 2025-09-01
-
-Red R-548526D6 (Bombardier)
-  Heading South to Ashmont/Braintree at 0.00 MPH (0 mps)
-  Incoming at JFK/UMass (70095)
-  Located at 42.32269, -71.05279 with bearing 145
-  Last updated at 11:34:31 on 2025-09-01
-
-Green-C G-10116 (Type 7)
-  Heading West to Cleveland Circle at 16.78 MPH (7.5 mps)
-  Incoming at Cleveland Circle (70237)
-  Located at 42.3367, -71.14696 with bearing 225
-  Last updated at 11:34:40 on 2025-09-01
-
-Blue B-54852EA3
-  Heading East to Wonderland at 0.00 MPH (0 mps)
-  Stopped at Maverick (70046)
-  Located at 42.36924, -71.03943 with bearing 35
-  Last updated at 11:34:23 on 2025-09-01
-
-Red R-54852B22 (UTDC)
-  Heading South to Ashmont/Braintree at 0.00 MPH (0 mps)
-  In transit to Braintree (70105)
-  Located at 42.22504, -71.00384 with bearing 170
-  Last updated at 11:34:29 on 2025-09-01
-
 Orange O-54852EA5
-  Heading South to Forest Hills at 0.00 MPH (0 mps)
+  Heading south to Forest Hills at 0.00 MPH (0 mps)
   Stopped at Assembly (70278)
   Located at 42.39209, -71.07734 with bearing 175
   Carriages:
@@ -298,8 +400,21 @@ Orange O-54852EA5
     1508: Few seats available (12% full)
   Last updated at 11:34:07 on 2025-09-01
 
+Orange O-54852EAD
+  Heading south to Forest Hills at 0.00 MPH (0 mps)
+  Stopped at Oak Grove (Oak Grove-01)
+  Located at 42.43772, -71.0708 with bearing 185
+  Carriages:
+    1536: Many seats available (6% full)
+    1537: Many seats available (4% full)
+    1513: Many seats available (2% full)
+    1512: Many seats available (7% full)
+    1477: Many seats available (3% full)
+    1476: Many seats available (8% full)
+  Last updated at 11:27:27 on 2025-09-01
+
 Orange O-54852EAE
-  Heading North to Oak Grove at 0.00 MPH (0 mps)
+  Heading north to Oak Grove at 0.00 MPH (0 mps)
   Incoming at Oak Grove (70036)
   Located at 42.43342, -71.07161 with bearing 20
   Carriages:
@@ -311,50 +426,8 @@ Orange O-54852EAE
     1420: Few seats available (11% full)
   Last updated at 11:33:57 on 2025-09-01
 
-Green-C G-10040 (Type 7)
-  Heading East to Government Center at 0.00 MPH (0 mps)
-  In transit to Hynes Convention Center (70152)
-  Located at 42.34814, -71.09222 with bearing 130
-  Last updated at 11:34:39 on 2025-09-01
-
-Blue B-54852EA2
-  Heading East to Wonderland at 0.00 MPH (0 mps)
-  Stopped at Wonderland (70060)
-  Located at 42.4135, -70.99162 with bearing 20
-  Last updated at 11:33:49 on 2025-09-01
-
-Red R-54851DA4 (UTDC)
-  Heading South to Ashmont/Braintree at 0.00 MPH (0 mps)
-  Incoming at South Station (70079)
-  Located at 42.35378, -71.05745 with bearing 135
-  Last updated at 11:33:58 on 2025-09-01
-
-Blue B-54852EA1
-  Heading West to Bowdoin at 0.00 MPH (0 mps)
-  In transit to Wonderland (70059)
-  Located at 42.41577, -70.99044 with bearing 20
-  Last updated at 11:32:45 on 2025-09-01
-
-Blue B-54852F0A
-  Heading East to Wonderland at 0.00 MPH (0 mps)
-  Incoming at Orient Heights (70052)
-  Located at 42.38411, -71.0113 with bearing 60
-  Last updated at 11:34:30 on 2025-09-01
-
-Blue B-54852EC8
-  Heading East to Wonderland at 0.00 MPH (0 mps)
-  Stopped at Bowdoin (70038)
-  Located at 42.36115, -71.06208 with bearing 105
-  Last updated at 11:34:39 on 2025-09-01
-
-Red R-5485269E (Bombardier)
-  Heading South to Ashmont/Braintree at 0.00 MPH (0 mps)
-  Stopped at Porter (70065)
-  Located at 42.38826, -71.11895 with bearing 180
-  Last updated at 11:34:41 on 2025-09-01
-
 Orange O-54852EB8
-  Heading North to Oak Grove at 0.00 MPH (0 mps)
+  Heading north to Oak Grove at 0.00 MPH (0 mps)
   Stopped at Community College (70029)
   Located at 42.37384, -71.0703 with bearing 300
   Carriages:
@@ -367,7 +440,7 @@ Orange O-54852EB8
   Last updated at 11:34:00 on 2025-09-01
 
 Orange O-54852EB9
-  Heading North to Oak Grove at 0.00 MPH (0 mps)
+  Heading north to Oak Grove at 0.00 MPH (0 mps)
   Stopped at Roxbury Crossing (70009)
   Located at 42.3307, -71.09596 with bearing 35
   Carriages:
@@ -379,186 +452,113 @@ Orange O-54852EB9
     1448: Many seats available (8% full)
   Last updated at 11:34:12 on 2025-09-01
 
-Blue B-54852EA0
-  Heading West to Bowdoin at 0.00 MPH (0 mps)
-  In transit to Wood Island (70049)
-  Located at 42.38497, -71.01054 with bearing 230
-  Last updated at 11:34:40 on 2025-09-01
-
-Orange O-54851CA5
-  Heading North to Oak Grove at 0.00 MPH (0 mps)
-  Stopped at Forest Hills (Forest Hills-02)
-  Located at 42.30122, -71.11384 with bearing 30
-  Carriages:
-    1530: Few seats available (10% full)
-    1531: Many seats available (2% full)
-    1428: Many seats available (4% full)
-    1429: Many seats available (4% full)
-    1539: Many seats available (4% full)
-    1538: Many seats available (5% full)
-  Last updated at 11:27:00 on 2025-09-01
-
-Red R-54852830 (Bombardier)
-  Heading North to Alewife at 0.00 MPH (0 mps)
-  Incoming at Andrew (70084)
-  Located at 42.32589, -71.05635 with bearing 305
-  Last updated at 11:34:24 on 2025-09-01
-
-Green-B G-10035 (Type 7)
-  Heading East to Government Center at 12.97 MPH (5.8 mps)
-  Stopped at Babcock Street (170136)
-  Located at 42.35159, -71.11995 with bearing 135
-  Last updated at 11:34:11 on 2025-09-01
-
-Red R-54852ACE (Bombardier)
-  Heading South to Ashmont/Braintree at 0.00 MPH (0 mps)
-  Stopped at Alewife (Alewife-01)
-  Located at 42.39621, -71.14054 with bearing 85
-  Last updated at 11:32:46 on 2025-09-01
-
-Mattapan G-10048
-  Heading Inbound to Ashmont at 10.07 MPH (4.5 mps)
-  Stopped at Central Avenue (70270)
-  Located at 42.27, -71.07331 with bearing 90
-  Last updated at 11:34:30 on 2025-09-01
-
-Green-D G-10020 (Type 9)
-  Heading West to Riverside at 10.51 MPH (4.7 mps)
-  Stopped at Riverside (70161)
-  Located at 42.33723, -71.25208 with bearing 315
-  Last updated at 11:34:14 on 2025-09-01
-
-Green-E G-10070 (Type 7)
-  Heading East to Medford/Tufts at 11.41 MPH (5.1 mps)
-  Stopped at Brigham Circle (70250)
-  Located at 42.33478, -71.10324 with bearing 45
-  Last updated at 11:33:57 on 2025-09-01
-
-Green-C G-10049 (Type 7)
-  Heading East to Government Center at 0.00 MPH (0 mps)
-  Stopped at Cleveland Circle (70238)
-  Located at 42.3362, -71.14896 with bearing 45
-  Last updated at 11:33:55 on 2025-09-01
-
-Red R-54852EA6 (Bombardier)
-  Heading North to Alewife at 0.00 MPH (0 mps)
-  In transit to Davis (70064)
-  Located at 42.38923, -71.11931 with bearing 0
-  Last updated at 11:34:15 on 2025-09-01
-
-Green-B G-10086 (Type 7)
-  Heading East to Government Center at 0.00 MPH (0 mps)
-  In transit to Hynes Convention Center (70152)
-  Located at 42.34893, -71.09446 with bearing 90
-  Last updated at 11:34:29 on 2025-09-01
-
-Red R-54852EA9 (UTDC)
-  Heading South to Ashmont/Braintree at 0.00 MPH (0 mps)
-  Incoming at Ashmont (70093)
-  Located at 42.28869, -71.06498 with bearing 160
-  Last updated at 11:34:35 on 2025-09-01
-
-Green-B G-10062 (Type 8)
-  Heading West to Boston College at 11.41 MPH (5.1 mps)
-  Stopped at Boston University Central (70145)
-  Located at 42.35011, -71.10722 with bearing 315
-  Last updated at 11:34:34 on 2025-09-01
-
-Red R-54851A11 (UTDC)
-  Heading South to Ashmont/Braintree at 0.00 MPH (0 mps)
-  Stopped at Alewife (Alewife-02)
-  Located at 42.39618, -71.14054 with bearing 85
-  Last updated at 11:28:55 on 2025-09-01
-
-Green-B G-10149 (Type 7)
-  Heading West to Boston College at 0.00 MPH (0 mps)
-  Stopped at Boston College (70107)
-  Located at 42.341, -71.16742 with bearing 75
-  Last updated at 11:25:18 on 2025-09-01
-
-Green-B G-10063 (Type 8)
-  Heading West to Boston College at 10.96 MPH (4.9 mps)
-  Stopped at Chiswick Road (70115)
-  Located at 42.34068, -71.15095 with bearing 225
-  Last updated at 11:33:58 on 2025-09-01
-
-Green-E G-10127 (Type 8)
-  Heading West to Heath Street at 10.07 MPH (4.5 mps)
-  Stopped at Northeastern University (70243)
-  Located at 42.34009, -71.0897 with bearing 225
-  Last updated at 11:34:14 on 2025-09-01
+Red R-5485152A (Bombardier)
+  Heading north to Alewife at 0.00 MPH (0 mps)
+  Stopped at Kendall/MIT (70072)
+  Located at 42.36246, -71.08581 with bearing 275
+  Last updated at 11:33:31 on 2025-09-01
 
 Red R-548518D3 (Bombardier)
-  Heading South to Ashmont/Braintree at 0.00 MPH (0 mps)
+  Heading south to Ashmont/Braintree at 0.00 MPH (0 mps)
   In transit to Broadway (70081)
   Located at 42.35145, -71.05553 with bearing 130
   Last updated at 11:34:22 on 2025-09-01
 
-Green-D G-10131 (Type 8)
-  Heading West to Riverside at 0.00 MPH (0 mps)
-  Stopped at Haymarket (70204)
-  Located at 42.36238, -71.05804 with bearing 175
-  Last updated at 11:34:18 on 2025-09-01
+Red R-54851A11 (UTDC)
+  Heading south to Ashmont/Braintree at 0.00 MPH (0 mps)
+  Stopped at Alewife (Alewife-02)
+  Located at 42.39618, -71.14054 with bearing 85
+  Last updated at 11:28:55 on 2025-09-01
 
-Orange O-54852A96
-  Heading South to Forest Hills at 0.00 MPH (0 mps)
-  Incoming at Ruggles (70010)
-  Located at 42.3389, -71.08656 with bearing 220
-  Carriages:
-    1430: Few seats available (8% full)
-    1431: Few seats available (10% full)
-    1500: Few seats available (11% full)
-    1501: Few seats available (12% full)
-    1533: Few seats available (12% full)
-    1532: Few seats available (13% full)
-  Last updated at 11:34:28 on 2025-09-01
+Red R-54851DA4 (UTDC)
+  Heading south to Ashmont/Braintree at 0.00 MPH (0 mps)
+  Incoming at South Station (70079)
+  Located at 42.35378, -71.05745 with bearing 135
+  Last updated at 11:33:58 on 2025-09-01
 
-Orange O-54852A8E
-  Heading South to Forest Hills at 0.00 MPH (0 mps)
-  In transit to Forest Hills (70001)
-  Located at 42.3085, -71.10893 with bearing 210
-  Carriages:
-    1488: Few seats available (8% full)
-    1489: Many seats available (4% full)
-    1543: Few seats available (9% full)
-    1542: Many seats available (5% full)
-    1517: Few seats available (9% full)
-    1516: Few seats available (12% full)
-  Last updated at 11:34:33 on 2025-09-01
+Red R-5485269E (Bombardier)
+  Heading south to Ashmont/Braintree at 0.00 MPH (0 mps)
+  Stopped at Porter (70065)
+  Located at 42.38826, -71.11895 with bearing 180
+  Last updated at 11:34:41 on 2025-09-01
 
-Green-B G-10007 (Type 8)
-  Heading West to Boston College at 0.00 MPH (0 mps)
-  Incoming at Boylston (70159)
-  Located at 42.35556, -71.06326 with bearing 210
-  Last updated at 11:34:16 on 2025-09-01
+Red R-548526D6 (Bombardier)
+  Heading south to Ashmont/Braintree at 0.00 MPH (0 mps)
+  Incoming at JFK/UMass (70095)
+  Located at 42.32269, -71.05279 with bearing 145
+  Last updated at 11:34:31 on 2025-09-01
 
-Green-E G-10122 (Type 7)
-  Heading East to Medford/Tufts at 0.00 MPH (0 mps)
-  Stopped at Prudential (70240)
-  Located at 42.34534, -71.0817 with bearing 45
-  Last updated at 11:34:32 on 2025-09-01
-
-Green-C G-10026 (Type 8)
-  Heading East to Government Center at 9.17 MPH (4.1 mps)
-  Stopped at Saint Mary's Street (70212)
-  Located at 42.3459, -71.10742 with bearing 45
-  Last updated at 11:34:16 on 2025-09-01
-
-Green-D G-10066 (Type 8)
-  Heading West to Riverside at 8.72 MPH (3.9 mps)
-  Stopped at Beaconsfield (70177)
-  Located at 42.33583, -71.14054 with bearing 315
+Red R-54852830 (Bombardier)
+  Heading north to Alewife at 0.00 MPH (0 mps)
+  Incoming at Andrew (70084)
+  Located at 42.32589, -71.05635 with bearing 305
   Last updated at 11:34:24 on 2025-09-01
 
-Green-D G-10133 (Type 8)
-  Heading East to Union Square at 0.00 MPH (0 mps)
-  In transit to Science Park/West End (70207)
-  Located at 42.36607, -71.061 with bearing 315
-  Last updated at 11:34:09 on 2025-09-01
+Red R-54852A77 (UTDC)
+  Heading south to Ashmont/Braintree at 0.00 MPH (0 mps)
+  Incoming at Park Street (70075)
+  Located at 42.36074, -71.06942 with bearing 130
+  Last updated at 11:34:42 on 2025-09-01
 
-Green-D G-10129 (Type 7)
-  Heading West to Riverside at 22.15 MPH (9.9 mps)
-  In transit to Lechmere (70502)
-  Located at 42.37517, -71.08336 with bearing 305
-  Last updated at 11:34:34 on 2025-09-01
+Red R-54852ACE (Bombardier)
+  Heading south to Ashmont/Braintree at 0.00 MPH (0 mps)
+  Stopped at Alewife (Alewife-01)
+  Located at 42.39621, -71.14054 with bearing 85
+  Last updated at 11:32:46 on 2025-09-01
+
+Red R-54852B22 (UTDC)
+  Heading south to Ashmont/Braintree at 0.00 MPH (0 mps)
+  In transit to Braintree (70105)
+  Located at 42.22504, -71.00384 with bearing 170
+  Last updated at 11:34:29 on 2025-09-01
+
+Red R-54852B71 (Bombardier)
+  Heading north to Alewife at 0.00 MPH (0 mps)
+  Stopped at Braintree (Braintree-02)
+  Located at 42.20749, -71.00173 with bearing 10
+  Last updated at 11:15:58 on 2025-09-01
+
+Red R-54852EA6 (Bombardier)
+  Heading north to Alewife at 0.00 MPH (0 mps)
+  In transit to Davis (70064)
+  Located at 42.38923, -71.11931 with bearing 0
+  Last updated at 11:34:15 on 2025-09-01
+
+Red R-54852EA7 (CRRC)
+  Heading north to Alewife at 0.00 MPH (0 mps)
+  Incoming at Charles/MGH (70074)
+  Located at 42.35725, -71.06404 with bearing 310
+  Carriages:
+    1902: Many seats available (0% full)
+    1903: Few seats available (11% full)
+    1917: Few seats available (12% full)
+    1916: Few seats available (7% full)
+    1937: Few seats available (6% full)
+    1936: Few seats available (10% full)
+  Last updated at 11:34:42 on 2025-09-01
+
+Red R-54852EA8 (CRRC)
+  Heading north to Alewife at 0.00 MPH (0 mps)
+  Stopped at Savin Hill (70088)
+  Located at 42.31054, -71.05362 with bearing 15
+  Carriages:
+    1922: Many seats available (1% full)
+    1923: Many seats available (5% full)
+    1919: Many seats available (5% full)
+    1918: Few seats available (5% full)
+    1927: Few seats available (6% full)
+    1926: Many seats available (3% full)
+  Last updated at 11:34:24 on 2025-09-01
+
+Red R-54852EA9 (UTDC)
+  Heading south to Ashmont/Braintree at 0.00 MPH (0 mps)
+  Incoming at Ashmont (70093)
+  Located at 42.28869, -71.06498 with bearing 160
+  Last updated at 11:34:35 on 2025-09-01
+
+Red R-54852F37 (Bombardier)
+  Heading north to Alewife at 0.00 MPH (0 mps)
+  Incoming at North Quincy (70098)
+  Located at 42.27064, -71.02464 with bearing 315
+  Last updated at 11:34:36 on 2025-09-01
 

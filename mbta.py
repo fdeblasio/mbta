@@ -20,7 +20,7 @@ def writeToFile(file, text):
 
 #replace with route lookup
 def getDirection(routeId, direction_id):
-    return f"{routeIdToDirections[routeId][direction_id]} to {routeIdToDestinations[routeId][direction_id]}"
+    return f"{routeIdToDirections[routeId][direction_id].lower()} to {routeIdToDestinations[routeId][direction_id]}"
 
 def valueToText(text):
     return text.capitalize().replace("_", " ")
@@ -134,47 +134,52 @@ redGreenLine = {
     "39": "Type 9"
 }
 
-#route lookup for direction - attributes/direction_names
+vehicleDict = {}
+
+for vehicle in vehicleData:
+    routeId = vehicle["relationships"]["route"]["data"]["id"]
+
+    isBus = routeId[0].isdigit() and routeId not in localBuses
+    isCR = routeId.startswith("CR")
+    isShuttleGeneric = routeId.startswith("Shuttle-Generic")
+
+    attributes = vehicle["attributes"]
+    stopData = vehicle["relationships"]["stop"]["data"]
+
+    if not isBus and not isCR and not isShuttleGeneric and stopData is not None and attributes["revenue"] == "REVENUE":
+        vehicleId = f"{routeId} {vehicle['id']}"
+        if routeId == "Red" or routeId.startswith("Green"):
+            vehicleId += f" ({redGreenLine[vehicle['attributes']['label'][:2]]})"
+        vehicleInfo = vehicleId + "\n"
+
+        directionId = attributes["direction_id"]
+        speed = attributes["speed"]
+        if speed is None:
+            speed = 0
+        vehicleInfo += f"  Heading {getDirection(routeId, directionId)} at {'%.2f'%(speed*2.23694)} MPH ({speed} mps)\n"
+
+        if stopData is not None:
+            stopId = stopData["id"]
+        else:
+            stopId = "N/A"
+        vehicleInfo += f"  {valueToText(attributes['current_status'])} {stopIdToName[stopId]} ({stopId})\n"
+        vehicleInfo += f"  Located at {attributes['latitude']}, {attributes['longitude']} with bearing {attributes['bearing']}\n"
+
+        carriages = "  Carriages:"
+        for carriage in attributes["carriages"]:
+            if carriage["occupancy_percentage"] is not None:
+                carriages += (f"\n    {carriage['label']}: {valueToText(carriage['occupancy_status'])} ({carriage['occupancy_percentage']}% full)")
+        if carriages != "  Carriages:":
+            vehicleInfo += carriages + "\n"
+
+        lastUpdated = attributes["updated_at"].split("T")
+        lastDate = lastUpdated[0]
+        lastTime = lastUpdated[1].split("-")[0]
+        vehicleInfo += f"  Last updated at {lastTime} on {lastDate}\n"
+
+        vehicleDict[vehicleId] = vehicleInfo
+
 with open(api + ".txt", "w+") as vehicles:
     vehicles.seek(0)
-    for vehicle in vehicleData:
-        routeId = vehicle["relationships"]["route"]["data"]["id"]
-
-        isBus = routeId[0].isdigit() and routeId not in localBuses
-        isCR = routeId.startswith("CR")
-        isShuttleGeneric = routeId.startswith("Shuttle-Generic")
-
-        attributes = vehicle["attributes"]
-        stopData = vehicle["relationships"]["stop"]["data"]
-
-        if not isBus and not isCR and not isShuttleGeneric and stopData is not None and attributes["revenue"] == "REVENUE":
-            vehicleId = f"{routeId} {vehicle['id']}"
-            if routeId == "Red" or routeId.startswith("Green"):
-                vehicleId += f" ({redGreenLine[vehicle['attributes']['label'][:2]]})"
-            writeToFile(vehicles, vehicleId)
-
-            directionId = attributes["direction_id"]
-            speed = attributes["speed"]
-            if speed is None:
-                speed = 0
-            writeToFile(vehicles, f"  Heading {getDirection(routeId, directionId)} at {'%.2f'%(speed*2.23694)} MPH ({speed} mps)")
-
-            if stopData is not None:
-                stopId = stopData["id"]
-            else:
-                stopId = "N/A"
-            writeToFile(vehicles, f"  {valueToText(attributes['current_status'])} {stopIdToName[stopId]} ({stopId})")
-            writeToFile(vehicles, f"  Located at {attributes['latitude']}, {attributes['longitude']} with bearing {attributes['bearing']}")
-
-            carriages = "  Carriages:"
-            for carriage in attributes["carriages"]:
-                if carriage["occupancy_percentage"] is not None:
-                    carriages += (f"\n    {carriage['label']}: {valueToText(carriage['occupancy_status'])} ({carriage['occupancy_percentage']}% full)")
-            if carriages != "  Carriages:":
-                writeToFile(vehicles, carriages)
-
-            lastUpdated = attributes["updated_at"].split("T")
-            lastDate = lastUpdated[0]
-            lastTime = lastUpdated[1].split("-")[0]
-            writeToFile(vehicles, f"  Last updated at {lastTime} on {lastDate}")
-            writeToFile(vehicles, "")
+    for vehicle in sorted(vehicleDict.values()):
+        writeToFile(vehicles, vehicle)
