@@ -1,5 +1,6 @@
 import json
 import requests
+import sys
 
 def getData(api, getJson=False):
     if getJson:
@@ -117,7 +118,12 @@ with open(api + ".txt", "w+") as routes:
 
 ### Vehicles
 api = "vehicles"
-vehicleData = getData(api)
+
+updateJson = False
+if len(sys.argv) > 1:
+    updateJson = sys.argv[1]
+
+vehicleData = getData(api, updateJson)
 
 redGreenLine = {
     "15": "Pullman-Standard",
