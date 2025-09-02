@@ -50,15 +50,17 @@ with open(api + ".txt", "w+") as stops:
 api = "routes"
 routeData = getData(api)
 
-routeIdToDirections = {}
+routeIdToColor = {}
 routeIdToDestinations = {}
+routeIdToDirections = {}
 
 with open(api + ".txt", "w+") as routes:
     routes.seek(0)
     for route in routeData:
         routeId = route["id"]
-        routeIdToDirections[routeId] = route["attributes"]["direction_names"]
+        routeIdToColor[routeId] = route["attributes"]["color"]
         routeIdToDestinations[routeId] = route["attributes"]["direction_destinations"]
+        routeIdToDirections[routeId] = route["attributes"]["direction_names"]
 
         writeToFile(routes, routeId)
         for field in route:
@@ -119,9 +121,7 @@ with open(api + ".txt", "w+") as routes:
 ### Vehicles
 api = "vehicles"
 
-updateJson = False
-if len(sys.argv) > 1:
-    updateJson = sys.argv[1]
+updateJson = sys.argv[1] if len(sys.argv) > 1 else False
 
 vehicleData = getData(api, updateJson)
 
@@ -158,17 +158,13 @@ for vehicle in vehicleData:
             vehicleId += f" ({redGreenLine[vehicle['attributes']['label'][:2]]})"
         vehicleInfo = vehicleId + "\n"
 
-        directionId = attributes["direction_id"]
+        directionInfo = f"  Heading {getDirection(routeId, attributes['direction_id'])}"
         speed = attributes["speed"]
-        if speed is None:
-            speed = 0
-        vehicleInfo += f"  Heading {getDirection(routeId, directionId)} at {'%.2f'%(speed*2.23694)} MPH ({speed} mps)\n"
+        if speed is not None:
+            directionInfo += f" at {'%.2f'%(speed*2.23694)} MPH ({speed} mps)"
+        vehicleInfo += directionInfo + "\n"
 
-        if stopData is not None:
-            stopId = stopData["id"]
-        else:
-            stopId = "N/A"
-        vehicleInfo += f"  {valueToText(attributes['current_status'])} {stopIdToName[stopId]} ({stopId})\n"
+        vehicleInfo += f"  {valueToText(attributes['current_status'])} {stopIdToName[stopData['id']]}\n"
         vehicleInfo += f"  Located at {attributes['latitude']}, {attributes['longitude']} with bearing {attributes['bearing']}\n"
 
         carriages = "  Carriages:"
