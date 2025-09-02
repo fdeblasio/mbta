@@ -21,7 +21,7 @@ def writeToFile(file, text):
 
 #replace with route lookup
 def getDirection(routeId, direction_id):
-    return f"{routeIdToDirections[routeId][direction_id].lower()} to {routeIdToDestinations[routeId][direction_id]}"
+    return f"{routeIdAttributes[routeId]['direction_names'][direction_id].lower()} to {routeIdAttributes[routeId]['direction_destinations'][direction_id]}"
 
 def valueToText(text):
     return text.capitalize().replace("_", " ")
@@ -50,17 +50,13 @@ with open(api + ".txt", "w+") as stops:
 api = "routes"
 routeData = getData(api)
 
-routeIdToColor = {}
-routeIdToDestinations = {}
-routeIdToDirections = {}
+routeIdAttributes = {}
 
 with open(api + ".txt", "w+") as routes:
     routes.seek(0)
     for route in routeData:
         routeId = route["id"]
-        routeIdToColor[routeId] = route["attributes"]["color"]
-        routeIdToDestinations[routeId] = route["attributes"]["direction_destinations"]
-        routeIdToDirections[routeId] = route["attributes"]["direction_names"]
+        routeIdAttributes[routeId] = route["attributes"]
 
         writeToFile(routes, routeId)
         for field in route:
@@ -153,10 +149,17 @@ for vehicle in vehicleData:
     stopData = vehicle["relationships"]["stop"]["data"]
 
     if not isBus and not isCR and not isShuttleGeneric and stopData is not None and attributes["revenue"] == "REVENUE":
-        vehicleId = f"{routeId} {vehicle['id']}"
-        if routeId == "Red" or routeId.startswith("Green"):
-            vehicleId += f" ({redGreenLine[vehicle['attributes']['label'][:2]]})"
-        vehicleInfo = vehicleId + "\n"
+        #SL and CT should use short_name but cross that bridge if it ever gets used
+        #Unsure about CR
+        vehicleId = vehicle["id"]
+        vehicleTitle = f" - {vehicleId}"
+        if routeId in localBuses:
+            vehicleTitle = f"{routeId} ({routeIdAttributes[routeId]['long_name']})" + vehicleTitle
+        else:
+            vehicleTitle = routeIdAttributes[routeId]["long_name"] + vehicleTitle
+            if routeId == "Red" or routeId.startswith("Green"):
+                vehicleTitle += f" ({redGreenLine[vehicle['attributes']['label'][:2]]})"
+        vehicleInfo = vehicleTitle + "\n"
 
         directionInfo = f"  Heading {getDirection(routeId, attributes['direction_id'])}"
         speed = attributes["speed"]
@@ -179,9 +182,33 @@ for vehicle in vehicleData:
         lastTime = lastUpdated[1].split("-")[0]
         vehicleInfo += f"  Last updated at {lastTime} on {lastDate}\n"
 
-        vehicleDict[vehicleId] = vehicleInfo
+        vehicleDict[f"{routeId} {vehicleId}"] = vehicleInfo
 
 with open(api + ".txt", "w+") as vehicles:
     vehicles.seek(0)
     for vehicle in sorted(vehicleDict.values()):
         writeToFile(vehicles, vehicle)
+
+with open(api + ".html", "w+") as vehiclesHTML:
+    vehiclesHTML.seek(0)
+    writeToFile(vehiclesHTML, "<html>")
+    writeToFile(vehiclesHTML, "<head>")
+    writeToFile(vehiclesHTML, "<style>")
+    writeToFile(vehiclesHTML, "body {font-family: 'Helvetica', sans-serif;}")
+    writeToFile(vehiclesHTML, "</style>")
+    writeToFile(vehiclesHTML, "</head>")
+    writeToFile(vehiclesHTML, "<body>")
+    for vehicle in sorted(vehicleDict):
+        routeId = vehicle.split()[0]
+        writeToFile(vehiclesHTML, f"<p style=\"color:#{routeIdAttributes[routeId]['text_color']};background-color:#{routeIdAttributes[routeId]['color']};\">")
+        textLines = vehicleDict[vehicle].split("\n")
+        #header = textLines[0]
+        for textLine in textLines:
+            if textLine != "":
+                htmlLine = textLine.replace("  ", "&nbsp;&nbsp;")
+                htmlLine = htmlLine.replace("(CRRC)", "<b>(CRRC)</b>")
+                htmlLine = htmlLine.replace("(Type 9)", "<b>(Type 9)</b>")
+                writeToFile(vehiclesHTML, htmlLine + "<br>")
+        writeToFile(vehiclesHTML, "</p>")
+    writeToFile(vehiclesHTML, "</body>")
+    writeToFile(vehiclesHTML, "</html>")
