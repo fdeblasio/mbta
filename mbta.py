@@ -22,6 +22,9 @@ def writeToFile(file, text):
 def getDirection(routeId, direction_id):
     return f"{routeIdToDirections[routeId][direction_id]} to {routeIdToDestinations[routeId][direction_id]}"
 
+def valueToText(text):
+    return text.capitalize().replace("_", " ")
+
 localBuses = ["132"]
 
 ### Stops
@@ -131,9 +134,6 @@ redGreenLine = {
     "39": "Type 9"
 }
 
-#Merge attributes and relationships and move one level out?
-#Use current_status with stop?
-
 #route lookup for direction - attributes/direction_names
 with open(api + ".txt", "w+") as vehicles:
     vehicles.seek(0)
@@ -144,47 +144,37 @@ with open(api + ".txt", "w+") as vehicles:
         isCR = routeId.startswith("CR")
         isShuttleGeneric = routeId.startswith("Shuttle-Generic")
 
-        if not isBus and not isCR and not isShuttleGeneric and vehicle["attributes"]["revenue"] == "REVENUE":
+        attributes = vehicle["attributes"]
+        stopData = vehicle["relationships"]["stop"]["data"]
+
+        if not isBus and not isCR and not isShuttleGeneric and stopData is not None and attributes["revenue"] == "REVENUE":
+            vehicleId = f"{routeId} {vehicle['id']}"
             if routeId == "Red" or routeId.startswith("Green"):
-                writeToFile(vehicles, routeId + " " + redGreenLine[vehicle["attributes"]["label"][:2]] + " " + vehicle["id"])
+                vehicleId += f" ({redGreenLine[vehicle['attributes']['label'][:2]]})"
+            writeToFile(vehicles, vehicleId)
+
+            directionId = attributes["direction_id"]
+            speed = attributes["speed"]
+            if speed is None:
+                speed = 0
+            writeToFile(vehicles, f"  Heading {getDirection(routeId, directionId)} at {'%.2f'%(speed*2.23694)} MPH ({speed} mps)")
+
+            if stopData is not None:
+                stopId = stopData["id"]
             else:
-                writeToFile(vehicles, routeId + " " + vehicle["id"])
-            for field in vehicle:
-                if field == "attributes":
-                    writeToFile(vehicles, "  " + field + ":")
-                    for attribute in vehicle[field]:
-                        attributeValue = vehicle[field][attribute]
-                        prefix = f"    {attribute}:"
+                stopId = "N/A"
+            writeToFile(vehicles, f"  {valueToText(attributes['current_status'])} {stopIdToName[stopId]} ({stopId})")
+            writeToFile(vehicles, f"  Located at {attributes['latitude']}, {attributes['longitude']} with bearing {attributes['bearing']}")
 
-                        if attribute == "carriages":
-                            carriages = prefix
-                            for carriage in attributeValue:
-                                if carriage["occupancy_percentage"] is not None:
-                                    carriages += (f"\n      {carriage['label']}: {carriage['occupancy_status'].replace('_', ' ').lower()} ({carriage['occupancy_percentage']}% full)")
-                            if carriages != prefix:
-                                writeToFile(vehicles, carriages)
-                        elif attribute == "direction_id":
-                            writeToFile(vehicles, f"{prefix} {getDirection(routeId, attributeValue)} ({attributeValue})")
-                        elif attribute == "speed":
-                            if attributeValue is None:
-                                attributeValue = 0
-                            writeToFile(vehicles, f"{prefix} {'%.2f'%(attributeValue*2.23694)} MPH ({attributeValue} mps)")
-                        elif attribute != "revenue" and attributeValue is not None:
-                            writeToFile(vehicles, f"{prefix} {attributeValue}")
-                elif field == "relationships":
-                #if field == "relationships":
-                    writeToFile(vehicles, "  " + field + ":")
-                    for relationship in vehicle[field]:
-                        prefix = f"    {relationship}: "
+            carriages = "  Carriages:"
+            for carriage in attributes["carriages"]:
+                if carriage["occupancy_percentage"] is not None:
+                    carriages += (f"\n    {carriage['label']}: {valueToText(carriage['occupancy_status'])} ({carriage['occupancy_percentage']}% full)")
+            if carriages != "  Carriages:":
+                writeToFile(vehicles, carriages)
 
-                        if vehicle[field][relationship]["data"] is not None:
-                            relationshipValue = vehicle[field][relationship]["data"]["id"]
-                        else:
-                            relationshipValue = "N/A"
-
-                        if relationship == "stop":
-                            writeToFile(vehicles, f"{prefix}{stopIdToName[relationshipValue]} ({relationshipValue})")
-                        elif relationship == "trip":
-                            writeToFile(vehicles, f"{prefix}{relationshipValue}")
-                #elif field not in ["type", "links", "id"]:
-                #    writeToFile(vehicles, "  " + field + ": " + str(vehicle[field]))
+            lastUpdated = attributes["updated_at"].split("T")
+            lastDate = lastUpdated[0]
+            lastTime = lastUpdated[1].split("-")[0]
+            writeToFile(vehicles, f"  Last updated at {lastTime} on {lastDate}")
+            writeToFile(vehicles, "")
