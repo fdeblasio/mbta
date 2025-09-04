@@ -1,774 +1,827 @@
-132 (Redstone Shopping Center - Malden Center Station) - y1448
+132 (Redstone Shopping Center - Malden Center Station) - y1441
+  Heading inbound to Malden Center Station
+  Stopped at Redstone Shopping Center Access Rd
+  Located at 42.495106419, -71.10218027 with bearing 86
+  Last updated at 19:02:36 on 2025-09-02
+
+132 (Redstone Shopping Center - Malden Center Station) - y1984
   Heading outbound to Redstone Shopping Center
-  In transit to Redstone Shopping Center
-  Located at 42.49501057, -71.10069646 with bearing 341
-  Last updated at 15:09:52 on 2025-09-02
+  Stopped at Malden Center
+  Located at 42.42717, -71.07454 with bearing 45
+  Last updated at 19:02:49 on 2025-09-02
 
 Blue Line - B-5485329B
   Heading west to Bowdoin
-  In transit to Wonderland
-  Located at 42.41576, -70.99041 with bearing 200
-  Last updated at 15:07:46 on 2025-09-02
+  Incoming at Bowdoin
+  Located at 42.36062, -71.0606 with bearing 300
+  Last updated at 19:02:56 on 2025-09-02
 
 Blue Line - B-5485329C
-  Heading east to Wonderland
-  Incoming at Suffolk Downs
-  Located at 42.38734, -71.0033 with bearing 55
-  Last updated at 15:09:29 on 2025-09-02
+  Heading west to Bowdoin
+  Stopped at Orient Heights
+  Located at 42.38689, -71.00478 with bearing 235
+  Last updated at 19:02:19 on 2025-09-02
 
 Blue Line - B-5485329D
-  Heading east to Wonderland
-  Stopped at Airport
-  Located at 42.37435, -71.03017 with bearing 45
-  Last updated at 15:09:36 on 2025-09-02
+  Heading west to Bowdoin
+  Incoming at Suffolk Downs
+  Located at 42.39376, -70.99497 with bearing 210
+  Last updated at 19:02:55 on 2025-09-02
 
 Blue Line - B-548532A5
-  Heading east to Wonderland
-  Incoming at Aquarium
-  Located at 42.35893, -71.05632 with bearing 80
-  Last updated at 15:09:47 on 2025-09-02
+  Heading west to Bowdoin
+  Stopped at Wonderland
+  Located at 42.41352, -70.99167 with bearing 200
+  Last updated at 19:02:28 on 2025-09-02
 
 Blue Line - B-548532B0
   Heading east to Wonderland
-  In transit to Bowdoin
-  Located at 42.36128, -71.06312 with bearing 270
-  Last updated at 15:09:28 on 2025-09-02
+  Incoming at Wonderland
+  Located at 42.41021, -70.99265 with bearing 5
+  Last updated at 19:00:44 on 2025-09-02
 
 Blue Line - B-548532B3
-  Heading west to Bowdoin
-  Incoming at Government Center
-  Located at 42.35916, -71.05921 with bearing 300
-  Last updated at 15:09:55 on 2025-09-02
+  Heading east to Wonderland
+  Incoming at Revere Beach
+  Located at 42.40269, -70.99175 with bearing 350
+  Last updated at 19:02:18 on 2025-09-02
 
 Blue Line - B-548532BB
-  Heading west to Bowdoin
-  In transit to Wood Island
-  Located at 42.38632, -71.00652 with bearing 235
-  Last updated at 15:09:50 on 2025-09-02
+  Heading east to Wonderland
+  Stopped at Airport
+  Located at 42.37435, -71.03017 with bearing 45
+  Last updated at 19:02:58 on 2025-09-02
 
 Blue Line - B-548532C5
-  Heading west to Bowdoin
-  Incoming at Beachmont
-  Located at 42.40633, -70.99231 with bearing 170
-  Last updated at 15:09:44 on 2025-09-02
+  Heading east to Wonderland
+  Incoming at Aquarium
+  Located at 42.35893, -71.05632 with bearing 80
+  Last updated at 19:02:49 on 2025-09-02
 
 Blue Line - B-548534E2
-  Heading east to Wonderland
-  Incoming at Wonderland
-  Located at 42.41085, -70.99259 with bearing 10
-  Last updated at 15:09:34 on 2025-09-02
+  Heading west to Bowdoin
+  In transit to Aquarium
+  Located at 42.3683, -71.0403 with bearing 215
+  Last updated at 19:02:49 on 2025-09-02
 
 Blue Line - B-548534F4
-  Heading west to Bowdoin
-  Incoming at Maverick
-  Located at 42.37233, -71.03312 with bearing 260
-  Last updated at 15:09:03 on 2025-09-02
+  Heading east to Wonderland
+  Stopped at Orient Heights
+  Located at 42.38688, -71.00469 with bearing 55
+  Last updated at 19:02:25 on 2025-09-02
+
+Blue Line - B-54853543
+  Heading east to Wonderland
+  Stopped at Bowdoin
+  Located at 42.36115, -71.06208 with bearing 105
+  Last updated at 19:01:40 on 2025-09-02
+
+Blue Line - B-54853557
+  Heading east to Wonderland
+  Stopped at Wonderland
+  Located at 42.4135, -70.99162 with bearing 20
+  Last updated at 18:59:08 on 2025-09-02
 
 Green Line B - G-10035 (Type 7)
   Heading west to Boston College
-  Stopped at Boylston
-  Located at 42.35356, -71.06432 with bearing 200
-  Last updated at 15:09:11 on 2025-09-02
+  Stopped at Hynes Convention Center
+  Located at 42.34791, -71.08631 with bearing 285
+  Last updated at 19:02:32 on 2025-09-02
 
 Green Line B - G-10036 (Type 7)
-  Heading east to Government Center at 10.74 MPH (4.8 mps)
-  Stopped at Boston University Central
-  Located at 42.35005, -71.10722 with bearing 135
-  Last updated at 15:09:30 on 2025-09-02
+  Heading east to Government Center
+  Stopped at Kenmore
+  Located at 42.34888, -71.0951 with bearing 90
+  Last updated at 18:58:50 on 2025-09-02
 
 Green Line B - G-10058 (Type 7)
-  Heading east to Government Center at 19.91 MPH (8.9 mps)
-  Incoming at South Street
-  Located at 42.33998, -71.16007 with bearing 90
-  Last updated at 15:09:55 on 2025-09-02
-
-Green Line B - G-10078 (Type 7)
   Heading east to Government Center
   Stopped at Boston College
   Located at 42.34018, -71.16709 with bearing 135
-  Last updated at 15:09:53 on 2025-09-02
+  Last updated at 19:02:11 on 2025-09-02
+
+Green Line B - G-10078 (Type 7)
+  Heading west to Boston College at 5.14 MPH (2.3 mps)
+  Stopped at Boston College
+  Located at 42.34027, -71.16688 with bearing 0
+  Last updated at 19:02:55 on 2025-09-02
 
 Green Line B - G-10080 (Type 8)
-  Heading east to Government Center at 10.74 MPH (4.8 mps)
-  Incoming at Allston Street
-  Located at 42.34859, -71.14026 with bearing 45
-  Last updated at 15:09:54 on 2025-09-02
+  Heading east to Government Center at 12.30 MPH (5.5 mps)
+  Stopped at Sutherland Road
+  Located at 42.34154, -71.14638 with bearing 90
+  Last updated at 19:02:42 on 2025-09-02
 
 Green Line B - G-10089 (Type 7)
-  Heading west to Boston College
-  Stopped at Kenmore
-  Located at 42.34894, -71.09527 with bearing 270
-  Last updated at 15:07:07 on 2025-09-02
+  Heading east to Government Center
+  Stopped at Park Street
+  Located at 42.35554, -71.06322 with bearing 30
+  Last updated at 18:57:36 on 2025-09-02
 
 Green Line B - G-10091 (Type 8)
-  Heading west to Boston College at 11.63 MPH (5.2 mps)
-  Stopped at Amory Street
-  Located at 42.35101, -71.11478 with bearing 315
-  Last updated at 15:09:49 on 2025-09-02
+  Heading west to Boston College at 2.46 MPH (1.1 mps)
+  Incoming at Babcock Street
+  Located at 42.35109, -71.11545 with bearing 315
+  Last updated at 19:02:36 on 2025-09-02
 
 Green Line B - G-10102 (Type 7)
   Heading east to Government Center
-  In transit to Boylston
-  Located at 42.3518, -71.07081 with bearing 60
-  Last updated at 15:09:28 on 2025-09-02
-
-Green Line B - G-10114 (Type 8)
-  Heading east to Government Center at 9.40 MPH (4.2 mps)
-  Incoming at Babcock Street
-  Located at 42.35176, -71.12134 with bearing 135
-  Last updated at 15:09:52 on 2025-09-02
-
-Green Line B - G-10142 (Type 7)
-  Heading east to Government Center
-  Incoming at Government Center
-  Located at 42.35614, -71.06243 with bearing 30
-  Last updated at 15:08:17 on 2025-09-02
-
-Green Line B - G-10172 (Type 8)
-  Heading west to Boston College at 7.38 MPH (3.3 mps)
-  Stopped at Boston College
-  Located at 42.341, -71.16742 with bearing 75
-  Last updated at 15:09:47 on 2025-09-02
-
-Green Line B - G-10221 (Type 9)
-  Heading west to Boston College at 11.18 MPH (5.0 mps)
-  Stopped at Griggs Street
-  Located at 42.34901, -71.13409 with bearing 225
-  Last updated at 15:09:20 on 2025-09-02
-
-Green Line C - G-10005 (Type 7)
-  Heading west to Cleveland Circle
-  Incoming at Tappan Street
-  Located at 42.33933, -71.13545 with bearing 225
-  Last updated at 15:09:27 on 2025-09-02
-
-Green Line C - G-10070 (Type 7)
-  Heading east to Government Center
   Incoming at Park Street
   Located at 42.35301, -71.06454 with bearing 20
-  Last updated at 15:09:28 on 2025-09-02
+  Last updated at 19:02:42 on 2025-09-02
 
-Green Line C - G-10083 (Type 7)
-  Heading east to Government Center
-  Stopped at Arlington
-  Located at 42.35157, -71.07167 with bearing 60
-  Last updated at 15:09:46 on 2025-09-02
+Green Line B - G-10114 (Type 8)
+  Heading east to Government Center at 16.33 MPH (7.3 mps)
+  Incoming at Warren Street
+  Located at 42.34506, -71.14188 with bearing 45
+  Last updated at 19:02:55 on 2025-09-02
 
-Green Line C - G-10108 (Type 8)
-  Heading west to Cleveland Circle
+Green Line B - G-10142 (Type 7)
+  Heading west to Boston College
+  In transit to Arlington
+  Located at 42.35305, -71.06457 with bearing 200
+  Last updated at 19:02:31 on 2025-09-02
+
+Green Line B - G-10275 (Type 9)
+  Heading east to Government Center at 9.84 MPH (4.4 mps)
+  Stopped at Packard's Corner
+  Located at 42.3517, -71.1253 with bearing 45
+  Last updated at 19:01:25 on 2025-09-02
+
+Green Line B - G-10278 (Type 9)
+  Heading west to Boston College at 27.07 MPH (12.1 mps)
+  Incoming at Harvard Avenue
+  Located at 42.35105, -71.12645 with bearing 225
+  Last updated at 19:02:58 on 2025-09-02
+
+Green Line B - G-10325 (Type 8)
+  Heading west to Boston College at 12.97 MPH (5.8 mps)
+  Stopped at Allston Street
+  Located at 42.34845, -71.13712 with bearing 315
+  Last updated at 19:01:47 on 2025-09-02
+
+Green Line C - G-10070 (Type 7)
+  Heading west to Cleveland Circle at 9.62 MPH (4.3 mps)
   Stopped at Cleveland Circle
   Located at 42.33625, -71.14902 with bearing 225
-  Last updated at 15:08:53 on 2025-09-02
+  Last updated at 18:58:20 on 2025-09-02
+
+Green Line C - G-10083 (Type 7)
+  Heading west to Cleveland Circle at 16.55 MPH (7.4 mps)
+  Stopped at Englewood Avenue
+  Located at 42.33702, -71.1456 with bearing 225
+  Last updated at 19:02:49 on 2025-09-02
+
+Green Line C - G-10108 (Type 7)
+  Heading east to Government Center
+  Stopped at Government Center
+  Located at 42.35927, -71.05945 with bearing 35
+  Last updated at 19:02:52 on 2025-09-02
+
+Green Line C - G-10131 (Type 8)
+  Heading east to Government Center
+  In transit to Kenmore
+  Located at 42.34702, -71.10356 with bearing 60
+  Last updated at 19:02:46 on 2025-09-02
 
 Green Line C - G-10134 (Type 7)
-  Heading east to Government Center
-  Incoming at Hynes Convention Center
-  Located at 42.34804, -71.08964 with bearing 90
-  Last updated at 15:09:45 on 2025-09-02
+  Heading west to Cleveland Circle at 14.09 MPH (6.3 mps)
+  Incoming at Coolidge Corner
+  Located at 42.3425, -71.11992 with bearing 225
+  Last updated at 19:01:16 on 2025-09-02
 
-Green Line C - G-10144 (Type 7)
-  Heading west to Cleveland Circle
-  Incoming at Hynes Convention Center
-  Located at 42.34996, -71.07792 with bearing 240
-  Last updated at 15:08:49 on 2025-09-02
+Green Line C - G-10144 (Type 8)
+  Heading east to Government Center at 10.07 MPH (4.5 mps)
+  Incoming at Saint Paul Street
+  Located at 42.34229, -71.12046 with bearing 45
+  Last updated at 19:02:05 on 2025-09-02
 
-Green Line C - G-10173 (Type 8)
+Green Line C - G-10173 (Type 7)
+  Heading east to Government Center at 13.20 MPH (5.9 mps)
+  Stopped at Washington Square
+  Located at 42.3395, -71.13476 with bearing 45
+  Last updated at 19:02:59 on 2025-09-02
+
+Green Line C - G-10183 (Type 8)
   Heading west to Cleveland Circle
   In transit to Park Street
   Located at 42.35929, -71.05951 with bearing 215
-  Last updated at 15:09:41 on 2025-09-02
-
-Green Line C - G-10183 (Type 7)
-  Heading east to Government Center
-  Stopped at Cleveland Circle
-  Located at 42.3362, -71.14896 with bearing 45
-  Last updated at 15:09:30 on 2025-09-02
-
-Green Line C - G-10196 (Type 8)
-  Heading west to Cleveland Circle at 5.14 MPH (2.3 mps)
-  Incoming at Coolidge Corner
-  Located at 42.34279, -71.11888 with bearing 225
-  Last updated at 15:09:45 on 2025-09-02
-
-Green Line C - G-10209 (Type 7)
-  Heading east to Government Center at 10.96 MPH (4.9 mps)
-  Incoming at Washington Square
-  Located at 42.33882, -71.13716 with bearing 45
-  Last updated at 15:09:54 on 2025-09-02
-
-Green Line C - G-10223 (Type 7)
-  Heading west to Cleveland Circle at 7.61 MPH (3.4 mps)
-  Stopped at Cleveland Circle
-  Located at 42.33625, -71.14902 with bearing 225
-  Last updated at 15:06:05 on 2025-09-02
+  Last updated at 19:02:47 on 2025-09-02
 
 Green Line C - G-10226 (Type 8)
-  Heading east to Government Center at 14.76 MPH (6.6 mps)
+  Heading west to Cleveland Circle at 13.87 MPH (6.2 mps)
   Stopped at Kent Street
-  Located at 42.34387, -71.11475 with bearing 45
-  Last updated at 15:09:49 on 2025-09-02
+  Located at 42.34418, -71.11382 with bearing 225
+  Last updated at 19:02:14 on 2025-09-02
 
-Green Line C - G-10240 (Type 8)
-  Heading east to Government Center at 6.71 MPH (3.0 mps)
-  Incoming at Washington Square
-  Located at 42.33865, -71.13785 with bearing 45
-  Last updated at 15:09:45 on 2025-09-02
+Green Line C - G-10266 (Type 8)
+  Heading east to Government Center
+  In transit to Boylston
+  Located at 42.3518, -71.07081 with bearing 60
+  Last updated at 19:01:35 on 2025-09-02
 
-Green Line D - G-10011 (Type 7)
-  Heading east to Union Square
-  Incoming at Kenmore
-  Located at 42.34862, -71.0976 with bearing 60
-  Last updated at 15:09:21 on 2025-09-02
+Green Line C - G-10342 (Type 8)
+  Heading west to Cleveland Circle
+  In transit to Copley
+  Located at 42.35164, -71.07172 with bearing 240
+  Last updated at 19:02:55 on 2025-09-02
 
-Green Line D - G-10014 (Type 8)
-  Heading west to Riverside
-  Incoming at Government Center
-  Located at 42.36234, -71.05804 with bearing 175
-  Last updated at 15:07:06 on 2025-09-02
+Green Line C - G-10343 (Type 7)
+  Heading west to Cleveland Circle
+  Incoming at Copley
+  Located at 42.35164, -71.07172 with bearing 240
+  Last updated at 19:02:04 on 2025-09-02
 
-Green Line D - G-10019 (Type 8)
-  Heading east to Union Square at 23.49 MPH (10.5 mps)
-  Incoming at Brookline Hills
-  Located at 42.33164, -71.13039 with bearing 135
-  Last updated at 15:09:55 on 2025-09-02
-
-Green Line D - G-10026 (Type 8)
-  Heading west to Riverside
-  Incoming at Kenmore
-  Located at 42.34811, -71.09211 with bearing 310
-  Last updated at 15:09:38 on 2025-09-02
-
-Green Line D - G-10099 (Type 8)
+Green Line D - G-10011 (Type 8)
   Heading west to Riverside
   Incoming at Arlington
   Located at 42.35305, -71.06457 with bearing 200
-  Last updated at 15:08:41 on 2025-09-02
+  Last updated at 19:01:27 on 2025-09-02
 
-Green Line D - G-10112 (Type 7)
+Green Line D - G-10019 (Type 7)
+  Heading west to Riverside
+  Incoming at Boylston
+  Located at 42.35559, -71.06334 with bearing 210
+  Last updated at 19:02:25 on 2025-09-02
+
+Green Line D - G-10026 (Type 7)
   Heading east to Union Square
-  Stopped at Haymarket
-  Located at 42.36242, -71.05803 with bearing 355
-  Last updated at 15:09:40 on 2025-09-02
+  Stopped at Hynes Convention Center
+  Located at 42.34795, -71.08686 with bearing 105
+  Last updated at 19:02:55 on 2025-09-02
 
-Green Line D - G-10130 (Type 7)
-  Heading west to Riverside at 7.83 MPH (3.5 mps)
-  Stopped at Lechmere
-  Located at 42.37116, -71.07613 with bearing 125
-  Last updated at 15:09:27 on 2025-09-02
+Green Line D - G-10099 (Type 7)
+  Heading east to Union Square
+  In transit to Kenmore
+  Located at 42.34763, -71.10143 with bearing 60
+  Last updated at 19:02:48 on 2025-09-02
 
-Green Line D - G-10153 (Type 8)
-  Heading west to Riverside at 15.21 MPH (6.8 mps)
-  Incoming at Brookline Hills
-  Located at 42.33124, -71.12543 with bearing 270
-  Last updated at 15:09:48 on 2025-09-02
+Green Line D - G-10112 (Type 8)
+  Heading west to Riverside at 38.25 MPH (17.1 mps)
+  Incoming at Waban
+  Located at 42.32026, -71.21919 with bearing 315
+  Last updated at 19:02:56 on 2025-09-02
+
+Green Line D - G-10116 (Type 8)
+  Heading east to Union Square at 12.53 MPH (5.6 mps)
+  In transit to Union Square
+  Located at 42.37528, -71.08394 with bearing 305
+  Last updated at 19:02:33 on 2025-09-02
+
+Green Line D - G-10170 (Type 7)
+  Heading east to Union Square at 13.42 MPH (6.0 mps)
+  In transit to Brookline Hills
+  Located at 42.33517, -71.13902 with bearing 135
+  Last updated at 19:02:52 on 2025-09-02
 
 Green Line D - G-10193 (Type 9)
-  Heading east to Union Square
-  In transit to Science Park/West End
-  Located at 42.36607, -71.061 with bearing 315
-  Last updated at 15:09:14 on 2025-09-02
+  Heading west to Riverside at 8.72 MPH (3.9 mps)
+  Stopped at Riverside
+  Located at 42.33723, -71.25208 with bearing 315
+  Last updated at 19:00:47 on 2025-09-02
 
 Green Line D - G-10198 (Type 9)
-  Heading east to Union Square
-  Incoming at Boylston
-  Located at 42.3518, -71.07081 with bearing 60
-  Last updated at 15:08:21 on 2025-09-02
+  Heading west to Riverside at 11.41 MPH (5.1 mps)
+  Stopped at Newton Centre
+  Located at 42.3295, -71.19235 with bearing 225
+  Last updated at 19:02:14 on 2025-09-02
 
-Green Line D - G-10212 (Type 7)
-  Heading east to Union Square at 25.05 MPH (11.2 mps)
-  In transit to Newton Highlands
-  Located at 42.31824, -71.21504 with bearing 135
-  Last updated at 15:09:53 on 2025-09-02
+Green Line D - G-10231 (Type 7)
+  Heading east to Union Square at 37.36 MPH (16.7 mps)
+  In transit to Chestnut Hill
+  Located at 42.33011, -71.18998 with bearing 90
+  Last updated at 19:02:58 on 2025-09-02
 
-Green Line D - G-10214 (Type 8)
-  Heading east to Union Square at 29.08 MPH (13.0 mps)
-  Incoming at Reservoir
-  Located at 42.33458, -71.15018 with bearing 45
-  Last updated at 15:09:54 on 2025-09-02
+Green Line D - G-10236 (Type 8)
+  Heading west to Riverside at 13.87 MPH (6.2 mps)
+  In transit to North Station
+  Located at 42.36633, -71.0669 with bearing 120
+  Last updated at 19:02:37 on 2025-09-02
 
-Green Line D - G-10222 (Type 8)
-  Heading west to Riverside at 26.17 MPH (11.7 mps)
-  Incoming at Eliot
-  Located at 42.31792, -71.21401 with bearing 270
-  Last updated at 15:09:53 on 2025-09-02
-
-Green Line D - G-10231 (Type 8)
+Green Line D - G-10237 (Type 8)
   Heading west to Riverside
   Stopped at Union Square
   Located at 42.37705, -71.09396 with bearing 300
-  Last updated at 15:09:34 on 2025-09-02
+  Last updated at 19:02:01 on 2025-09-02
 
-Green Line D - G-10233 (Type 7)
+Green Line D - G-10265 (Type 7)
+  Heading east to Union Square at 24.61 MPH (11.0 mps)
+  Incoming at Brookline Village
+  Located at 42.33131, -71.1241 with bearing 90
+  Last updated at 19:02:58 on 2025-09-02
+
+Green Line D - G-10273 (Type 8)
   Heading east to Union Square
-  In transit to Copley
-  Located at 42.34788, -71.08627 with bearing 105
-  Last updated at 15:09:37 on 2025-09-02
+  Stopped at Park Street
+  Located at 42.35551, -71.06316 with bearing 30
+  Last updated at 19:02:22 on 2025-09-02
+
+Green Line D - G-10302 (Type 7)
+  Heading west to Riverside at 14.09 MPH (6.3 mps)
+  In transit to Reservoir
+  Located at 42.33605, -71.14234 with bearing 270
+  Last updated at 19:02:53 on 2025-09-02
+
+Green Line D - G-10316 (Type 8)
+  Heading east to Union Square at 21.92 MPH (9.8 mps)
+  In transit to Waban
+  Located at 42.33239, -71.24249 with bearing 135
+  Last updated at 19:02:56 on 2025-09-02
+
+Green Line D - G-10322 (Type 8)
+  Heading west to Riverside
+  In transit to Kenmore
+  Located at 42.34811, -71.09211 with bearing 310
+  Last updated at 19:02:51 on 2025-09-02
+
+Green Line D - G-10329 (Type 7)
+  Heading west to Riverside
+  Incoming at Haymarket
+  Located at 42.36316, -71.05827 with bearing 145
+  Last updated at 19:01:09 on 2025-09-02
+
+Green Line D - G-10344 (Type 7)
+  Heading east to Union Square
+  Incoming at Boylston
+  Located at 42.3518, -71.07081 with bearing 60
+  Last updated at 19:00:33 on 2025-09-02
 
 Green Line E - G-10010 (Type 8)
-  Heading west to Heath Street
-  Stopped at Park Street
-  Located at 42.35631, -71.06277 with bearing 210
-  Last updated at 15:08:57 on 2025-09-02
+  Heading west to Heath Street at 24.61 MPH (11.0 mps)
+  Incoming at Lechmere
+  Located at 42.37325, -71.07988 with bearing 125
+  Last updated at 19:02:58 on 2025-09-02
 
-Green Line E - G-10018 (Type 7)
-  Heading west to Heath Street at 37.80 MPH (16.9 mps)
-  Incoming at East Somerville
-  Located at 42.38352, -71.09072 with bearing 145
-  Last updated at 15:09:55 on 2025-09-02
-
-Green Line E - G-10023 (Type 7)
+Green Line E - G-10018 (Type 8)
   Heading east to Medford/Tufts
   Stopped at Medford/Tufts
   Located at 42.40839, -71.1173 with bearing 331
-  Last updated at 15:09:21 on 2025-09-02
+  Last updated at 19:02:26 on 2025-09-02
+
+Green Line E - G-10023 (Type 7)
+  Heading east to Medford/Tufts at 22.37 MPH (10.0 mps)
+  Incoming at Lechmere
+  Located at 42.36898, -71.07214 with bearing 305
+  Last updated at 19:02:56 on 2025-09-02
 
 Green Line E - G-10033 (Type 7)
   Heading east to Medford/Tufts
-  In transit to Haymarket
+  Incoming at Haymarket
   Located at 42.35986, -71.05891 with bearing 35
-  Last updated at 15:09:10 on 2025-09-02
+  Last updated at 19:01:27 on 2025-09-02
 
 Green Line E - G-10039 (Type 7)
   Heading west to Heath Street
-  Stopped at Prudential
-  Located at 42.34587, -71.08123 with bearing 225
-  Last updated at 15:09:04 on 2025-09-02
+  Stopped at Haymarket
+  Located at 42.36238, -71.05804 with bearing 175
+  Last updated at 18:58:21 on 2025-09-02
+
+Green Line E - G-10056 (Type 8)
+  Heading west to Heath Street at 8.50 MPH (3.8 mps)
+  Stopped at Fenwood Road
+  Located at 42.33362, -71.10595 with bearing 225
+  Last updated at 19:02:53 on 2025-09-02
 
 Green Line E - G-10076 (Type 7)
-  Heading east to Medford/Tufts at 6.93 MPH (3.1 mps)
-  Incoming at Mission Park
-  Located at 42.33213, -71.11174 with bearing 45
-  Last updated at 15:09:55 on 2025-09-02
+  Heading east to Medford/Tufts at 10.51 MPH (4.7 mps)
+  Stopped at Mission Park
+  Located at 42.33311, -71.11 with bearing 45
+  Last updated at 19:02:27 on 2025-09-02
 
 Green Line E - G-10095 (Type 7)
   Heading west to Heath Street
-  Incoming at Boylston
-  Located at 42.35559, -71.06334 with bearing 210
-  Last updated at 15:08:01 on 2025-09-02
+  Stopped at North Station
+  Located at 42.36543, -71.0604 with bearing 135
+  Last updated at 19:02:30 on 2025-09-02
 
 Green Line E - G-10110 (Type 7)
-  Heading west to Heath Street
-  Stopped at Haymarket
-  Located at 42.36238, -71.05804 with bearing 175
-  Last updated at 15:09:05 on 2025-09-02
-
-Green Line E - G-10116 (Type 7)
-  Heading west to Heath Street at 11.86 MPH (5.3 mps)
-  Stopped at Ball Square
-  Located at 42.40031, -71.1114 with bearing 151
-  Last updated at 15:09:29 on 2025-09-02
+  Heading west to Heath Street at 31.09 MPH (13.9 mps)
+  Incoming at Gilman Square
+  Located at 42.39316, -71.10599 with bearing 120
+  Last updated at 19:02:57 on 2025-09-02
 
 Green Line E - G-10140 (Type 8)
-  Heading west to Heath Street at 10.51 MPH (4.7 mps)
-  Stopped at Longwood Medical Area
-  Located at 42.33614, -71.09963 with bearing 225
-  Last updated at 15:09:01 on 2025-09-02
-
-Green Line E - G-10201 (Type 8)
-  Heading east to Medford/Tufts
-  Incoming at Arlington
-  Located at 42.34997, -71.07748 with bearing 60
-  Last updated at 15:09:36 on 2025-09-02
-
-Green Line E - G-10203 (Type 7)
-  Heading east to Medford/Tufts at 8.95 MPH (4.0 mps)
-  Stopped at Heath Street
-  Located at 42.32825, -71.11032 with bearing 45
-  Last updated at 15:08:50 on 2025-09-02
-
-Green Line E - G-10229 (Type 8)
-  Heading east to Medford/Tufts at 25.28 MPH (11.3 mps)
-  Incoming at Lechmere
-  Located at 42.36976, -71.0737 with bearing 305
-  Last updated at 15:09:53 on 2025-09-02
-
-Green Line E - G-10232 (Type 8)
-  Heading east to Medford/Tufts at 12.53 MPH (5.6 mps)
-  Stopped at Northeastern University
-  Located at 42.34004, -71.08969 with bearing 45
-  Last updated at 15:09:34 on 2025-09-02
+  Heading west to Heath Street
+  Incoming at Government Center
+  Located at 42.36234, -71.05804 with bearing 175
+  Last updated at 18:53:30 on 2025-09-02
 
 Green Line E - G-10239 (Type 8)
   Heading east to Medford/Tufts
-  Stopped at Park Street
-  Located at 42.35551, -71.06316 with bearing 30
-  Last updated at 15:08:35 on 2025-09-02
+  In transit to Copley
+  Located at 42.34582, -71.08114 with bearing 45
+  Last updated at 19:02:33 on 2025-09-02
+
+Green Line E - G-10257 (Type 7)
+  Heading west to Heath Street
+  Incoming at Symphony
+  Located at 42.3454, -71.08181 with bearing 225
+  Last updated at 19:02:17 on 2025-09-02
+
+Green Line E - G-10318 (Type 8)
+  Heading east to Medford/Tufts
+  In transit to Science Park/West End
+  Located at 42.36607, -71.061 with bearing 315
+  Last updated at 19:02:37 on 2025-09-02
+
+Green Line E - G-10333 (Type 7)
+  Heading east to Medford/Tufts at 18.57 MPH (8.3 mps)
+  In transit to East Somerville
+  Located at 42.37429, -71.0811 with bearing 325
+  Last updated at 19:02:48 on 2025-09-02
+
+Green Line E - G-10335 (Type 8)
+  Heading east to Medford/Tufts
+  Incoming at Boylston
+  Located at 42.3518, -71.07081 with bearing 60
+  Last updated at 18:59:22 on 2025-09-02
+
+Green Line E - G-10346 (Type 8)
+  Heading east to Medford/Tufts at 12.53 MPH (5.6 mps)
+  Stopped at Longwood Medical Area
+  Located at 42.33613, -71.09959 with bearing 45
+  Last updated at 19:02:13 on 2025-09-02
 
 Mattapan Trolley - G-10022
-  Heading inbound to Ashmont at 25.95 MPH (11.6 mps)
-  In transit to Cedar Grove
-  Located at 42.27329, -71.06117 with bearing 45
-  Last updated at 15:09:55 on 2025-09-02
+  Heading outbound to Mattapan at 5.59 MPH (2.5 mps)
+  Stopped at Mattapan
+  Located at 42.26756, -71.09225 with bearing 270
+  Last updated at 19:02:43 on 2025-09-02
 
 Mattapan Trolley - G-10118
+  Heading inbound to Ashmont at 18.12 MPH (8.1 mps)
+  Incoming at Cedar Grove
+  Located at 42.27923, -71.06011 with bearing 315
+  Last updated at 19:02:56 on 2025-09-02
+
+Mattapan Trolley - G-10123
+  Heading outbound to Mattapan at 21.70 MPH (9.7 mps)
+  Incoming at Milton
+  Located at 42.27053, -71.06629 with bearing 270
+  Last updated at 19:02:58 on 2025-09-02
+
+Mattapan Trolley - G-10169
   Heading inbound to Ashmont
   Stopped at Mattapan
   Located at 42.26756, -71.09225 with bearing 90
-  Last updated at 15:09:54 on 2025-09-02
-
-Mattapan Trolley - G-10123
-  Heading inbound to Ashmont at 25.05 MPH (11.2 mps)
-  Incoming at Valley Road
-  Located at 42.26742, -71.08529 with bearing 90
-  Last updated at 15:09:54 on 2025-09-02
-
-Mattapan Trolley - G-10169
-  Heading outbound to Mattapan at 33.78 MPH (15.1 mps)
-  Incoming at Cedar Grove
-  Located at 42.28183, -71.0619 with bearing 135
-  Last updated at 15:09:54 on 2025-09-02
+  Last updated at 19:02:18 on 2025-09-02
 
 Orange Line - O-54852032
   Heading south to Forest Hills
-  Stopped at Back Bay
-  Located at 42.34767, -71.07464 with bearing 265
+  Incoming at Assembly
+  Located at 42.39951, -71.07731 with bearing 177
   Carriages:
-    1470: Few seats available (10% full)
-    1471: Few seats available (12% full)
-    1405: Many seats available (4% full)
+    1470: Many seats available (7% full)
+    1471: Many seats available (4% full)
+    1405: Many seats available (0% full)
     1404: Many seats available (0% full)
-    1497: Few seats available (17% full)
-    1496: Few seats available (15% full)
-  Last updated at 15:09:17 on 2025-09-02
+    1497: Few seats available (10% full)
+    1496: Many seats available (4% full)
+  Last updated at 19:02:53 on 2025-09-02
 
 Orange Line - O-548522D1
   Heading south to Forest Hills
-  Stopped at Tufts Medical Center
-  Located at 42.3488, -71.06467 with bearing 230
+  Incoming at Malden Center
+  Located at 42.43623, -71.07099 with bearing 185
   Carriages:
-    1494: Many seats available (4% full)
-    1495: Few seats available (9% full)
-    1534: Few seats available (8% full)
-    1535: Few seats available (9% full)
-    1419: Few seats available (12% full)
-    1418: Few seats available (10% full)
-  Last updated at 15:09:26 on 2025-09-02
+    1494: Few seats available (8% full)
+    1495: Many seats available (8% full)
+    1534: Many seats available (5% full)
+    1535: Many seats available (6% full)
+    1419: Many seats available (8% full)
+    1418: Many seats available (7% full)
+  Last updated at 19:02:38 on 2025-09-02
 
 Orange Line - O-54852EA5
   Heading south to Forest Hills
-  Incoming at Roxbury Crossing
-  Located at 42.3336, -71.09305 with bearing 220
+  Stopped at Community College
+  Located at 42.37376, -71.07041 with bearing 120
   Carriages:
-    1478: Few seats available (9% full)
-    1479: Few seats available (9% full)
-    1529: Few seats available (9% full)
-    1528: Few seats available (15% full)
-    1509: Few seats available (13% full)
-    1508: Few seats available (16% full)
-  Last updated at 15:09:45 on 2025-09-02
+    1478: Many seats available (6% full)
+    1479: Many seats available (5% full)
+    1529: Many seats available (8% full)
+    1528: Many seats available (6% full)
+    1509: Many seats available (8% full)
+    1508: Few seats available (14% full)
+  Last updated at 19:02:57 on 2025-09-02
 
 Orange Line - O-54852EAE
-  Heading north to Oak Grove
-  Stopped at Forest Hills
-  Located at 42.30119, -71.11376 with bearing 30
+  Heading south to Forest Hills
+  Stopped at Downtown Crossing
+  Located at 42.35538, -71.06065 with bearing 205
   Carriages:
     1420: Few seats available (9% full)
     1421: Many seats available (0% full)
-    1416: Few seats available (12% full)
-    1417: Many seats available (3% full)
-    1541: Few seats available (9% full)
-    1540: Few seats available (12% full)
-  Last updated at 15:05:29 on 2025-09-02
+    1416: Few seats available (13% full)
+    1417: Many seats available (6% full)
+    1541: Few seats available (11% full)
+    1540: Few seats available (15% full)
+  Last updated at 19:02:53 on 2025-09-02
 
 Orange Line - O-54852EB8
-  Heading north to Oak Grove
-  In transit to Stony Brook
-  Located at 42.31184, -71.1067 with bearing 25
+  Heading south to Forest Hills
+  Incoming at Massachusetts Avenue
+  Located at 42.34544, -71.07865 with bearing 220
   Carriages:
-    1462: Many seats available (1% full)
-    1463: Many seats available (7% full)
-    1443: Many seats available (6% full)
-    1442: Many seats available (3% full)
-    1407: Many seats available (5% full)
-    1406: Many seats available (7% full)
-  Last updated at 15:09:51 on 2025-09-02
+    1406: Many seats available (8% full)
+    1407: Few seats available (10% full)
+    1442: Many seats available (6% full)
+    1443: Few seats available (9% full)
+    1463: Few seats available (10% full)
+    1462: Few seats available (16% full)
+  Last updated at 19:02:13 on 2025-09-02
 
 Orange Line - O-5485329F
-  Heading south to Forest Hills
-  In transit to Wellington
-  Located at 42.41595, -71.077 with bearing 177
+  Heading north to Oak Grove
+  Incoming at Wellington
+  Located at 42.39519, -71.07726 with bearing 5
   Carriages:
-    1504: Few seats available (11% full)
-    1505: Few seats available (13% full)
-    1434: Many seats available (4% full)
-    1435: Many seats available (5% full)
-    1503: Many seats available (7% full)
-    1502: Few seats available (8% full)
-  Last updated at 15:09:46 on 2025-09-02
+    1502: Few seats available (11% full)
+    1503: Few seats available (15% full)
+    1435: Many seats available (4% full)
+    1434: Few seats available (10% full)
+    1505: Few seats available (10% full)
+    1504: Few seats available (17% full)
+  Last updated at 19:02:52 on 2025-09-02
 
 Orange Line - O-548532AB
+  Heading north to Oak Grove
+  Incoming at Community College
+  Located at 42.37143, -71.06597 with bearing 320
+  Carriages:
+    1468: Few seats available (10% full)
+    1469: Few seats available (12% full)
+    1425: Many seats available (8% full)
+    1424: Many seats available (7% full)
+    1515: Few seats available (10% full)
+    1514: Few seats available (10% full)
+  Last updated at 19:02:54 on 2025-09-02
+
+Orange Line - O-548532BA
+  Heading north to Oak Grove
+  Incoming at State
+  Located at 42.35656, -71.0592 with bearing 30
+  Carriages:
+    1466: Few seats available (15% full)
+    1467: Few seats available (13% full)
+    1473: Few seats available (11% full)
+    1472: Few seats available (15% full)
+    1475: Few seats available (12% full)
+    1474: Many seats available (6% full)
+  Last updated at 19:02:48 on 2025-09-02
+
+Orange Line - O-548532C0
+  Heading north to Oak Grove
+  Incoming at Back Bay
+  Located at 42.34571, -71.07814 with bearing 40
+  Carriages:
+    1520: Few seats available (12% full)
+    1521: Few seats available (14% full)
+    1511: Many seats available (8% full)
+    1510: Many seats available (6% full)
+    1493: Many seats available (1% full)
+    1492: Many seats available (3% full)
+  Last updated at 19:02:38 on 2025-09-02
+
+Orange Line - O-548532C8
+  Heading north to Oak Grove
+  Incoming at Green Street
+  Located at 42.3029, -71.11258 with bearing 30
+  Carriages:
+    1464: Many seats available (2% full)
+    1465: Many seats available (6% full)
+    1447: Many seats available (6% full)
+    1446: Few seats available (10% full)
+    1449: Many seats available (6% full)
+    1448: Many seats available (5% full)
+  Last updated at 19:02:52 on 2025-09-02
+
+Orange Line - O-548532DA
+  Heading south to Forest Hills
+  Incoming at Jackson Square
+  Located at 42.32673, -71.09831 with bearing 210
+  Carriages:
+    1440: Many seats available (7% full)
+    1441: Many seats available (8% full)
+    1423: Many seats available (8% full)
+    1422: Few seats available (14% full)
+    1525: Many seats available (6% full)
+    1524: Few seats available (14% full)
+  Last updated at 19:02:58 on 2025-09-02
+
+Orange Line - O-548532E2
+  Heading south to Forest Hills
+  In transit to Forest Hills
+  Located at 42.30595, -71.11056 with bearing 210
+  Carriages:
+    1484: Many seats available (5% full)
+    1485: Few seats available (9% full)
+    1438: Few seats available (9% full)
+    1439: Few seats available (9% full)
+    1414: Few seats available (16% full)
+  Last updated at 19:02:46 on 2025-09-02
+
+Orange Line - O-54853471
   Heading south to Forest Hills
   Stopped at Oak Grove
   Located at 42.43773, -71.07093 with bearing 185
   Carriages:
-    1468: Many seats available (6% full)
-    1469: Many seats available (8% full)
-    1425: Many seats available (7% full)
-    1424: Many seats available (5% full)
-    1515: Many seats available (6% full)
-    1514: Many seats available (5% full)
-  Last updated at 15:03:28 on 2025-09-02
+    1526: Many seats available (6% full)
+    1527: Many seats available (3% full)
+    1428: Few seats available (8% full)
+    1429: Many seats available (6% full)
+    1539: Many seats available (6% full)
+    1538: Few seats available (9% full)
+  Last updated at 18:59:13 on 2025-09-02
 
-Orange Line - O-548532BA
-  Heading south to Forest Hills
-  Stopped at Oak Grove
-  Located at 42.43772, -71.0708 with bearing 185
-  Carriages:
-    1466: Many seats available (6% full)
-    1467: Many seats available (4% full)
-    1473: Many seats available (5% full)
-    1472: Many seats available (7% full)
-    1475: Many seats available (1% full)
-  Last updated at 15:08:17 on 2025-09-02
-
-Orange Line - O-548532C0
-  Heading north to Oak Grove
-  Stopped at Malden Center
-  Located at 42.42668, -71.07428 with bearing 20
-  Carriages:
-    1520: Few seats available (11% full)
-    1521: Few seats available (9% full)
-    1511: Few seats available (9% full)
-    1510: Many seats available (8% full)
-    1493: Many seats available (1% full)
-    1492: Many seats available (5% full)
-  Last updated at 15:09:55 on 2025-09-02
-
-Orange Line - O-548532C8
-  Heading north to Oak Grove
-  In transit to Community College
-  Located at 42.36809, -71.06264 with bearing 330
-  Carriages:
-    1464: Few seats available (13% full)
-    1465: Few seats available (18% full)
-    1447: Few seats available (16% full)
-    1446: Few seats available (18% full)
-    1449: Few seats available (10% full)
-    1448: Standing room only (21% full)
-  Last updated at 15:09:45 on 2025-09-02
-
-Orange Line - O-548532DA
+Orange Line - O-548534A1
   Heading north to Oak Grove
   Stopped at Roxbury Crossing
   Located at 42.3307, -71.09596 with bearing 35
   Carriages:
-    1524: Many seats available (5% full)
-    1525: Many seats available (6% full)
-    1422: Few seats available (8% full)
-    1423: Few seats available (9% full)
-    1441: Many seats available (2% full)
-    1440: Few seats available (9% full)
-  Last updated at 15:09:40 on 2025-09-02
-
-Orange Line - O-548532E2
-  Heading north to Oak Grove
-  Stopped at Downtown Crossing
-  Located at 42.35533, -71.06059 with bearing 25
-  Carriages:
-    1414: Many seats available (7% full)
-    1415: Few seats available (17% full)
-    1439: Many seats available (4% full)
-    1438: Few seats available (11% full)
-    1485: Few seats available (10% full)
-    1484: Few seats available (8% full)
-  Last updated at 15:09:40 on 2025-09-02
-
-Orange Line - O-54853471
-  Heading south to Forest Hills
-  Incoming at Haymarket
-  Located at 42.36424, -71.0592 with bearing 150
-  Carriages:
-    1538: Few seats available (15% full)
-    1539: Many seats available (8% full)
-    1429: Few seats available (10% full)
-    1428: Few seats available (16% full)
-    1527: Few seats available (10% full)
-    1526: Few seats available (17% full)
-  Last updated at 15:09:44 on 2025-09-02
-
-Orange Line - O-548534A1
-  Heading north to Oak Grove
-  Stopped at Wellington
-  Located at 42.40161, -71.07713 with bearing 357
-  Carriages:
-    1532: Few seats available (13% full)
-    1533: Few seats available (11% full)
-    1501: Many seats available (7% full)
-    1500: Few seats available (8% full)
+    1532: Few seats available (10% full)
+    1533: Few seats available (12% full)
+    1501: Few seats available (11% full)
+    1500: Many seats available (8% full)
     1431: Many seats available (8% full)
-    1430: Few seats available (10% full)
-  Last updated at 15:09:40 on 2025-09-02
+    1430: Many seats available (6% full)
+  Last updated at 19:02:38 on 2025-09-02
 
 Orange Line - O-548534D7
-  Heading north to Oak Grove
-  Incoming at Back Bay
-  Located at 42.34418, -71.08004 with bearing 40
+  Heading south to Forest Hills
+  Incoming at Green Street
+  Located at 42.31529, -71.10523 with bearing 205
   Carriages:
-    1506: Few seats available (12% full)
-    1507: Few seats available (11% full)
-    1543: Few seats available (13% full)
-    1542: Many seats available (5% full)
-    1517: Many seats available (7% full)
-    1516: Few seats available (13% full)
-  Last updated at 15:09:43 on 2025-09-02
+    1516: Few seats available (9% full)
+    1517: Many seats available (6% full)
+    1542: Many seats available (3% full)
+    1543: Few seats available (9% full)
+    1507: Many seats available (4% full)
+    1506: Few seats available (10% full)
+  Last updated at 19:02:46 on 2025-09-02
 
 Orange Line - O-54853517
-  Heading north to Oak Grove
-  Stopped at Forest Hills
-  Located at 42.30122, -71.11384 with bearing 30
+  Heading south to Forest Hills
+  Incoming at State
+  Located at 42.361, -71.05779 with bearing 175
   Carriages:
     1454: Few seats available (10% full)
-    1455: Many seats available (7% full)
-    1486: Many seats available (2% full)
-    1461: Many seats available (8% full)
-    1460: Few seats available (14% full)
-  Last updated at 15:09:47 on 2025-09-02
+    1455: Many seats available (4% full)
+    1487: Many seats available (4% full)
+    1461: Many seats available (7% full)
+    1460: Few seats available (12% full)
+  Last updated at 19:02:42 on 2025-09-02
 
 Orange Line - O-54853520
-  Heading south to Forest Hills
-  Stopped at Sullivan Square
-  Located at 42.38424, -71.07705 with bearing 175
+  Heading north to Oak Grove
+  Stopped at Malden Center
+  Located at 42.42668, -71.07428 with bearing 20
   Carriages:
-    1476: Many seats available (5% full)
+    1536: Few seats available (17% full)
+    1537: Few seats available (11% full)
+    1513: Many seats available (7% full)
+    1512: Few seats available (13% full)
     1477: Many seats available (4% full)
-    1512: Many seats available (8% full)
-    1513: Many seats available (4% full)
-    1537: Many seats available (5% full)
-    1536: Few seats available (16% full)
-  Last updated at 15:09:40 on 2025-09-02
+    1476: Few seats available (11% full)
+  Last updated at 19:02:47 on 2025-09-02
 
 Red Line - R-5485152A (Bombardier)
-  Heading south to Ashmont/Braintree
-  In transit to Harvard
-  Located at 42.38725, -71.11894 with bearing 185
-  Last updated at 15:09:38 on 2025-09-02
+  Heading north to Alewife
+  In transit to Ashmont
+  Located at 42.28199, -71.06215 with bearing 330
+  Last updated at 19:01:58 on 2025-09-02
 
 Red Line - R-548518D3 (Bombardier)
   Heading north to Alewife
-  In transit to Ashmont
-  Located at 42.28201, -71.06209 with bearing 330
-  Last updated at 15:05:40 on 2025-09-02
+  In transit to Porter
+  Located at 42.37469, -71.11877 with bearing 350
+  Last updated at 19:02:45 on 2025-09-02
 
 Red Line - R-54851DA4 (UTDC)
   Heading south to Ashmont/Braintree
-  Stopped at Park Street
-  Located at 42.35648, -71.06265 with bearing 130
-  Last updated at 15:08:58 on 2025-09-02
+  In transit to North Quincy
+  Located at 42.31602, -71.05206 with bearing 170
+  Last updated at 19:01:58 on 2025-09-02
 
 Red Line - R-5485269E (Bombardier)
   Heading north to Alewife
-  In transit to Porter
-  Located at 42.37469, -71.11877 with bearing 350
-  Last updated at 15:09:41 on 2025-09-02
+  Incoming at Davis
+  Located at 42.39538, -71.11944 with bearing 340
+  Last updated at 19:02:52 on 2025-09-02
 
 Red Line - R-548526D6 (Bombardier)
   Heading north to Alewife
-  Incoming at South Station
-  Located at 42.35108, -71.05232 with bearing 355
-  Last updated at 15:09:32 on 2025-09-02
+  Stopped at Broadway
+  Located at 42.34273, -71.05707 with bearing 350
+  Last updated at 19:02:48 on 2025-09-02
 
 Red Line - R-54852830 (Bombardier)
   Heading north to Alewife
   Incoming at Central
   Located at 42.36424, -71.10148 with bearing 275
-  Last updated at 15:09:51 on 2025-09-02
+  Last updated at 19:02:49 on 2025-09-02
+
+Red Line - R-54852A76 (Bombardier)
+  Heading north to Alewife
+  Stopped at Braintree
+  Located at 42.20749, -71.00173 with bearing 10
+  Last updated at 18:59:02 on 2025-09-02
 
 Red Line - R-54852ACE (Bombardier)
   Heading south to Ashmont/Braintree
   Stopped at Alewife
   Located at 42.39621, -71.14054 with bearing 85
-  Last updated at 15:03:00 on 2025-09-02
-
-Red Line - R-54852B22 (UTDC)
-  Heading south to Ashmont/Braintree
-  Incoming at Quincy Adams
-  Located at 42.2359, -71.00641 with bearing 195
-  Last updated at 15:09:48 on 2025-09-02
+  Last updated at 18:54:55 on 2025-09-02
 
 Red Line - R-54852B71 (Bombardier)
   Heading north to Alewife
-  In transit to JFK/UMass
-  Located at 42.28579, -71.03854 with bearing 330
-  Last updated at 15:09:10 on 2025-09-02
+  Stopped at Wollaston
+  Located at 42.26685, -71.02047 with bearing 315
+  Last updated at 19:02:41 on 2025-09-02
 
 Red Line - R-54852EA9 (UTDC)
-  Heading south to Ashmont/Braintree
-  Incoming at Fields Corner
-  Located at 42.30377, -71.05578 with bearing 195
-  Last updated at 15:09:00 on 2025-09-02
+  Heading north to Alewife
+  Stopped at Park Street
+  Located at 42.3565, -71.06263 with bearing 310
+  Last updated at 19:01:56 on 2025-09-02
 
 Red Line - R-54852F37 (Bombardier)
   Heading south to Ashmont/Braintree
-  In transit to Central
-  Located at 42.3723, -71.11585 with bearing 135
-  Last updated at 15:09:15 on 2025-09-02
+  In transit to Broadway
+  Located at 42.35145, -71.05553 with bearing 130
+  Last updated at 19:02:56 on 2025-09-02
 
 Red Line - R-548531E6 (CRRC)
+  Heading south to Ashmont/Braintree
+  Incoming at Porter
+  Located at 42.39202, -71.11925 with bearing 175
+  Carriages:
+    1928: Few seats available (7% full)
+    1929: Few seats available (6% full)
+    1910: Many seats available (0% full)
+    1911: Many seats available (2% full)
+    1925: Few seats available (8% full)
+    1924: Many seats available (2% full)
+  Last updated at 19:01:57 on 2025-09-02
+
+Red Line - R-548532A3 (UTDC)
   Heading north to Alewife
   Stopped at JFK/UMass
   Located at 42.32057, -71.05256 with bearing 350
-  Carriages:
-    1924: Few seats available (6% full)
-    1925: Few seats available (11% full)
-    1911: Few seats available (11% full)
-    1910: Many seats available (0% full)
-    1929: Few seats available (9% full)
-    1928: Standing room only (12% full)
-  Last updated at 15:09:51 on 2025-09-02
-
-Red Line - R-548532A3 (UTDC)
-  Heading south to Ashmont/Braintree
-  In transit to JFK/UMass
-  Located at 42.32915, -71.05668 with bearing 200
-  Last updated at 15:09:53 on 2025-09-02
+  Last updated at 19:01:27 on 2025-09-02
 
 Red Line - R-548532B4 (Bombardier)
   Heading north to Alewife
-  Stopped at Braintree
-  Located at 42.20749, -71.00156 with bearing 10
-  Last updated at 14:08:59 on 2025-09-02
+  In transit to Quincy Adams
+  Located at 42.20965, -71.00128 with bearing 190
+  Last updated at 19:02:46 on 2025-09-02
 
 Red Line - R-548532CC (UTDC)
   Heading north to Alewife
-  Stopped at Shawmut
-  Located at 42.2932, -71.06581 with bearing 340
-  Last updated at 15:09:23 on 2025-09-02
+  In transit to Alewife
+  Located at 42.39787, -71.13092 with bearing 275
+  Last updated at 19:02:51 on 2025-09-02
 
 Red Line - R-54853331 (Bombardier)
-  Heading south to Ashmont/Braintree
-  Stopped at Charles/MGH
-  Located at 42.36122, -71.07162 with bearing 95
-  Last updated at 15:09:14 on 2025-09-02
+  Heading north to Alewife
+  Stopped at Shawmut
+  Located at 42.2932, -71.06581 with bearing 340
+  Last updated at 19:02:53 on 2025-09-02
 
 Red Line - R-54853351 (CRRC)
-  Heading north to Alewife
-  Incoming at Kendall/MIT
-  Located at 42.36203, -71.08088 with bearing 275
+  Heading south to Ashmont/Braintree
+  Incoming at Charles/MGH
+  Located at 42.36228, -71.08379 with bearing 95
   Carriages:
-    1902: Many seats available (1% full)
-    1903: Few seats available (7% full)
-    1917: Few seats available (7% full)
-    1916: Few seats available (8% full)
-    1927: Few seats available (7% full)
-    1926: Few seats available (6% full)
-  Last updated at 15:09:49 on 2025-09-02
+    1926: Many seats available (4% full)
+    1927: Few seats available (6% full)
+    1916: Few seats available (6% full)
+    1917: Few seats available (9% full)
+    1903: Few seats available (12% full)
+    1902: Many seats available (3% full)
+  Last updated at 19:02:42 on 2025-09-02
 
 Red Line - R-54853482 (UTDC)
-  Heading north to Alewife
-  Incoming at Davis
-  Located at 42.39538, -71.11944 with bearing 340
-  Last updated at 15:09:27 on 2025-09-02
+  Heading south to Ashmont/Braintree
+  In transit to Fields Corner
+  Located at 42.30377, -71.05578 with bearing 195
+  Last updated at 19:02:22 on 2025-09-02
 
 Red Line - R-548534BA (CRRC)
   Heading south to Ashmont/Braintree
-  In transit to North Quincy
-  Located at 42.31119, -71.05323 with bearing 200
+  Stopped at Quincy Adams
+  Located at 42.23336, -71.00697 with bearing 195
   Carriages:
-    1922: Few seats available (11% full)
-    1923: Standing room only (14% full)
-    1919: Few seats available (12% full)
-    1918: Few seats available (6% full)
+    1923: Few seats available (9% full)
+    1919: Many seats available (5% full)
+    1918: Many seats available (5% full)
     1913: Few seats available (5% full)
-    1912: Few seats available (11% full)
-  Last updated at 15:08:30 on 2025-09-02
+    1912: Many seats available (5% full)
+  Last updated at 19:02:54 on 2025-09-02
+
+Red Line - R-54853541 (UTDC)
+  Heading south to Ashmont/Braintree
+  In transit to Andrew
+  Located at 42.34157, -71.05711 with bearing 175
+  Last updated at 19:02:38 on 2025-09-02
 

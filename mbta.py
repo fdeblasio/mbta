@@ -194,7 +194,7 @@ with open(api + ".html", "w+") as vehiclesHTML:
     writeToFile(vehiclesHTML, "<html>")
     writeToFile(vehiclesHTML, "<head>")
     writeToFile(vehiclesHTML, "<style>")
-    writeToFile(vehiclesHTML, "body {font-family: 'Helvetica', sans-serif;}")
+    writeToFile(vehiclesHTML, "  body {font-family: 'Helvetica', sans-serif;}")
     writeToFile(vehiclesHTML, "</style>")
     writeToFile(vehiclesHTML, "</head>")
     writeToFile(vehiclesHTML, "<body>")
@@ -202,12 +202,14 @@ with open(api + ".html", "w+") as vehiclesHTML:
         routeId = vehicle.split()[0]
         writeToFile(vehiclesHTML, f"<p style=\"color:#{routeIdAttributes[routeId]['text_color']};background-color:#{routeIdAttributes[routeId]['color']};\">")
         textLines = vehicleDict[vehicle].split("\n")
-        #header = textLines[0]
-        for textLine in textLines:
+        header = textLines[0]
+        header = header.replace("(CRRC)", "<b>(CRRC)</b>")
+        header = header.replace("(Type 9)", "<b>(Type 9)</b>")
+        writeToFile(vehiclesHTML, f"<span style='font-weight: bold'>{header}</span><br>")
+        for textLine in textLines[1:]:
+        #for textLine in textLines:
             if textLine != "":
                 htmlLine = textLine.replace("  ", "&nbsp;&nbsp;")
-                htmlLine = htmlLine.replace("(CRRC)", "<b>(CRRC)</b>")
-                htmlLine = htmlLine.replace("(Type 9)", "<b>(Type 9)</b>")
                 writeToFile(vehiclesHTML, htmlLine + "<br>")
         writeToFile(vehiclesHTML, "</p>")
     writeToFile(vehiclesHTML, "</body>")
